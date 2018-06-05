@@ -5,14 +5,14 @@ import com.aspire.service.impl.MyServiceImplService;
 
 public class WebServiceClientTest {
 	public static void main(String[] args) {
-		// ´´½¨Ò»¸öÓÃÓÚ²úÉúMyService½Ó¿ÚÊµÀıµÄ¹¤³§
+		// åˆ›å»ºä¸€ä¸ªç”¨äºäº§ç”ŸMyServiceæ¥å£å®ä¾‹çš„å·¥å‚
 		MyServiceImplService myServiceImplService = new MyServiceImplService();
-		// µÃµ½MyService½Ó¿ÚÊµÀı
+		// å¾—åˆ°MyServiceæ¥å£å®ä¾‹
 		MyService myServiceImpl = myServiceImplService.getMyServiceImplPort();
-		// µ÷ÓÃMyService½Ó¿ÚµÄ·½·¨¼´¿É
+		// è°ƒç”¨MyServiceæ¥å£çš„æ–¹æ³•å³å¯
 		int addRes = myServiceImpl.add(100, 123);
 		System.out.println(addRes);
-		System.out.println("------------»ªÀö·Ö¸îÏß------------");
+		System.out.println("------------åä¸½åˆ†å‰²çº¿------------");
 		int minusRes = myServiceImpl.minus(100, 123);
 		System.out.println(minusRes);
 	} 
