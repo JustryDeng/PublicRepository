@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.aspire.mapper.JavaAnnotationMapper">
+	<!-- 查(一对一,持有对象) -->
+	<select id="selectOneToOneXML" resultMap="selectIdcardMap"
+		parameterType="int">
+		select p.id pid,p.`name`,i.id iid,i.idcardnum from
+		people p inner join idcard i on p.idCardId = i.id where p.id = #{id}
+	</select>
+	<resultMap type="com.aspire.model.People"
+		id="selectIdcardMap">
+		<result property="id" column="pid" />
+		<result property="name" column="name" />
+		<association property="idcard"
+			javaType="com.aspire.model.Idcard">
+			<result property="id" column="iid" />
+			<result property="num" column="idcardnum" />
+		</association>
+	</resultMap>
+
+
+</mapper>
