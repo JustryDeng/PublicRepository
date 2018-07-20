@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>加密demo</title>
+	<!--引入jquery与crypto-js-->
+	<script src="jquery-1.8.3.js"></script>
+	<script src="crypto-js.js"></script>
+	<script type="text/javascript">
+
+        // 加密秘钥key(注:与后端一致)
+        var key = CryptoJS.enc.Utf8.parse("A-16-Byte-keyVal");
+
+        // 加密辅助参数iv
+        var iv = CryptoJS.enc.Utf8.parse("A-16-Byte-String");
+
+        //AES加密
+        function encrypt(context) {
+            var encrypted = '';
+            if (typeof(context) == 'object') {
+                context = JSON.stringify(context);
+            }
+            var srcs = CryptoJS.enc.Utf8.parse(context);
+            encrypted = CryptoJS.AES.encrypt(srcs, key, {
+                iv: iv,
+                mode: CryptoJS.mode.CBC,
+                padding: CryptoJS.pad.Pkcs7
+            });
+            return encrypted.toString();
+        }
+
+        // AES解密
+        function decrypt(context) {
+            var decrypt = CryptoJS.AES.decrypt(context, key, {
+                iv: iv,
+                mode: CryptoJS.mode.CBC,
+                padding: CryptoJS.pad.Pkcs7
+            });
+            var decryptedStr = decrypt.toString(CryptoJS.enc.Utf8);
+            return decryptedStr.toString();
+        }
+
+        // 将id为encryptContent的输入框数据加密,然后赋值给id为helpInput的输入框
+        function encryptTransmission() {
+            var beforeContent = $("#encryptContent").val();
+            // 调用加密方法
+            var afterContent = encrypt(beforeContent);
+            // 将加密后的值放入表单中的输入框里，提交表单,传给后台
+            $("#helpInput").val(afterContent);
+        }
+	</script>
+
+</head>
+
+<body>
+    <form method="post" action="http://localhost:12345/EncryptAndDecryptTest" onsubmit="return true">
+	    <!--onblur事件监听，失去焦点时，触发时间，进行数据加密-->
+		加密前:
+	    <input id="encryptContent" onblur="encryptTransmission()" type="text" placeholder="请输入英文状态下的文本内容！">
+		<br>
+		加密后:
+	    <input name="encryptedTarget" id="helpInput" type="text">
+		<br>
+		<input type="submit" value="提交表单>>>Go">
+    </form>
+</body>
+</html>
+
+
+
+
+
