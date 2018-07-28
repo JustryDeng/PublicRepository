@@ -1,0 +1,7 @@
+11:15:26.342 [main] DEBUG c.a.m.J.singleInsertAutoGetKey:159- ==>  Preparing: INSERT INTO employee (e_name,e_age,e_gender) VALUES(?,?,?) 
+11:15:26.417 [main] DEBUG c.a.m.J.singleInsertAutoGetKey:159- ==> Parameters: 邓某(String), 24(Integer), 男(String)
+11:15:26.462 [main] DEBUG c.a.m.J.singleInsertAutoGetKey:159- <==    Updates: 1
+11:15:26.478 [main] INFO  com.AbcLogbackDemoApplicationTests:41- 向表中插入employee对象的数据后,自动获取到的主键为:227
+11:15:26.478 [main] INFO  com.AbcLogbackDemoApplicationTests:52- SpringBoot使用logback示例。
+11:15:26.478 [main] INFO  com.AbcLogbackDemoApplicationTests:53- logbackTest方法执行完毕,用时1.575秒
+11:15:26.525 [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} closed
