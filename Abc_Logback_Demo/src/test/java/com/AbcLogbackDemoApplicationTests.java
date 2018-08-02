@@ -11,7 +11,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import com.alibaba.fastjson.JSON;
 import com.aspire.mapper.JavaAnnotationMapper;
 import com.aspire.model.Employee;
-import com.aspire.util.ExceptionUtil;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = { AbcLogbackDemoApplication.class })
@@ -42,9 +41,7 @@ public class AbcLogbackDemoApplicationTests {
 			// System.out.println(1 / 0);
 		} catch (Exception e) {
 			logger.error("出错咯！错误信息:" + e.getMessage(), e.getCause());
-			// 打印出错误堆栈信息到日志文件
-			logger.error(ExceptionUtil.getStackTraceMessage(e));
-			// 打印出错误堆栈信息到console
+			// 打印出错误堆栈信息
 			e.printStackTrace();
 		}
 		Long endTime = System.currentTimeMillis();
