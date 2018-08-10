@@ -1,0 +1,1060 @@
+2018-08-08 13:40:38.745 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-08-08 13:40:39.852 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr? version 7.3.0
+2018-08-08 13:40:39.853 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-08-08 13:40:39.853 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: D:\Solr\solr-7.3.0
+2018-08-08 13:40:39.873 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-08-08T13:40:39.855Z
+2018-08-08 13:40:39.875 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2018-08-08 13:40:39.916 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: D:\Solr\solr-7.3.0\server\solr
+2018-08-08 13:40:39.927 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from D:\Solr\solr-7.3.0\server\solr\solr.xml
+2018-08-08 13:40:41.328 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 2 core definitions underneath D:\Solr\solr-7.3.0\server\solr
+2018-08-08 13:40:41.328 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [solr_core, solr_core123]
+2018-08-08 13:40:41.343 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-08-08 13:40:41.343 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.c.SolrResourceLoader [null] Added 3 libs to classloader, from paths: [/D:/Solr/solr-7.3.0/server/solr/jetty_solr_core/lib]
+2018-08-08 13:40:41.460 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.c.SolrResourceLoader [solr_core123] Added 57 libs to classloader, from paths: [/D:/Solr/solr-7.3.0/contrib/clustering/lib, /D:/Solr/solr-7.3.0/contrib/extraction/lib, /D:/Solr/solr-7.3.0/contrib/langid/lib, /D:/Solr/solr-7.3.0/contrib/velocity/lib, /D:/Solr/solr-7.3.0/dist]
+2018-08-08 13:40:41.787 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.c.SolrResourceLoader [solr_core] Added 57 libs to classloader, from paths: [/D:/Solr/solr-7.3.0/contrib/clustering/lib, /D:/Solr/solr-7.3.0/contrib/extraction/lib, /D:/Solr/solr-7.3.0/contrib/langid/lib, /D:/Solr/solr-7.3.0/contrib/velocity/lib, /D:/Solr/solr-7.3.0/dist]
+2018-08-08 13:40:41.881 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.3.0
+2018-08-08 13:40:41.987 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.3.0
+2018-08-08 13:40:42.324 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.s.IndexSchema [solr_core123] Schema name=default-config
+2018-08-08 13:40:42.406 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.s.IndexSchema [solr_core] Schema name=default-config
+2018-08-08 13:40:43.403 INFO  (main) [   ] o.e.j.s.Server Started @6567ms
+2018-08-08 13:40:43.637 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-08-08 13:40:43.668 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-08-08 13:40:43.814 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.c.CoreContainer Creating SolrCore 'solr_core' using configuration from instancedir D:\Solr\solr-7.3.0\server\solr\jetty_solr_core, trusted=true
+2018-08-08 13:40:43.855 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.c.CoreContainer Creating SolrCore 'solr_core123' using configuration from instancedir D:\Solr\solr-7.3.0\server\solr\my_solr_core, trusted=true
+2018-08-08 13:40:43.943 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-08-08 13:40:43.958 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.c.SolrCore [[solr_core] ] Opening new SolrCore at [D:\Solr\solr-7.3.0\server\solr\jetty_solr_core], dataDir=[D:\Solr\solr-7.3.0\server\solr\jetty_solr_core\data\]
+2018-08-08 13:40:43.994 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-08-08 13:40:43.995 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.c.SolrCore [[solr_core123] ] Opening new SolrCore at [D:\Solr\solr-7.3.0\server\solr\my_solr_core], dataDir=[D:\Solr\solr-7.3.0\server\solr\my_solr_core\data\]
+2018-08-08 13:40:44.057 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-08-08 13:40:44.057 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-08-08 13:40:44.598 INFO  (qtp157627094-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533735644266} status=0 QTime=14
+2018-08-08 13:40:44.685 INFO  (qtp157627094-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1533735644269} status=0 QTime=102
+2018-08-08 13:40:45.211 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-08-08 13:40:45.212 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-08-08 13:40:45.211 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-08-08 13:40:45.212 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-08-08 13:40:45.232 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-08-08 13:40:45.232 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-08-08 13:40:45.234 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-08-08 13:40:45.234 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-08-08 13:40:45.377 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.s.SolrIndexSearcher Opening [Searcher@74c945bd[solr_core123] main]
+2018-08-08 13:40:45.378 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.s.SolrIndexSearcher Opening [Searcher@436220eb[solr_core] main]
+2018-08-08 13:40:45.409 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\Solr\solr-7.3.0\server\solr\my_solr_core\conf
+2018-08-08 13:40:45.438 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: D:\Solr\solr-7.3.0\server\solr\jetty_solr_core\conf
+2018-08-08 13:40:45.463 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-08-08 13:40:45.478 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-08-08 13:40:45.489 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-08-08 13:40:45.496 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-08-08 13:40:45.520 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-08-08 13:40:45.523 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-08-08 13:40:45.833 INFO  (searcherExecutor-8-thread-1-processing-x:solr_core123) [   x:solr_core123] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@74c945bd[solr_core123] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-08-08 13:40:45.833 INFO  (searcherExecutor-8-thread-1-processing-x:solr_core123) [   x:solr_core123] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-08-08 13:40:45.834 INFO  (searcherExecutor-8-thread-1-processing-x:solr_core123) [   x:solr_core123] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-08-08 13:40:45.840 INFO  (coreLoadExecutor-6-thread-2) [   x:solr_core123] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1608238388571275264
+2018-08-08 13:40:45.850 INFO  (searcherExecutor-8-thread-1-processing-x:solr_core123) [   x:solr_core123] o.a.s.c.SolrCore [solr_core123] Registered new searcher Searcher@74c945bd[solr_core123] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-08-08 13:40:45.855 INFO  (coreLoadExecutor-6-thread-1) [   x:solr_core] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1608238388588052480
+2018-08-08 13:40:45.855 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@436220eb[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-08-08 13:40:45.855 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-08-08 13:40:45.855 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-08-08 13:40:45.860 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.SolrCore [solr_core] Registered new searcher Searcher@436220eb[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-08-08 13:40:45.866 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1533735644488} status=0 QTime=1251
+2018-08-08 13:40:46.306 INFO  (qtp157627094-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=11
+2018-08-08 13:40:47.024 INFO  (qtp157627094-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533735644266} status=0 QTime=0
+2018-08-08 13:40:47.032 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1533735644488} status=0 QTime=0
+2018-08-08 13:40:47.056 INFO  (qtp157627094-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1533735644269} status=0 QTime=30
+2018-08-08 13:40:47.080 INFO  (qtp157627094-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533735644266} status=0 QTime=0
+2018-08-08 13:40:47.085 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/admin/mbeans params={cat=QUERY&wt=json&_=1533735644488} status=0 QTime=0
+2018-08-08 13:40:47.106 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=show-config&_=1533735644489} status=0 QTime=13
+2018-08-08 13:40:47.107 INFO  (qtp157627094-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1533735644269} status=0 QTime=26
+2018-08-08 13:40:47.178 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1533735644489} status=0 QTime=0
+2018-08-08 13:41:01.752 INFO  (qtp157627094-21) [   x:solr_core] o.a.s.h.d.DataImporter Loading DIH Configuration: data-config.xml
+2018-08-08 13:41:01.768 INFO  (qtp157627094-21) [   x:solr_core] o.a.s.h.d.DataImporter Data Configuration loaded successfully
+2018-08-08 13:41:01.836 INFO  (Thread-16) [   x:solr_core] o.a.s.h.d.DataImporter Starting Full Import
+2018-08-08 13:41:01.836 INFO  (qtp157627094-21) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/dataimport params={core=solr_core&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1533735644489&verbose=false} status=0 QTime=75
+2018-08-08 13:41:01.843 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/dataimport params={indent=on&wt=json&command=status&_=1533735644489} status=0 QTime=0
+2018-08-08 13:41:01.864 WARN  (Thread-16) [   x:solr_core] o.a.s.h.d.SimplePropertiesWriter Unable to read: dataimport.properties
+2018-08-08 13:41:02.207 INFO  (Thread-16) [   x:solr_core] o.a.s.h.d.JdbcDataSource Creating a connection for entity product with URL: jdbc:mysql://localhost:3306/index_demo?serverTimezone=UTC
+2018-08-08 13:41:02.577 INFO  (Thread-16) [   x:solr_core] o.a.s.h.d.JdbcDataSource Time taken for getConnection(): 375
+2018-08-08 13:41:13.199 INFO  (qtp157627094-34) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533735644266} status=0 QTime=0
+2018-08-08 13:41:13.215 INFO  (qtp157627094-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1533735644269} status=0 QTime=14
+2018-08-08 13:41:13.385 INFO  (Thread-16) [   x:solr_core] o.a.s.h.d.DocBuilder Import completed successfully
+2018-08-08 13:41:13.386 INFO  (Thread-16) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1608238417455349760,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-08-08 13:41:13.386 INFO  (Thread-16) [   x:solr_core] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@41c05309 commitCommandVersion:1608238417455349760
+2018-08-08 13:41:16.743 INFO  (Thread-16) [   x:solr_core] o.a.s.s.SolrIndexSearcher Opening [Searcher@6042d381[solr_core] main]
+2018-08-08 13:41:16.743 INFO  (Thread-16) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-08-08 13:41:16.759 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@6042d381[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803)))}
+2018-08-08 13:41:16.759 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-08-08 13:41:16.759 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.SolrCore [solr_core] Registered new searcher Searcher@6042d381[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803)))}
+2018-08-08 13:41:16.759 WARN  (Thread-16) [   x:solr_core] o.a.s.h.d.SimplePropertiesWriter Unable to read: dataimport.properties
+2018-08-08 13:41:16.775 INFO  (Thread-16) [   x:solr_core] o.a.s.h.d.SimplePropertiesWriter Wrote last indexed time to dataimport.properties
+2018-08-08 13:41:16.775 INFO  (Thread-16) [   x:solr_core] o.a.s.h.d.DocBuilder Time taken = 0:0:14.911
+2018-08-08 13:41:16.775 INFO  (Thread-16) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/dataimport params={core=solr_core&indent=on&commit=true&name=dataimport&clean=false&wt=json&command=full-import&_=1533735644489&verbose=false} status=0 QTime=75{add=[1 (1608238406353027072), 2 (1608238407024115712), 3 (1608238407039844352), 4 (1608238407073398784), 5 (1608238407105904640), 6 (1608238407121633280), 7 (1608238407155187712), 8 (1608238407170916352), 9 (1608238407203422208), 10 (1608238407220199424), ... (3803 adds)],commit=} 0 15016
+2018-08-08 13:41:30.082 INFO  (qtp157627094-22) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:冰箱&_=1533735673122} hits=14 status=0 QTime=166
+2018-08-09 01:33:08.540 INFO  (qtp157627094-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533778385102} status=0 QTime=700
+2018-08-09 01:33:11.790 INFO  (qtp157627094-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533778389999} status=0 QTime=0
+2018-08-09 01:33:14.727 INFO  (qtp157627094-34) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1533778389999} status=0 QTime=2936
+2018-08-09 01:33:14.784 INFO  (qtp157627094-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1533778389999} status=0 QTime=2991
+2018-08-09 01:33:14.859 INFO  (qtp157627094-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1533778385104} status=0 QTime=7117
+2018-08-09 01:33:15.702 INFO  (qtp157627094-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={wt=json&_=1533778385102} status=0 QTime=7985
+2018-08-09 01:33:17.454 INFO  (qtp157627094-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533778389999} status=0 QTime=0
+2018-08-09 01:33:17.529 INFO  (qtp157627094-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1533778389999} status=0 QTime=72
+2018-08-09 01:33:17.768 INFO  (qtp157627094-20) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/logging params={wt=json&_=1533778397433&since=0} status=0 QTime=237
+2018-08-09 01:33:20.517 INFO  (qtp157627094-34) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533778389999} status=0 QTime=0
+2018-08-09 01:33:20.592 INFO  (qtp157627094-43) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1533778389999} status=0 QTime=72
+2018-08-09 01:33:20.867 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1533778400507} status=0 QTime=326
+2018-08-09 01:33:20.952 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/replication params={wt=json&command=details&_=1533778400507} status=0 QTime=243
+2018-08-09 01:33:21.047 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/admin/system params={wt=json&_=1533778400507} status=0 QTime=78
+2018-08-09 01:33:21.247 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1533778389999&ts=1533778389999} status=503 QTime=282
+2018-08-09 01:33:24.189 INFO  (qtp157627094-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533778389999} status=0 QTime=0
+2018-08-09 01:33:24.254 INFO  (qtp157627094-34) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1533778389999} status=0 QTime=65
+2018-08-09 01:33:27.846 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&_=1533778404045} hits=3803 status=0 QTime=267
+2018-08-09 01:33:42.233 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&rows=2000&_=1533778404045} hits=3803 status=0 QTime=26
+2018-08-09 01:34:22.017 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&rows=10&_=1533778404045} hits=3803 status=0 QTime=1
+2018-08-09 06:30:50.053 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:海尔&wt=javabin&version=2} hits=0 status=0 QTime=11320
+2018-08-09 06:42:01.633 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:海尔&wt=javabin&version=2} hits=0 status=0 QTime=446
+2018-08-09 06:44:12.046 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:海尔&wt=javabin&version=2} hits=0 status=0 QTime=16
+2018-08-09 06:53:40.933 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:海尔&wt=javabin&version=2} hits=0 status=0 QTime=402
+2018-08-09 06:54:48.837 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:海尔&wt=javabin&version=2} hits=0 status=0 QTime=293
+2018-08-09 06:55:46.827 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:海尔&wt=javabin&version=2} hits=0 status=0 QTime=1395
+2018-08-09 07:09:44.995 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:海尔&wt=javabin&version=2} hits=0 status=0 QTime=13
+2018-08-09 08:25:52.961 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&wt=javabin&version=2} hits=12 status=0 QTime=5646
+2018-08-09 08:32:14.643 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&wt=javabin&version=2} hits=12 status=0 QTime=23
+2018-08-09 08:32:59.517 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&wt=javabin&version=2} hits=12 status=0 QTime=15
+2018-08-09 08:34:41.035 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:冰箱&wt=javabin&version=2} hits=14 status=0 QTime=128
+2018-08-09 08:54:29.264 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:冰箱&rows=1&wt=javabin&version=2} hits=14 status=0 QTime=1
+2018-08-09 08:58:45.123 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:冰箱&fl=id,product_name&rows=10&wt=javabin&version=2} hits=14 status=0 QTime=467
+2018-08-09 09:00:10.536 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:冰箱&fl=id,product_name,product_picture&rows=10&wt=javabin&version=2} hits=14 status=0 QTime=154
+2018-08-09 09:02:12.405 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:冰箱&fl=id,product_name,product_picture&rows=10&wt=javabin&version=2} hits=14 status=0 QTime=80
+2018-08-09 09:09:31.066 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_picture&start=0&fq=product_price:[1+TO+10]&sort=product_price+asc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:小黄人&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=4 status=0 QTime=12661
+2018-08-09 09:10:10.279 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_picture&start=0&fq=product_price:[1+TO+10]&sort=product_price+asc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:小黄人&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=4 status=0 QTime=200
+2018-08-09 09:12:44.707 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_picture&start=0&fq=product_price:[1+TO+10]&sort=product_price+asc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:小黄人&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=4 status=0 QTime=170
+2018-08-09 09:13:23.051 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+10]&sort=product_price+asc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:小黄人&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=4 status=0 QTime=58
+2018-08-09 09:15:14.751 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+10]&sort=id+desc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:小黄人&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=4 status=0 QTime=354
+2018-08-09 09:20:27.357 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=id+desc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:小黄人&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=5 status=0 QTime=740
+2018-08-09 09:21:00.540 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=id+desc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:笔记本&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=1586
+2018-08-09 09:24:28.114 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&rows=10&wt=xml&_=1533778404045} hits=3803 status=0 QTime=13
+2018-08-09 09:24:40.216 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&rows=10&wt=python&_=1533778404045} hits=3803 status=0 QTime=18
+2018-08-09 09:24:49.215 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&rows=10&wt=ruby&_=1533778404045} hits=3803 status=0 QTime=0
+2018-08-09 09:24:58.710 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&rows=10&wt=php&_=1533778404045} hits=3803 status=0 QTime=0
+2018-08-09 09:25:00.658 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&rows=10&wt=php&_=1533778404045} hits=3803 status=0 QTime=8
+2018-08-09 09:25:15.460 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&rows=10&wt=csv&_=1533778404045} hits=3803 status=0 QTime=0
+2018-08-09 09:25:52.164 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&rows=10&wt=json&_=1533778404045} hits=3803 status=0 QTime=0
+2018-08-09 09:30:29.981 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[2000+TO+2018]&sort=product_price+asc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:笔记本&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=4 status=0 QTime=555
+2018-08-09 09:33:52.468 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&df=product_keywords&hl=true&hl.simple.post=</em>&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[2000+TO+2018]&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=<em>} hits=4 status=0 QTime=139
+2018-08-09 09:34:59.891 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[2000+TO+2018]&sort=product_price+asc,id+desc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:笔记本&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=4 status=0 QTime=592
+2018-08-09 09:39:41.210 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[2000+TO+2018]&sort=product_price+asc,id+desc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:笔记本&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=4 status=0 QTime=59
+2018-08-09 09:40:11.508 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[2000+TO+2018]&sort=product_price+asc,id+asc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:笔记本&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=4 status=0 QTime=128
+2018-08-09 09:40:51.532 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[2000+TO+2018]&sort=id+asc,product_price+desc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:笔记本&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=4 status=0 QTime=60
+2018-08-09 09:41:40.276 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[0+TO+*]&sort=id+asc,product_price+desc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:笔记本&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=11449
+2018-08-09 09:41:58.837 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[0+TO+*]&sort=id+asc,product_price+desc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:笔记本&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=165
+2018-08-09 09:44:23.637 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[0+TO+*]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:笔记本&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=246
+2018-08-09 09:46:32.209 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[0+TO+*]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=<em>&q=product_name:笔记本&hl.simple.post=</em>&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=169
+2018-08-09 09:49:01.332 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[0+TO+*]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=product_name:笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=242
+2018-08-09 09:51:08.981 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[0+TO+*]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=product_name:笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=240
+2018-08-09 09:52:46.874 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[0+TO+900]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=product_name:笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=260
+2018-08-09 09:53:11.100 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[0+TO+900]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=product_name:笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=108
+2018-08-09 09:53:39.686 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[0+TO+900]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=product_name:笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=170
+2018-08-09 09:56:53.844 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[0+TO+900]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=product_name:笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=77
+2018-08-09 10:12:02.250 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[0+TO+900]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=product_name:笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=142
+2018-08-09 10:18:34.978 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[0+TO+900]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=product_name:笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=155
+2018-08-09 10:19:24.606 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[0+TO+900]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=product_name:笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=203
+2018-08-09 10:19:50.942 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&fq=id:[0+TO+900]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=product_name:笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=97
+2018-08-09 10:22:10.814 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[0+TO+900]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=product_name:笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=118
+2018-08-09 10:23:33.164 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[0+TO+3]&rows=10&wt=json&_=1533778404045} hits=1399 status=0 QTime=237
+2018-08-09 10:36:40.585 ERROR (qtp157627094-19) [   x:solr_core] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'id:[0 , 900]': Encountered " <RANGE_GOOP> ", "" at line 1, column 6.
+Was expecting:
+    "TO" ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:195)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2503)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:711)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:517)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:384)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:330)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1629)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'id:[0 , 900]': Encountered " <RANGE_GOOP> ", "" at line 1, column 6.
+Was expecting:
+    "TO" ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:169)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:207)
+	... 40 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " <RANGE_GOOP> ", "" at line 1, column 6.
+Was expecting:
+    "TO" ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:453)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:278)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 43 more
+
+2018-08-09 10:36:40.664 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[0+,+900]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=product_name:笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} status=400 QTime=522
+2018-08-09 10:37:21.831 ERROR (qtp157627094-19) [   x:solr_core] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'id:[0 to 900]': Encountered " <RANGE_GOOP> "to "" at line 1, column 6.
+Was expecting:
+    "TO" ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:195)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2503)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:711)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:517)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:384)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:330)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1629)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'id:[0 to 900]': Encountered " <RANGE_GOOP> "to "" at line 1, column 6.
+Was expecting:
+    "TO" ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:169)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:207)
+	... 40 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " <RANGE_GOOP> "to "" at line 1, column 6.
+Was expecting:
+    "TO" ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:453)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:278)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 43 more
+
+2018-08-09 10:37:21.831 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[0+to+900]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=product_name:笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} status=400 QTime=15
+2018-08-09 10:37:37.067 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[0+TO+900]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=product_name:笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} hits=12 status=0 QTime=175
+2018-08-09 10:39:23.890 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[0+TO+900]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=12 status=0 QTime=226
+2018-08-09 10:45:03.648 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_keywords&hl=true&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[0+TO+900]&sort=product_price+desc,id+asc&rows=10&version=2&hl.simple.pre=[>>>&q=笔记本&hl.simple.post=<<<<]&hl.fl=product_name&wt=javabin} hits=29 status=0 QTime=1364
+2018-08-09 10:45:21.931 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[0+TO+900]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=517
+2018-08-09 10:47:14.648 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[0+TO+900]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=12 status=0 QTime=462
+2018-08-09 10:48:52.895 ERROR (qtp157627094-14) [   x:solr_core] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse '"id":[0 TO 3]': Encountered " ":" ": "" at line 1, column 4.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:195)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2503)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:711)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:517)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:384)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:330)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1629)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse '"id":[0 TO 3]': Encountered " ":" ": "" at line 1, column 4.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:169)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:207)
+	... 40 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 4.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:132)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 43 more
+
+2018-08-09 10:48:52.895 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq="id":[0+TO+3]&rows=10&wt=json&_=1533778404045} status=400 QTime=36
+2018-08-09 10:49:01.979 ERROR (qtp157627094-14) [   x:solr_core] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse '"id":"[0 TO 3]"': Encountered " ":" ": "" at line 1, column 4.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:195)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2503)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:711)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:517)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:384)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:330)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1629)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse '"id":"[0 TO 3]"': Encountered " ":" ": "" at line 1, column 4.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:169)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:207)
+	... 40 more
+Caused by: org.apache.solr.parser.ParseException: Encountered " ":" ": "" at line 1, column 4.
+Was expecting one of:
+    <EOF> 
+    <AND> ...
+    <OR> ...
+    <NOT> ...
+    "+" ...
+    "-" ...
+    <BAREOPER> ...
+    "(" ...
+    "*" ...
+    "^" ...
+    <QUOTED> ...
+    <TERM> ...
+    <FUZZY_SLOP> ...
+    <PREFIXTERM> ...
+    <WILDTERM> ...
+    <REGEXPTERM> ...
+    "[" ...
+    "{" ...
+    <LPARAMS> ...
+    "filter(" ...
+    <NUMBER> ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:132)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 43 more
+
+2018-08-09 10:49:01.994 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq="id":"[0+TO+3]"&rows=10&wt=json&_=1533778404045} status=400 QTime=67
+2018-08-09 10:49:10.459 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[0+TO+3]&rows=10&wt=json&_=1533778404045} hits=1399 status=0 QTime=18
+2018-08-09 10:50:21.668 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:3&rows=10&wt=json&_=1533778404045} hits=1 status=0 QTime=37
+2018-08-09 10:50:36.440 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:6&rows=10&wt=json&_=1533778404045} hits=1 status=0 QTime=22
+2018-08-09 10:50:58.978 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:90&sort=product_price+desc,id+asc&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=52
+2018-08-09 10:51:09.365 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:3&sort=product_price+desc,id+asc&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=32
+2018-08-09 10:51:35.284 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:3&sort=product_price+desc,id+asc&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=78
+2018-08-09 10:52:08.157 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:6&sort=id+asc&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=10
+2018-08-09 10:52:16.075 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:6&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=27
+2018-08-09 10:52:45.577 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:6&rows=10&wt=javabin&version=2} hits=0 status=0 QTime=88
+2018-08-09 11:00:07.988 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:6&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=16
+2018-08-09 11:02:50.171 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:6&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=1 status=0 QTime=449
+2018-08-09 11:03:06.501 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:2009&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=1 status=0 QTime=38
+2018-08-09 11:03:32.031 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+%26+id:[0+TO+900]&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=12 status=0 QTime=288
+2018-08-09 11:05:44.409 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+%26+id:[0+TO+900]&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=12 status=0 QTime=147
+2018-08-09 11:05:44.643 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+%26+id:[0+TO+900]&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=12 status=0 QTime=209
+2018-08-09 11:06:07.326 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+%26+id:[0+TO+900]&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=12 status=0 QTime=169
+2018-08-09 11:06:07.623 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+%26+id:[0+TO+900]&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=12 status=0 QTime=266
+2018-08-09 11:06:59.690 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+%26+id:[0+TO+900]&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=12 status=0 QTime=299
+2018-08-09 11:07:00.021 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+%26+id:[0+TO+900]&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=12 status=0 QTime=280
+2018-08-09 11:08:11.895 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[0+TO+900]&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=12 status=0 QTime=141
+2018-08-09 11:08:12.082 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[0+TO+900]&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=12 status=0 QTime=143
+2018-08-09 11:12:42.230 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[0+TO+900]&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=17 status=0 QTime=185
+2018-08-09 11:12:42.501 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[0+TO+900]&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=17 status=0 QTime=151
+2018-08-09 11:13:50.556 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+OR+product_price:[500+TO+1000]&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=17 status=0 QTime=246
+2018-08-09 11:13:50.745 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+OR+product_price:[500+TO+1000]&hl.fl=product_name&rows=10&wt=javabin&version=2&hl.simple.pre=[>>>} hits=17 status=0 QTime=128
+2018-08-09 11:14:30.676 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+OR+product_price:[500+TO+1000]&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=17 status=0 QTime=121
+2018-08-09 11:14:30.723 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+OR+product_price:[500+TO+1000]&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=17 status=0 QTime=3
+2018-08-09 11:14:59.236 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+OR+product_price:[500+TO+1000]&sort=product_price+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=17 status=0 QTime=42
+2018-08-09 11:14:59.299 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+OR+product_price:[500+TO+1000]&sort=product_price+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=17 status=0 QTime=4
+2018-08-09 11:15:17.104 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+10]+OR+product_price:[500+TO+1000]&sort=product_price+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=7 status=0 QTime=6
+2018-08-09 11:15:17.151 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+10]+OR+product_price:[500+TO+1000]&sort=product_price+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=7 status=0 QTime=3
+2018-08-09 11:15:39.297 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+10]+OR+product_price:[30+TO+40]&sort=product_price+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=9 status=0 QTime=5
+2018-08-09 11:15:39.423 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+10]+OR+product_price:[30+TO+40]&sort=product_price+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=9 status=0 QTime=63
+2018-08-09 11:16:35.170 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[*+TO+2009]&sort=product_price+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=4 status=0 QTime=22
+2018-08-09 11:16:35.217 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[*+TO+2009]&sort=product_price+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=4 status=0 QTime=2
+2018-08-09 11:17:50.864 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[*+TO+2009]&sort=product_price+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=735 status=0 QTime=4727
+2018-08-09 11:17:52.215 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[*+TO+2009]&sort=product_price+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=735 status=0 QTime=239
+2018-08-09 11:18:55.242 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[*+TO+2009]&sort=id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=735 status=0 QTime=865
+2018-08-09 11:18:55.321 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[*+TO+2009]&sort=id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=735 status=0 QTime=7
+2018-08-09 11:19:17.561 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[*+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=735 status=0 QTime=631
+2018-08-09 11:19:17.608 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[*+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=735 status=0 QTime=6
+2018-08-09 11:20:02.490 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=10 status=0 QTime=2
+2018-08-09 11:20:02.553 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=10 status=0 QTime=1
+2018-08-09 11:20:41.850 ERROR (qtp157627094-42) [   x:solr_core] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: org.apache.solr.search.SyntaxError: Cannot parse 'product_price:[1 TO 100] AND id:[2000 TO 2009': Encountered "<EOF>" at line 1, column 45.
+Was expecting one of:
+    "]" ...
+    "}" ...
+    
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:218)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:195)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2503)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:711)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:517)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:384)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:330)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1629)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.search.SyntaxError: Cannot parse 'product_price:[1 TO 100] AND id:[2000 TO 2009': Encountered "<EOF>" at line 1, column 45.
+Was expecting one of:
+    "]" ...
+    "}" ...
+    
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:258)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:169)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:207)
+	... 40 more
+Caused by: org.apache.solr.parser.ParseException: Encountered "<EOF>" at line 1, column 45.
+Was expecting one of:
+    "]" ...
+    "}" ...
+    
+	at org.apache.solr.parser.QueryParser.generateParseException(QueryParser.java:885)
+	at org.apache.solr.parser.QueryParser.jj_consume_token(QueryParser.java:767)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:479)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:278)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:222)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	... 43 more
+
+2018-08-09 11:20:41.850 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[2000+TO+2009&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} status=400 QTime=2
+2018-08-09 11:20:54.568 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=10 status=0 QTime=74
+2018-08-09 11:20:54.615 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=10 status=0 QTime=1
+2018-08-09 11:21:17.194 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+10]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=2 status=0 QTime=64
+2018-08-09 11:21:17.241 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+10]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=2 status=0 QTime=0
+2018-08-09 11:21:32.113 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+10]+%26+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=1953 status=0 QTime=700
+2018-08-09 11:21:32.207 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+10]+%26+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=1953 status=0 QTime=53
+2018-08-09 11:21:50.316 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+10]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=2 status=0 QTime=1
+2018-08-09 11:21:50.394 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+10]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=2 status=0 QTime=30
+2018-08-09 11:22:04.879 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+10]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=56
+2018-08-09 11:22:04.941 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+10]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=1
+2018-08-09 11:22:29.765 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=17 status=0 QTime=5
+2018-08-09 11:22:29.832 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=17 status=0 QTime=16
+2018-08-09 11:22:43.472 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=2 status=0 QTime=2
+2018-08-09 11:22:43.542 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=2 status=0 QTime=33
+2018-08-09 11:23:36.389 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[1+TO+6]&rows=10&wt=json&_=1533778404045} hits=3497 status=0 QTime=3
+2018-08-09 11:24:04.653 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[1+TO+6]&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=1800 status=0 QTime=152
+2018-08-09 11:24:46.267 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[1+TO+6]&fq=product_price:[*+TO+10]&fq=id:_1&rows=10&wt=json&_=1533778404045} hits=0 status=0 QTime=38
+2018-08-09 11:25:42.766 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[1+TO+6]&fq=product_price:[*+TO+10]&fq=-id:1&rows=10&wt=json&_=1533778404045} hits=1800 status=0 QTime=1
+2018-08-09 11:26:31.498 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[1+TO+6]+AND+-id:1&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=1800 status=0 QTime=66
+2018-08-09 11:26:49.468 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[1+TO+6]+%26+-id:1&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=1800 status=0 QTime=1
+2018-08-09 11:26:56.600 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[1+TO+6]&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=1800 status=0 QTime=0
+2018-08-09 11:26:58.685 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[1+TO+6]&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=1800 status=0 QTime=0
+2018-08-09 11:27:04.607 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[1+TO+6]&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=1800 status=0 QTime=0
+2018-08-09 11:27:21.614 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[1+TO+6]&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=1800 status=0 QTime=0
+2018-08-09 11:27:22.357 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[1+TO+6]&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=1800 status=0 QTime=0
+2018-08-09 11:27:27.391 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[1+TO+6]&fq=product_price:[*+TO+10]&rows=2&wt=json&_=1533778404045} hits=1800 status=0 QTime=0
+2018-08-09 11:27:40.213 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[1+TO+6]&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=1800 status=0 QTime=0
+2018-08-09 11:27:59.134 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=id:[1+TO+6]&rows=10&wt=json&_=1533778404045} hits=3497 status=0 QTime=37
+2018-08-09 11:28:14.775 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=1957 status=0 QTime=0
+2018-08-09 11:28:19.666 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=*:*&start=0&fq=product_price:[*+TO+10]&fq=id:[1+TO+6]&rows=10&wt=json&_=1533778404045} hits=1800 status=0 QTime=17
+2018-08-09 11:29:13.175 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&start=0&fq=product_price:[*+TO+10]&fq=id:[1+TO+6]&rows=10&wt=json&_=1533778404045} hits=1 status=0 QTime=2
+2018-08-09 11:29:27.975 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=3 status=0 QTime=3
+2018-08-09 11:29:54.167 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本%0aproduct_catalog_name：周边&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=3 status=0 QTime=29
+2018-08-09 11:29:58.004 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本%0aproduct_catalog_name：周边&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=3 status=0 QTime=65
+2018-08-09 11:30:05.114 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本%0aproduct_catalog_name:周边&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=3 status=0 QTime=9
+2018-08-09 11:30:29.646 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本;%0aproduct_catalog_name:周边&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=3 status=0 QTime=1
+2018-08-09 11:30:34.989 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本,%0aproduct_catalog_name:周边&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=3 status=0 QTime=0
+2018-08-09 11:30:40.160 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=3 status=0 QTime=0
+2018-08-09 11:30:41.294 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=3 status=0 QTime=0
+2018-08-09 11:30:53.062 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_catalog_name:周边&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=0 status=0 QTime=0
+2018-08-09 11:31:03.204 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_catalog_name:周边&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=0 status=0 QTime=0
+2018-08-09 11:31:09.549 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=3 status=0 QTime=0
+2018-08-09 11:31:31.682 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_catalog_name:周边%0aproduct_name:笔记本&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=3 status=0 QTime=1
+2018-08-09 11:31:32.579 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_catalog_name:周边%0aproduct_name:笔记本&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=3 status=0 QTime=0
+2018-08-09 11:32:02.693 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5%0aproduct_name:笔记本&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=203 status=0 QTime=2
+2018-08-09 11:32:25.225 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+AND%0aproduct_name:笔记本&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=0 status=0 QTime=45
+2018-08-09 11:32:31.300 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+OR%0aproduct_name:笔记本&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=203 status=0 QTime=0
+2018-08-09 11:32:54.465 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%26%0aproduct_name:笔记本&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=203 status=0 QTime=2
+2018-08-09 11:32:55.617 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%26%0aproduct_name:笔记本&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=203 status=0 QTime=0
+2018-08-09 11:32:59.659 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%26%26%0aproduct_name:笔记本&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=0 status=0 QTime=1
+2018-08-09 11:33:03.870 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&start=0&fq=product_price:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=203 status=0 QTime=0
+2018-08-09 11:33:25.544 ERROR (qtp157627094-43) [   x:solr_core] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: undefined field: "ID"
+	at org.apache.solr.schema.IndexSchema.getField(IndexSchema.java:1223)
+	at org.apache.solr.parser.SolrQueryParserBase.isRangeShouldBeProtectedFromReverse(SolrQueryParserBase.java:1153)
+	at org.apache.solr.parser.SolrQueryParserBase.getRangeQuery(SolrQueryParserBase.java:1160)
+	at org.apache.solr.parser.QueryParser.Term(QueryParser.java:503)
+	at org.apache.solr.parser.QueryParser.Clause(QueryParser.java:278)
+	at org.apache.solr.parser.QueryParser.Query(QueryParser.java:162)
+	at org.apache.solr.parser.QueryParser.TopLevelQuery(QueryParser.java:131)
+	at org.apache.solr.parser.SolrQueryParserBase.parse(SolrQueryParserBase.java:254)
+	at org.apache.solr.search.LuceneQParser.parse(LuceneQParser.java:49)
+	at org.apache.solr.search.QParser.getQuery(QParser.java:169)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:207)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:195)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2503)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:711)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:517)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:384)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:330)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1629)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-08-09 11:33:25.544 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&start=0&fq=product_price:[*+TO+10]&fq=ID:[*+TO+10]&rows=10&wt=json&_=1533778404045} status=400 QTime=242
+2018-08-09 11:33:32.029 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&start=0&fq=product_price:[*+TO+10]&fq=id:[*+TO+10]&rows=10&wt=json&_=1533778404045} hits=1 status=0 QTime=42
+2018-08-09 11:33:41.028 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&start=0&fq=product_price:[*+TO+10]&fq=id:[*+TO+90]&rows=10&wt=json&_=1533778404045} hits=202 status=0 QTime=4
+2018-08-09 11:34:02.042 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&start=0&fq=product_price:[*+TO+10]&fq=id:[1+TO+90]&rows=10&wt=json&_=1533778404045} hits=202 status=0 QTime=3
+2018-08-09 11:34:13.343 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&start=0&fq=product_price:[*+TO+10]&fq=id:884&rows=10&wt=json&_=1533778404045} hits=0 status=0 QTime=1
+2018-08-09 11:34:18.129 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&start=0&fq=id:884&rows=10&wt=json&_=1533778404045} hits=0 status=0 QTime=1
+2018-08-09 11:34:18.940 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&start=0&fq=id:884&rows=10&wt=json&_=1533778404045} hits=0 status=0 QTime=0
+2018-08-09 11:34:24.173 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&start=0&rows=10&wt=json&_=1533778404045} hits=212 status=0 QTime=1
+2018-08-09 11:34:27.241 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&start=0&fq=id:884&rows=10&wt=json&_=1533778404045} hits=0 status=0 QTime=1
+2018-08-09 11:34:58.251 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&start=0&sort=id+asc&rows=10&wt=json&_=1533778404045} hits=212 status=0 QTime=2
+2018-08-09 11:35:47.707 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&start=0&fq=id,product_price&sort=id+asc&rows=10&wt=json&_=1533778404045} hits=0 status=0 QTime=17
+2018-08-09 11:35:57.738 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&fl=id,product_price&start=0&sort=id+asc&rows=10&wt=json&_=1533778404045} hits=212 status=0 QTime=0
+2018-08-09 11:36:27.079 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&fl=id,product_price&start=0&id=+110&sort=id+asc&rows=10&wt=json&_=1533778404045} hits=212 status=0 QTime=0
+2018-08-09 11:36:28.278 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&fl=id,product_price&start=0&id=+110&sort=id+asc&rows=10&wt=json&_=1533778404045} hits=212 status=0 QTime=0
+2018-08-09 11:36:30.605 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&fl=id,product_price&start=0&id=+110&sort=id+asc&rows=10&wt=json&_=1533778404045} hits=212 status=0 QTime=0
+2018-08-09 11:36:31.783 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&fl=id,product_price&start=0&id=+110&sort=id+asc&rows=10&wt=json&_=1533778404045} hits=212 status=0 QTime=0
+2018-08-09 11:37:33.285 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&fl=id,product_price&start=0&sort=id+asc&rows=10&wt=json&_=1533778404045} hits=212 status=0 QTime=1
+2018-08-09 11:37:57.938 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_price:5+%0aproduct_name:笔记本&fl=id,product_price&start=0&fq=product_price:[10+TO+100]&sort=id+asc&rows=10&wt=json&_=1533778404045} hits=9 status=0 QTime=3
+2018-08-09 11:38:53.083 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本&fl=id,product_price&start=0&fq=product_price:[10+TO+100]&sort=id+asc&rows=10&wt=json&_=1533778404045} hits=9 status=0 QTime=1
+2018-08-09 11:39:09.169 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包邮&fl=id,product_price&start=0&fq=product_price:[10+TO+100]&sort=id+asc&rows=10&wt=json&_=1533778404045} hits=37 status=0 QTime=76
+2018-08-09 11:39:21.772 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包邮&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&sort=id+asc&rows=10&wt=json&_=1533778404045} hits=37 status=0 QTime=0
+2018-08-09 11:39:49.860 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包邮&hl=on&hl.simple.post=</em>&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&sort=id+asc&rows=10&wt=json&hl.simple.pre=<em>&_=1533778404045} hits=37 status=0 QTime=0
+2018-08-09 11:40:15.093 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包邮&hl=on&hl.simple.post=<<<]&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&sort=id+asc&rows=10&wt=json&hl.simple.pre=[>>>&_=1533778404045} hits=37 status=0 QTime=0
+2018-08-09 11:40:16.935 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包邮&hl=on&hl.simple.post=<<<]&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&sort=id+asc&rows=10&wt=json&hl.simple.pre=[>>>&_=1533778404045} hits=37 status=0 QTime=0
+2018-08-09 11:40:33.331 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包邮&hl=on&hl.simple.post=<<<]&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&hl.fl=product_name&sort=id+asc&rows=10&wt=json&hl.simple.pre=[>>>&_=1533778404045} hits=37 status=0 QTime=170
+2018-08-09 11:40:59.979 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包&hl=on&hl.simple.post=<<<]&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&hl.fl=product_name&sort=id+asc&rows=10&wt=json&hl.simple.pre=[>>>&_=1533778404045} hits=37 status=0 QTime=34
+2018-08-09 11:41:01.171 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包&hl=on&hl.simple.post=<<<]&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&hl.fl=product_name&sort=id+asc&rows=10&wt=json&hl.simple.pre=[>>>&_=1533778404045} hits=37 status=0 QTime=1
+2018-08-09 11:41:58.776 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包&hl=on&hl.simple.post=</span>&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&hl.fl=product_name&sort=id+asc&rows=10&wt=json&hl.simple.pre=<span+color%3D'red'>&_=1533778404045} hits=37 status=0 QTime=2
+2018-08-09 11:42:11.409 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包&hl=on&hl.simple.post=]&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&hl.fl=product_name&sort=id+asc&rows=10&wt=json&hl.simple.pre=[&_=1533778404045} hits=37 status=0 QTime=26
+2018-08-09 11:42:30.620 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包&hl=on&hl.simple.post=@)&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&hl.fl=product_name&sort=id+asc&rows=10&wt=json&hl.simple.pre=(@&_=1533778404045} hits=37 status=0 QTime=1
+2018-08-09 11:42:48.140 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包&hl=on&hl.simple.post=@)&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&hl.fl=product_name&sort=id+asc&rows=10&wt=xml&hl.simple.pre=(@&_=1533778404045} hits=37 status=0 QTime=2
+2018-08-09 11:43:00.900 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包&hl=on&hl.simple.post=@)&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&hl.fl=product_name&sort=id+asc&rows=10&wt=json&hl.simple.pre=(@&_=1533778404045} hits=37 status=0 QTime=243
+2018-08-09 11:43:48.042 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_price&hl=on&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&sort=id+asc&rows=10&hl.simple.pre=(@&q=product_name:包&hl.simple.post=@)&hl.fl=product_name&wt=json&_=1533778404045} hits=37 status=0 QTime=1
+2018-08-09 11:57:07.122 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_price&hl=on&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&sort=id+asc&rows=10&hl.simple.pre=(@&q=product_name:包&hl.simple.post=@)&hl.fl=product_name&wt=json&_=1533778404045} hits=37 status=0 QTime=1
+2018-08-09 11:57:29.845 INFO  (qtp157627094-19) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={df=product_price&hl=on&fl=id,product_price,product_name&start=0&fq=product_price:[10+TO+100]&sort=id+asc&rows=3&hl.simple.pre=(@&q=product_name:包&hl.simple.post=@)&hl.fl=product_name&wt=json&_=1533778404045} hits=37 status=0 QTime=0
+2018-08-09 12:05:46.903 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=2 status=0 QTime=1
+2018-08-09 12:05:47.012 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=2 status=0 QTime=1
+2018-08-09 12:06:31.635 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人+AND+product_name:樱花&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=21
+2018-08-09 12:06:31.682 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本+OR+product_name:小黄人+AND+product_name:樱花&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=1
+2018-08-09 12:06:52.781 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本++AND+product_name:樱花&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=1 status=0 QTime=13
+2018-08-09 12:06:52.828 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本++AND+product_name:樱花&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]+AND+id:[2000+TO+2009]&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=1 status=0 QTime=1
+2018-08-09 12:08:46.622 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本++AND+product_name:樱花+OR+product_price:20.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=1 status=0 QTime=22
+2018-08-09 12:08:46.701 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本++AND+product_name:樱花+OR+product_price:20.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=1 status=0 QTime=38
+2018-08-09 12:09:26.379 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本++OR+product_name:樱花+OR+product_price:20.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=103 status=0 QTime=3535
+2018-08-09 12:09:26.458 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:笔记本++OR+product_name:樱花+OR+product_price:20.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=103 status=0 QTime=16
+2018-08-09 12:10:18.790 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包++OR+product_name:樱花+AND+product_price:20.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=2 status=0 QTime=30
+2018-08-09 12:10:18.853 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包++OR+product_name:樱花+AND+product_price:20.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=2 status=0 QTime=34
+2018-08-09 12:11:33.556 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包++AND+product_name:樱花+AND+product_price:20.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=1
+2018-08-09 12:11:33.587 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:包++AND+product_name:樱花+AND+product_price:20.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=0
+2018-08-09 12:11:46.299 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++AND+product_name:樱花+AND+product_price:20.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=2 status=0 QTime=190
+2018-08-09 12:11:46.330 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++AND+product_name:樱花+AND+product_price:20.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=2 status=0 QTime=0
+2018-08-09 12:11:58.964 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++AND+product_name:樱花+AND+product_price:21.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=2
+2018-08-09 12:11:58.995 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++AND+product_name:樱花+AND+product_price:21.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=0
+2018-08-09 12:12:08.262 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++AND+product_name:樱花+AND+product_price:20.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=2 status=0 QTime=1
+2018-08-09 12:12:08.294 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++AND+product_name:樱花+AND+product_price:20.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&sort=id+desc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=2 status=0 QTime=1
+2018-08-09 12:27:48.872 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++OR+product_name:樱花+OR+product_price:20.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=3371 status=0 QTime=1460
+2018-08-09 12:27:49.013 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++OR+product_name:樱花+OR+product_price:20.0&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=3371 status=0 QTime=12
+2018-08-09 12:29:25.490 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++OR+product_name:樱花&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=3360 status=0 QTime=19
+2018-08-09 12:29:26.193 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++OR+product_name:樱花&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=3360 status=0 QTime=625
+2018-08-09 12:30:16.367 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++OR+product_name:欧洲&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=3358 status=0 QTime=109
+2018-08-09 12:30:16.426 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++OR+product_name:欧洲&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=3358 status=0 QTime=13
+2018-08-09 12:30:44.062 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++OR+product_name:风情&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=3359 status=0 QTime=17
+2018-08-09 12:30:44.125 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++OR+product_name:风情&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=3359 status=0 QTime=10
+2018-08-09 12:31:35.591 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++OR+product_name:欧式&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=3363 status=0 QTime=11
+2018-08-09 12:31:35.904 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:天下++OR+product_name:欧式&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=3363 status=0 QTime=242
+2018-08-09 12:32:00.002 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:别致++OR+product_name:欧式&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=45 status=0 QTime=218
+2018-08-09 12:32:00.049 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:别致++OR+product_name:欧式&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_catalog,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=45 status=0 QTime=4
+2018-08-09 12:33:30.334 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:别致++OR+product_name:欧式&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=45 status=0 QTime=53
+2018-08-09 12:33:30.381 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:别致++OR+product_name:欧式&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=45 status=0 QTime=6
+2018-08-09 12:34:34.187 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:别致++OR+product_name:欧式&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=45 status=0 QTime=4
+2018-08-09 12:34:34.234 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:别致++OR+product_name:欧式&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&fq=product_price:[1+TO+100]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=45 status=0 QTime=4
+2018-08-09 12:35:14.562 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:别致++OR+product_name:欧式&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&fq=product_price:[1+TO+80]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=42 status=0 QTime=7
+2018-08-09 12:35:14.609 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:别致++OR+product_name:欧式&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&fq=product_price:[1+TO+80]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=42 status=0 QTime=4
+2018-08-09 13:01:52.370 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.s.ManagedIndexSchema Upgraded to managed schema at D:\Solr\solr-7.3.0\server\solr\jetty_solr_core\conf\managed-schema
+2018-08-09 13:01:52.900 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={wt=javabin&version=2}{} 0 7217
+2018-08-09 13:01:52.931 ERROR (qtp157627094-15) [   x:solr_core] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: Document is missing mandatory uniqueKey field: id
+	at org.apache.solr.update.AddUpdateCommand.getIndexedId(AddUpdateCommand.java:116)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:965)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:633)
+	at org.apache.solr.update.processor.LogUpdateProcessorFactory$LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:103)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.AddSchemaFieldsUpdateProcessorFactory$AddSchemaFieldsUpdateProcessor.processAdd(AddSchemaFieldsUpdateProcessorFactory.java:475)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldNameMutatingUpdateProcessorFactory$1.processAdd(FieldNameMutatingUpdateProcessorFactory.java:75)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.FieldMutatingUpdateProcessor.processAdd(FieldMutatingUpdateProcessor.java:118)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:55)
+	at org.apache.solr.update.processor.AbstractDefaultValueUpdateProcessorFactory$DefaultValueUpdateProcessor.processAdd(AbstractDefaultValueUpdateProcessorFactory.java:92)
+	at org.apache.solr.handler.loader.JavabinLoader$1.update(JavabinLoader.java:98)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readOuterMostDocIterator(JavaBinUpdateRequestCodec.java:188)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readIterator(JavaBinUpdateRequestCodec.java:144)
+	at org.apache.solr.common.util.JavaBinCodec.readObject(JavaBinCodec.java:311)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:256)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readNamedList(JavaBinUpdateRequestCodec.java:130)
+	at org.apache.solr.common.util.JavaBinCodec.readObject(JavaBinCodec.java:276)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:256)
+	at org.apache.solr.common.util.JavaBinCodec.unmarshal(JavaBinCodec.java:178)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec.unmarshal(JavaBinUpdateRequestCodec.java:195)
+	at org.apache.solr.handler.loader.JavabinLoader.parseAndLoadDocs(JavabinLoader.java:109)
+	at org.apache.solr.handler.loader.JavabinLoader.load(JavabinLoader.java:55)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:97)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:68)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:195)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2503)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:711)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:517)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:384)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:330)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1629)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-08-09 13:02:12.525 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[  (1608326558756372480)]} 0 1104
+2018-08-09 13:02:12.588 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1608326559918194688,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-08-09 13:02:12.604 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@41c05309 commitCommandVersion:1608326559918194688
+2018-08-09 13:02:14.086 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.s.SolrIndexSearcher Opening [Searcher@145a5911[solr_core] main]
+2018-08-09 13:02:14.195 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-08-09 13:02:14.211 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@145a5911[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803) Uninverting(_1(7.3.0):C1)))}
+2018-08-09 13:02:14.226 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-08-09 13:02:14.304 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.SolrCore [solr_core] Registered new searcher Searcher@145a5911[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803) Uninverting(_1(7.3.0):C1)))}
+2018-08-09 13:02:14.304 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 1733
+2018-08-09 13:02:56.989 INFO  (qtp157627094-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533778389999} status=0 QTime=482
+2018-08-09 13:02:58.745 INFO  (qtp157627094-16) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533778389999} status=0 QTime=0
+2018-08-09 13:02:59.422 INFO  (qtp157627094-34) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1533778389999} status=0 QTime=0
+2018-08-09 13:02:59.704 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/admin/luke params={show=schema&wt=json&_=1533778400507} status=0 QTime=862
+2018-08-09 13:03:00.641 INFO  (qtp157627094-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1533778389999} status=0 QTime=4132
+2018-08-09 13:03:00.660 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/admin/mbeans params={stats=true&wt=json&_=1533819776344} status=0 QTime=3904
+2018-08-09 13:03:00.771 INFO  (qtp157627094-19) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1533778389999} status=0 QTime=101
+2018-08-09 13:03:01.130 INFO  (qtp157627094-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1533778389999} status=0 QTime=325
+2018-08-09 13:03:06.941 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=name:邓沙利文&_=1533778404045} hits=1 status=0 QTime=44
+2018-08-09 13:03:56.574 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[123456 (1608326668939689984)]} 0 67
+2018-08-09 13:03:56.590 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1608326668972195840,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-08-09 13:03:56.590 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@41c05309 commitCommandVersion:1608326668972195840
+2018-08-09 13:03:57.167 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.s.SolrIndexSearcher Opening [Searcher@299fc25a[solr_core] main]
+2018-08-09 13:03:57.167 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@299fc25a[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803) Uninverting(_1(7.3.0):C1) Uninverting(_2(7.3.0):C1)))}
+2018-08-09 13:03:57.167 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-08-09 13:03:57.167 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-08-09 13:03:57.167 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.SolrCore [solr_core] Registered new searcher Searcher@299fc25a[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803) Uninverting(_1(7.3.0):C1) Uninverting(_2(7.3.0):C1)))}
+2018-08-09 13:03:57.167 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 579
+2018-08-09 13:04:24.263 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[123456 (1608326697989439488)]} 0 2
+2018-08-09 13:04:24.294 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1608326698021945344,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-08-09 13:04:24.294 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@41c05309 commitCommandVersion:1608326698021945344
+2018-08-09 13:04:24.809 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.s.SolrIndexSearcher Opening [Searcher@19d99bf[solr_core] main]
+2018-08-09 13:04:24.825 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@19d99bf[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803) Uninverting(_1(7.3.0):C1) Uninverting(_3(7.3.0):C1)))}
+2018-08-09 13:04:24.825 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-08-09 13:04:24.825 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-08-09 13:04:24.825 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.SolrCore [solr_core] Registered new searcher Searcher@19d99bf[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803) Uninverting(_1(7.3.0):C1) Uninverting(_3(7.3.0):C1)))}
+2018-08-09 13:04:24.840 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 554
+2018-08-09 13:06:26.902 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[123456 (1608326826568974336)]} 0 3
+2018-08-09 13:06:26.917 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1608326826601480192,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-08-09 13:06:26.917 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@41c05309 commitCommandVersion:1608326826601480192
+2018-08-09 13:06:28.119 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.s.SolrIndexSearcher Opening [Searcher@7518b656[solr_core] main]
+2018-08-09 13:06:28.134 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@7518b656[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803) Uninverting(_1(7.3.0):C1) Uninverting(_4(7.3.0):C1)))}
+2018-08-09 13:06:28.134 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-08-09 13:06:28.165 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.SolrCore [solr_core] Registered new searcher Searcher@7518b656[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803) Uninverting(_1(7.3.0):C1) Uninverting(_4(7.3.0):C1)))}
+2018-08-09 13:06:28.165 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-08-09 13:06:28.243 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 1315
+2018-08-09 13:08:16.381 INFO  (qtp157627094-16) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&_=1533778404045} hits=0 status=0 QTime=0
+2018-08-09 13:09:57.534 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[12345 (1608327047449411584)]} 0 45
+2018-08-09 13:09:57.550 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1608327047466188800,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-08-09 13:09:57.550 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@41c05309 commitCommandVersion:1608327047466188800
+2018-08-09 13:09:58.049 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.s.SolrIndexSearcher Opening [Searcher@477a3d85[solr_core] main]
+2018-08-09 13:09:58.112 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-08-09 13:09:58.112 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@477a3d85[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803) Uninverting(_1(7.3.0):C1) Uninverting(_4(7.3.0):C1) Uninverting(_5(7.3.0):C1)))}
+2018-08-09 13:09:58.112 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-08-09 13:09:58.112 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.SolrCore [solr_core] Registered new searcher Searcher@477a3d85[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803) Uninverting(_1(7.3.0):C1) Uninverting(_4(7.3.0):C1) Uninverting(_5(7.3.0):C1)))}
+2018-08-09 13:09:58.112 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 553
+2018-08-09 13:10:04.503 INFO  (qtp157627094-43) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&_=1533778404045} hits=1 status=0 QTime=0
+2018-08-09 13:11:48.621 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={wt=javabin&version=2}{add=[12345 (1608327163932573696)]} 0 2
+2018-08-09 13:11:48.637 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1608327163949350912,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-08-09 13:11:48.637 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@41c05309 commitCommandVersion:1608327163949350912
+2018-08-09 13:11:49.323 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.s.SolrIndexSearcher Opening [Searcher@50e4e8a2[solr_core] main]
+2018-08-09 13:11:49.355 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-08-09 13:11:49.355 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@50e4e8a2[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803) Uninverting(_1(7.3.0):C1) Uninverting(_4(7.3.0):C1) Uninverting(_6(7.3.0):C1)))}
+2018-08-09 13:11:49.355 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-08-09 13:11:49.355 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.SolrCore [solr_core] Registered new searcher Searcher@50e4e8a2[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803) Uninverting(_1(7.3.0):C1) Uninverting(_4(7.3.0):C1) Uninverting(_6(7.3.0):C1)))}
+2018-08-09 13:11:49.370 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 724
+2018-08-09 13:11:52.926 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&_=1533778404045} hits=1 status=0 QTime=2
+2018-08-09 13:17:22.183 ERROR (qtp157627094-18) [   x:solr_core] o.a.s.h.RequestHandlerBase org.apache.solr.common.SolrException: sort param field can't be found: id:12345
+	at org.apache.solr.search.SortSpecParsing.parseSortSpecImpl(SortSpecParsing.java:198)
+	at org.apache.solr.search.SortSpecParsing.parseSortSpec(SortSpecParsing.java:60)
+	at org.apache.solr.search.QParser.getSortSpec(QParser.java:276)
+	at org.apache.solr.handler.component.QueryComponent.prepare(QueryComponent.java:187)
+	at org.apache.solr.handler.component.SearchHandler.handleRequestBody(SearchHandler.java:269)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:195)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2503)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:711)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:517)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:384)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:330)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1629)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:533)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:548)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:190)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1595)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:188)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1253)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:168)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:473)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1564)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:166)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1155)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:219)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:126)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.rewrite.handler.RewriteHandler.handle(RewriteHandler.java:335)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:132)
+	at org.eclipse.jetty.server.Server.handle(Server.java:530)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:347)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:256)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:279)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:102)
+	at org.eclipse.jetty.io.ChannelEndPoint$2.run(ChannelEndPoint.java:124)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:247)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.produce(EatWhatYouKill.java:140)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:131)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:382)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:708)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$2.run(QueuedThreadPool.java:626)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-08-09 13:17:22.183 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:别致++OR+product_name:欧式&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&fq=product_price:[1+TO+80]&sort=id:12345+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} status=400 QTime=151
+2018-08-09 13:18:39.086 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&fq=product_price:[1+TO+80]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=64
+2018-08-09 13:18:39.133 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&fq=product_price:[1+TO+80]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=0 status=0 QTime=1
+2018-08-09 13:18:52.805 INFO  (qtp157627094-42) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=1 status=0 QTime=0
+2018-08-09 13:18:52.836 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=1 status=0 QTime=0
+2018-08-09 13:20:06.664 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=1 status=0 QTime=0
+2018-08-09 13:20:06.710 INFO  (qtp157627094-15) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=1 status=0 QTime=0
+2018-08-09 13:21:21.966 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,name,title,product_picture&start=0&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=1 status=0 QTime=0
+2018-08-09 13:21:22.013 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,name,title,product_picture&start=0&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=1 status=0 QTime=0
+2018-08-09 13:21:54.546 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:别致++OR+product_name:欧式&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&fq=product_price:[1+TO+80]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=42 status=0 QTime=10
+2018-08-09 13:21:54.640 INFO  (qtp157627094-34) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=product_name:别致++OR+product_name:欧式&hl=true&hl.simple.post=<<<<]&fl=id,product_name,product_price,product_picture&start=0&fq=product_price:[1+TO+80]&sort=product_price+desc,id+asc&hl.fl=product_name&rows=100&wt=javabin&version=2&hl.simple.pre=[>>>} hits=42 status=0 QTime=5
+2018-08-09 13:38:55.444 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&_=1533778404045} hits=1 status=0 QTime=0
+2018-08-09 13:41:13.563 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&_=1533778404045} hits=1 status=0 QTime=0
+2018-08-09 13:41:17.211 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&_=1533778404045} hits=1 status=0 QTime=0
+2018-08-09 13:41:25.482 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.s.SolrIndexSearcher Opening [Searcher@61ee749f[solr_core] realtime]
+2018-08-09 13:41:25.498 INFO  (qtp157627094-20) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={wt=javabin&version=2}{deleteByQuery=id:12345 (-1608329026648145920)} 0 453
+2018-08-09 13:41:25.982 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 start commit{_version_=1608329027630661632,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-08-09 13:41:25.982 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.u.SolrIndexWriter Calling setCommitData with IW:org.apache.solr.update.SolrIndexWriter@41c05309 commitCommandVersion:1608329027630661632
+2018-08-09 13:41:30.176 INFO  (qtp157627094-18) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&_=1533778404045} hits=1 status=0 QTime=0
+2018-08-09 13:41:30.934 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.s.SolrIndexSearcher Opening [Searcher@5bb0b6a4[solr_core] main]
+2018-08-09 13:41:30.935 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.u.DirectUpdateHandler2 end_commit_flush
+2018-08-09 13:41:31.072 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@5bb0b6a4[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803) Uninverting(_1(7.3.0):C1) Uninverting(_4(7.3.0):C1)))}
+2018-08-09 13:41:31.072 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-08-09 13:41:31.073 INFO  (searcherExecutor-7-thread-1-processing-x:solr_core) [   x:solr_core] o.a.s.c.SolrCore [solr_core] Registered new searcher Searcher@5bb0b6a4[solr_core] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(7.3.0):C3803) Uninverting(_1(7.3.0):C1) Uninverting(_4(7.3.0):C1)))}
+2018-08-09 13:41:32.082 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.u.p.LogUpdateProcessorFactory [solr_core]  webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2}{commit=} 0 6129
+2018-08-09 13:41:32.617 INFO  (qtp157627094-14) [   x:solr_core] o.a.s.c.S.Request [solr_core]  webapp=/solr path=/select params={q=id:12345&_=1533778404045} hits=0 status=0 QTime=0
