@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dataConfig>
+ 
+  <!-- 数据库连接配置 -->
+  <!-- url中最后要加上serverTimezone=UTC否则发送请求的时候会乱码 -->
+  <dataSource driver="com.mysql.jdbc.Driver" 
+        url="jdbc:mysql://localhost:3306/index_demo?serverTimezone=UTC" 
+        user="root" 
+        password="pass"/>
+ 
+  <document>
+    <!-- query中写SQL语句 -->
+    <entity name="product" query="SELECT pid,name,catalog,catalog_name,price,description,picture FROM products">
+      <!-- 
+          配置查询出来的列column  与 Solr中Field域的对应映射关系
+         (注:对应的Field域在managed-schema中没有的话需要配置）
+      -->
+      <!-- name对应Field域；column对应表的列 -->
+      <field column="pid" name="id"/> 
+      <field column="name" name="product_name"/> 
+      <field column="catalog" name="product_catalog"/>
+      <field column="catalog_name" name="product_catalog_name"/> 
+      <field column="price" name="product_price"/> 
+      <field column="description" name="product_description"/> 
+      <field column="picture" name="product_picture"/> 
+  </entity>   
+  </document>
+
+</dataConfig>
