@@ -53,6 +53,6 @@ public interface SessionCRUDMapper {
 	 * @return 受影响行数
 	 * @Date 2018年8月24日 下午5:15:35
 	 */
-	@Delete("delete from sessions where jsessionid=?")
+	@Delete("delete from sessions where jsessionid=#{jsessionId}")
 	int doDelete(@Param("jsessionId") String jsessionId);
 }
