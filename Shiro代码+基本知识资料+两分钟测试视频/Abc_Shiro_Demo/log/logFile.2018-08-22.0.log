@@ -1,0 +1,12 @@
+00:39:14.395 [main] INFO  com.AbcShiroDemoApplication:50- Starting AbcShiroDemoApplication on dengshuai with PID 12024 (E:\Java\demo\Abc_Shiro_Demo\target\classes started by JustryDeng in E:\Java\demo\Abc_Shiro_Demo)
+00:39:14.397 [main] DEBUG com.AbcShiroDemoApplication:53- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+00:39:14.398 [main] INFO  com.AbcShiroDemoApplication:662- No active profile set, falling back to default profiles: default
+00:39:15.867 [main] INFO  com.AbcShiroDemoApplication:59- Started AbcShiroDemoApplication in 1.776 seconds (JVM running for 2.246)
+01:04:04.071 [main] INFO  com.AbcShiroDemoApplication:50- Starting AbcShiroDemoApplication on dengshuai with PID 8924 (E:\Java\demo\Abc_Shiro_Demo\target\classes started by JustryDeng in E:\Java\demo\Abc_Shiro_Demo)
+01:04:04.074 [main] DEBUG com.AbcShiroDemoApplication:53- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+01:04:04.075 [main] INFO  com.AbcShiroDemoApplication:662- No active profile set, falling back to default profiles: default
+01:04:05.534 [main] INFO  com.AbcShiroDemoApplication:59- Started AbcShiroDemoApplication in 1.673 seconds (JVM running for 2.157)
+09:26:51.965 [main] INFO  com.AbcShiroDemoApplication:50- Starting AbcShiroDemoApplication on dengshuai with PID 9540 (E:\Java\demo\Abc_Shiro_Demo\target\classes started by JustryDeng in E:\Java\demo\Abc_Shiro_Demo)
+09:26:51.967 [main] DEBUG com.AbcShiroDemoApplication:53- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+09:26:51.968 [main] INFO  com.AbcShiroDemoApplication:662- No active profile set, falling back to default profiles: default
+09:26:53.490 [main] INFO  com.AbcShiroDemoApplication:59- Started AbcShiroDemoApplication in 1.737 seconds (JVM running for 2.189)

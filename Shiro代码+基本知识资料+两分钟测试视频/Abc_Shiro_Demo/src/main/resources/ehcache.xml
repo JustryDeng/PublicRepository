@@ -1,0 +1,57 @@
+<ehcache>
+  
+    <diskStore path="java.io.temp"/>
+    
+    <cache name="authorizationCache"
+           maxElementsInMemory="1000"
+           eternal="false"
+           timeToIdleSeconds="3600"
+           timeToLiveSeconds="0"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+
+    <cache name="authenticationCache"
+           maxElementsInMemory="1000"
+           eternal="false"
+           timeToIdleSeconds="3600"
+           timeToLiveSeconds="0"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+
+    <cache name="shiro-activeSessionCache"
+           maxElementsInMemory="10000"
+           eternal="false"
+           timeToIdleSeconds="3600"
+           timeToLiveSeconds="0"
+           overflowToDisk="false"
+           statistics="true">
+    </cache>
+
+ 
+    <defaultCache
+        maxElementsInMemory="10000"
+        eternal="false"
+        timeToIdleSeconds="3600"
+        timeToLiveSeconds="0"
+        overflowToDisk="true"
+        />
+
+   <cache name="sampleCache1"
+        maxElementsInMemory="10000"
+        eternal="false"
+        timeToIdleSeconds="300"
+        timeToLiveSeconds="600"
+        overflowToDisk="true"
+        />
+
+    <cache name="sampleCache2"
+        maxElementsInMemory="1000"
+        eternal="true"
+        timeToIdleSeconds="0"
+        timeToLiveSeconds="0"
+        overflowToDisk="false"
+        />   
+
+</ehcache>
