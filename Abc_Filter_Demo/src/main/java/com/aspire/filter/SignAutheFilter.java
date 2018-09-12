@@ -66,8 +66,10 @@ public class SignAutheFilter implements Filter {
 			 * 读取请求体中的数据(字符串形式)
 			 * 注:由于同一个流不能读取多次;如果在这里读取了请求体中的数据,那么@RequestBody中就不能读取到了
 			 *    会抛出异常并提示getReader() has already been called for this request
-			 * 解决办法:先将读取出来的流数据存起来,然后在以流的方式写入,这里我们借助HttpServletRequestWrapper类
-			 *      注:此办法涉及到流的读写、耗性能;
+			 * 解决办法:先将读取出来的流数据存起来作为一个常量属性.然后每次读的时候,都需要先将这个属性值写入,再读出.
+			 *        即每次获取的其实是不同的流,但是获取到的数据都是一样的.
+			 *        这里我们借助HttpServletRequestWrapper类来实现
+			 *      注:此方法涉及到流的读写、耗性能;
 			 */
 			MyRequestWrapper mrw = new MyRequestWrapper(request);
 			String bodyString = mrw.getBody();
@@ -120,7 +122,7 @@ public class SignAutheFilter implements Filter {
 }
 
 /**
- * 辅助类 ---> 变相使得可以多次读取流数据
+ * 辅助类 ---> 变相使得可以多次通过(不同)流读取相同数据
  *
  * @author JustryDeng
  * @DATE 2018年9月11日 下午7:13:52
