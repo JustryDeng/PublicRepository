@@ -56,29 +56,16 @@ public class SignAutheFilter implements Filter {
 		try {
 			String authorization = request.getHeader("Authorization");
 			logger.info("getted Authorization is ---> " + authorization);
-			String[] info = authorization.split(",");
 
 			// 获取客户端ip
 			String ip = IpUtil.getIpAddr(request);
 			logger.info("getted ip is ---> " + ip);
-			
-			/* 
-			 * 读取请求体中的数据(字符串形式)
-			 * 注:由于同一个流不能读取多次;如果在这里读取了请求体中的数据,那么@RequestBody中就不能读取到了
-			 *    会抛出异常并提示getReader() has already been called for this request
-			 * 解决办法:先将读取出来的流数据存起来作为一个常量属性.然后每次读的时候,都需要先将这个属性值写入,再读出.
-			 *        即每次获取的其实是不同的流,但是获取到的数据都是一样的.
-			 *        这里我们借助HttpServletRequestWrapper类来实现
-			 *      注:此方法涉及到流的读写、耗性能;
-			 */
-			MyRequestWrapper mrw = new MyRequestWrapper(request);
-			String bodyString = mrw.getBody();
-			logger.info("getted requestbody data is ---> " + bodyString);
-			
+		
 			// 获取几个相关的字符
 			// 由于authorization类似于
 			// cardid="1234554321",timestamp="9897969594",signature="a69eae32a0ec746d5f6bf9bf9771ae36"
 			// 这样的,所以逻辑是下面这样的
+			String[] info = authorization.split(",");
 			int cardidIndex = info[0].indexOf("=") + 2;
 			String cardid = info[0].substring(cardidIndex, info[0].length() - 1);
 			logger.info("cardid is ---> " + cardid);
@@ -86,10 +73,33 @@ public class SignAutheFilter implements Filter {
 			String timestamp = info[1].substring(timestampIndex, info[1].length() - 1);
 			int signatureIndex = info[2].indexOf("=") + 2;
 			String signature = info[2].substring(signatureIndex, info[2].length() - 1);
-			String tmptString = MDUtils.MD5EncodeForHex(timestamp + secret + bodyString, "UTF-8")
-					                .toUpperCase();
-			logger.info("getted ciphertext is ---> {}, correct ciphertext is ---> {}", 
-					       signature , tmptString);
+			
+			// 判断是否为https请求
+			String requestURL = request.getRequestURL().toString();
+	        String protocol = requestURL.split("://")[0];
+	        logger.info("request protocol is ---> {}", protocol);
+	        String tmptString = null;
+	        MyRequestWrapper mrw = null;
+	        if ("https".equals(protocol)) {
+	        	tmptString = MDUtils.MD5EncodeForHex(timestamp + secret, "UTF-8").toUpperCase();
+	        }else {
+				/* 
+				 * 读取请求体中的数据(字符串形式)
+				 * 注:由于同一个流不能读取多次;如果在这里读取了请求体中的数据,那么@RequestBody中就不能读取到了
+				 *    会抛出异常并提示getReader() has already been called for this request
+				 * 解决办法:先将读取出来的流数据存起来作为一个常量属性.然后每次读的时候,都需要先将这个属性值写入,再读出.
+				 *        即每次获取的其实是不同的流,但是获取到的数据都是一样的.
+				 *        这里我们借助HttpServletRequestWrapper类来实现
+				 *      注:此方法涉及到流的读写、耗性能; 
+				 */
+				mrw = new MyRequestWrapper(request);
+				String bodyString = mrw.getBody();
+				logger.info("getted requestbody data is ---> " + bodyString);
+				tmptString = MDUtils.MD5EncodeForHex(timestamp + secret + bodyString, "UTF-8")
+						                .toUpperCase();
+	        }
+	        logger.info("getted ciphertext is ---> {}, correct ciphertext is ---> {}", 
+	        		signature , tmptString);
 
 			// 判断该ip是否合法
 			boolean containIp = false;
@@ -104,7 +114,7 @@ public class SignAutheFilter implements Filter {
 			boolean couldPass = containIp && tmptString.equals(signature);
 			if (couldPass) {
 				// 放行
-				chain.doFilter(mrw, response);
+				chain.doFilter(mrw == null ? request : mrw, response);
 				return;
 			}
 			response.sendError(403, "Forbidden");
