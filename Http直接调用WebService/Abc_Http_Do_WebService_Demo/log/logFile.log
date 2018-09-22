@@ -1,0 +1,355 @@
+2018 九月 22 10:16:55.931 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 9716 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:16:55.936 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:16:55.938 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:16:56.900 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.585 seconds (JVM running for 3.61)
+2018 九月 22 10:19:45.855 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 144 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:19:45.857 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:19:45.859 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:19:46.606 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.065 seconds (JVM running for 1.903)
+2018 九月 22 10:21:53.567 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 2040 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:21:53.569 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:21:53.571 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:21:54.266 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.017 seconds (JVM running for 1.841)
+2018 九月 22 10:24:56.660 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 6280 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:24:56.662 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:24:56.663 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:24:57.401 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.077 seconds (JVM running for 1.915)
+2018 九月 22 10:27:52.459 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 7828 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:27:52.461 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:27:52.463 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:27:53.279 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.124 seconds (JVM running for 1.956)
+2018 九月 22 10:31:05.704 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 9004 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:31:05.706 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:31:05.708 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:31:06.656 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.279 seconds (JVM running for 2.147)
+2018 九月 22 10:31:36.430 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 14620 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:31:36.432 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:31:36.436 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:31:37.372 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.311 seconds (JVM running for 2.156)
+2018 九月 22 10:32:36.583 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 6180 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:32:36.586 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:32:36.588 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:32:37.616 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.381 seconds (JVM running for 3.224)
+2018 九月 22 10:33:05.965 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 2384 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:33:05.967 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:33:05.969 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:33:06.999 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.385 seconds (JVM running for 2.871)
+2018 九月 22 10:34:16.934 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 13800 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:34:16.936 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:34:16.938 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:34:17.765 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.143 seconds (JVM running for 1.985)
+2018 九月 22 10:34:27.369 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 8452 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:34:27.371 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:34:27.373 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:34:28.369 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.355 seconds (JVM running for 2.404)
+2018 九月 22 10:34:59.681 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 7164 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:34:59.683 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:34:59.684 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:35:00.697 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.367 seconds (JVM running for 2.475)
+2018 九月 22 10:35:44.933 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 5212 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:35:44.935 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:35:44.937 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:35:45.915 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.329 seconds (JVM running for 2.445)
+2018 九月 22 10:37:06.661 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 10508 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:37:06.663 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:37:06.665 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:37:07.588 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.261 seconds (JVM running for 2.397)
+2018 九月 22 10:42:27.916 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 2884 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 10:42:27.918 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 10:42:27.921 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 10:42:28.912 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.535 seconds (JVM running for 3.232)
+2018 九月 22 11:09:24.389 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 3604 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 11:09:24.391 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 11:09:24.393 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 11:09:25.210 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.143 seconds (JVM running for 2.02)
+2018 九月 22 11:10:03.772 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 11016 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 11:10:03.774 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 11:10:03.776 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 11:10:04.567 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 1.115 seconds (JVM running for 1.944)
+2018 九月 22 11:47:32.607 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 2228 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 11:47:32.608 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 11:47:32.611 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 11:49:03.075 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 5896 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 11:49:03.078 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 11:49:03.082 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 11:50:26.188 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 7000 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 11:50:26.190 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 11:50:26.192 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 11:53:00.266 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 10780 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 11:53:00.268 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 11:53:00.271 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 11:53:53.131 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 5176 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 11:53:53.133 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 11:53:53.135 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 11:54:07.423 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 8952 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 11:54:07.425 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 11:54:07.427 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 11:54:09.738 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.646 seconds (JVM running for 3.517)
+2018 九月 22 11:55:19.948 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 2076 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 11:55:19.950 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 11:55:19.952 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 11:55:22.271 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.659 seconds (JVM running for 3.518)
+2018 九月 22 12:01:58.215 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 13164 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:01:58.217 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:01:58.220 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 12:02:00.884 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 3.002 seconds (JVM running for 3.854)
+2018 九月 22 12:12:05.087 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 8652 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:12:05.089 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:12:05.091 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 12:12:07.309 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.558 seconds (JVM running for 3.426)
+2018 九月 22 12:15:35.678 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 14392 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:15:35.680 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:15:35.681 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 12:15:37.955 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.611 seconds (JVM running for 3.473)
+2018 九月 22 12:16:55.472 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 10980 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:16:55.474 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:16:55.476 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 12:16:57.803 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.655 seconds (JVM running for 3.514)
+2018 九月 22 12:26:11.573 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 6944 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:26:11.574 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:26:11.577 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 12:26:13.936 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.693 seconds (JVM running for 3.543)
+2018 九月 22 12:26:35.367 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 14076 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:26:35.369 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:26:35.372 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 12:26:37.684 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.656 seconds (JVM running for 3.521)
+2018 九月 22 12:27:01.310 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 10532 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:27:01.311 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:27:01.314 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 12:27:03.730 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.778 seconds (JVM running for 3.662)
+2018 九月 22 12:28:54.043 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 5420 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:28:54.045 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:28:54.047 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 12:28:56.408 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.703 seconds (JVM running for 3.538)
+2018 九月 22 12:29:21.381 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 14104 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:29:21.382 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:29:21.384 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 12:29:23.675 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.636 seconds (JVM running for 3.511)
+2018 九月 22 12:30:10.363 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 6560 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:30:10.365 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:30:10.367 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 12:30:12.718 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.705 seconds (JVM running for 3.578)
+2018 九月 22 12:41:27.170 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 15720 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:41:27.171 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:41:27.173 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 12:41:29.427 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.601 seconds (JVM running for 3.445)
+2018 九月 22 12:41:49.107 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 12280 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:41:49.108 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:41:49.111 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 12:41:51.595 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.861 seconds (JVM running for 3.702)
+2018 九月 22 12:42:20.757 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 2924 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:42:20.758 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:42:20.760 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 12:42:23.063 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.642 seconds (JVM running for 3.507)
+2018 九月 22 12:47:21.938 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 4084 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:47:21.941 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:47:21.942 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 12:47:24.622 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 3.088 seconds (JVM running for 3.913)
+2018 九月 22 12:48:01.682 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 13220 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:48:01.686 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:48:01.687 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 12:48:04.110 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.817 seconds (JVM running for 3.638)
+2018 九月 22 12:48:17.058 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 1032 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:48:17.062 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:48:17.062 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 12:48:19.598 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.968 seconds (JVM running for 3.787)
+2018 九月 22 12:48:31.215 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 12120 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:48:31.219 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:48:31.220 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 12:48:33.689 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.908 seconds (JVM running for 3.735)
+2018 九月 22 12:52:22.346 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 14320 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:52:22.351 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:52:22.352 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 12:52:24.891 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 3.248 seconds (JVM running for 4.772)
+2018 九月 22 12:52:58.108 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 8580 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:52:58.112 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:52:58.113 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 12:53:00.548 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.88 seconds (JVM running for 3.77)
+2018 九月 22 12:53:13.002 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 7124 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:53:13.005 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:53:13.006 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 12:53:15.456 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.881 seconds (JVM running for 3.747)
+2018 九月 22 12:54:26.949 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 7028 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:54:26.954 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:54:26.954 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 12:54:29.462 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.934 seconds (JVM running for 3.805)
+2018 九月 22 12:58:59.771 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 8284 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:58:59.774 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:58:59.775 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 12:59:02.154 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.785 seconds (JVM running for 3.65)
+2018 九月 22 12:59:33.704 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 4016 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 12:59:33.707 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 12:59:33.708 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 12:59:36.085 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.782 seconds (JVM running for 3.677)
+2018 九月 22 13:02:17.553 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 15656 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:02:17.558 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:02:17.559 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:02:20.150 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 3.014 seconds (JVM running for 3.889)
+2018 九月 22 13:03:28.370 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 9916 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:03:28.374 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:03:28.375 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:03:30.839 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.91 seconds (JVM running for 3.784)
+2018 九月 22 13:26:06.517 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 7224 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:26:06.521 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:26:06.522 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:26:09.025 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.94 seconds (JVM running for 3.866)
+2018 九月 22 13:26:25.569 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 12384 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:26:25.572 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:26:25.573 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:26:27.976 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.822 seconds (JVM running for 3.687)
+2018 九月 22 13:26:39.000 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 1700 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:26:39.003 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:26:39.005 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:26:41.415 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.83 seconds (JVM running for 3.683)
+2018 九月 22 13:33:49.610 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 1316 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:33:49.614 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:33:49.615 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:33:52.504 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 3.412 seconds (JVM running for 4.774)
+2018 九月 22 13:34:11.800 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 14440 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:34:11.805 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:34:11.806 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:34:15.441 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 4.363 seconds (JVM running for 5.95)
+2018 九月 22 13:46:13.475 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 13876 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:46:13.481 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:46:13.483 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:46:16.755 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 3.811 seconds (JVM running for 5.325)
+2018 九月 22 13:46:39.917 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 2076 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:46:39.923 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:46:39.925 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:46:43.431 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 4.076 seconds (JVM running for 5.695)
+2018 九月 22 13:48:52.809 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 11052 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:48:52.814 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:48:52.815 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:48:55.898 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 3.643 seconds (JVM running for 4.771)
+2018 九月 22 13:50:41.970 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 15540 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:50:41.975 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:50:41.975 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:50:44.854 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 3.401 seconds (JVM running for 4.55)
+2018 九月 22 13:51:46.084 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 6412 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:51:46.088 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:51:46.089 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:51:49.011 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 3.41 seconds (JVM running for 4.505)
+2018 九月 22 13:52:00.223 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 11404 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:52:00.228 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:52:00.229 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:52:03.051 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 3.444 seconds (JVM running for 4.654)
+2018 九月 22 13:52:29.729 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 10196 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:52:29.733 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:52:29.734 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:52:32.674 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 3.419 seconds (JVM running for 4.794)
+2018 九月 22 13:52:53.640 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 5372 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:52:53.644 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:52:53.645 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:52:56.454 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 3.301 seconds (JVM running for 4.579)
+2018 九月 22 13:55:04.815 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 10816 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:55:04.818 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:55:04.819 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:55:07.669 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 3.34 seconds (JVM running for 4.476)
+2018 九月 22 13:56:11.653 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 4044 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:56:11.656 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:56:11.657 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:56:13.730 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.38 seconds (JVM running for 3.042)
+2018 九月 22 13:56:37.111 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 6060 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:56:37.121 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:56:37.123 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:56:39.266 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.506 seconds (JVM running for 3.193)
+2018 九月 22 13:57:30.794 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 1200 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:57:30.796 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:57:30.797 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:57:33.042 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.591 seconds (JVM running for 3.298)
+2018 九月 22 13:58:03.938 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 14920 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 13:58:03.941 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 13:58:03.941 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 13:58:06.161 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.589 seconds (JVM running for 3.266)
+2018 九月 22 14:00:31.101 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 928 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 14:00:31.103 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 14:00:31.104 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 14:00:33.185 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.437 seconds (JVM running for 3.101)
+2018 九月 22 14:03:47.145 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 13996 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 14:03:47.148 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 14:03:47.149 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 14:03:49.266 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.484 seconds (JVM running for 3.14)
+2018 九月 22 14:04:15.544 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 7700 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 14:04:15.547 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 14:04:15.548 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 14:04:17.688 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.519 seconds (JVM running for 3.183)
+2018 九月 22 14:05:08.154 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 9680 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 14:05:08.157 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 14:05:08.158 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 14:05:10.243 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.412 seconds (JVM running for 3.064)
+2018 九月 22 14:12:39.936 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 10676 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 14:12:39.939 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 14:12:39.939 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 14:12:42.142 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.581 seconds (JVM running for 3.272)
+2018 九月 22 14:12:59.072 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 16048 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 14:12:59.075 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 14:12:59.075 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 14:13:01.269 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.621 seconds (JVM running for 3.307)
+2018 九月 22 18:43:45.474 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 7124 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 18:43:45.476 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 18:43:45.477 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 18:43:47.575 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.469 seconds (JVM running for 3.171)
+2018 九月 22 20:45:21.934 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 5904 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 20:45:21.937 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 20:45:21.938 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 20:45:24.054 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.491 seconds (JVM running for 3.209)
+2018 九月 22 20:46:24.698 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 2192 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 20:46:24.702 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 20:46:24.703 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 20:46:27.025 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.654 seconds (JVM running for 3.34)
+2018 九月 22 21:21:07.734 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 8804 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 21:21:07.737 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 21:21:07.738 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 21:21:09.737 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.34 seconds (JVM running for 3.027)
+2018 九月 22 21:21:31.250 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 1636 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 21:21:31.253 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 21:21:31.254 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 21:21:33.347 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.424 seconds (JVM running for 3.099)
+2018 九月 22 21:25:41.071 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 14612 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 21:25:41.075 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 21:25:41.076 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 21:25:43.191 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.481 seconds (JVM running for 3.202)
+2018 九月 22 21:26:02.857 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 8836 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 21:26:02.861 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 21:26:02.862 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 21:26:05.472 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.986 seconds (JVM running for 4.37)
+2018 九月 22 21:35:24.846 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 6320 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 21:35:24.851 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 21:35:24.852 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 21:35:27.888 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 3.423 seconds (JVM running for 4.422)
+2018 九月 22 21:36:57.661 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 14964 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 21:36:57.665 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 21:36:57.666 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 21:37:00.224 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.965 seconds (JVM running for 3.932)
+2018 九月 22 21:45:28.337 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 460 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 21:45:28.339 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 21:45:28.340 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 21:45:30.496 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.49 seconds (JVM running for 3.174)
+2018 九月 22 22:26:19.135 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 6080 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 22:26:19.138 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 22:26:19.139 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 22:26:21.215 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.41 seconds (JVM running for 3.082)
+2018 九月 22 22:27:13.130 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 9292 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 22:27:13.134 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 22:27:13.135 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 22:27:15.297 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.545 seconds (JVM running for 3.217)
+2018 九月 22 22:35:47.270 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 10816 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Axis2_Demo)
+2018 九月 22 22:35:47.272 [main] DEBUG com.AbcAxis2DemoApplicationTests:99- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 22:35:47.273 [main] INFO  com.AbcAxis2DemoApplicationTests:99- No active profile set, falling back to default profiles: default
+2018 九月 22 22:35:49.349 [main] INFO  com.AbcAxis2DemoApplicationTests:99- Started AbcAxis2DemoApplicationTests in 2.418 seconds (JVM running for 3.118)
+2018 九月 22 22:46:08.987 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 15348 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Http_Do_WebService_Demo)
+2018 九月 22 22:46:08.990 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 22:46:08.992 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 22:46:11.145 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.498 seconds (JVM running for 3.219)
+2018 九月 22 22:48:30.656 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 11144 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Http_Do_WebService_Demo)
+2018 九月 22 22:48:30.658 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 22:48:30.661 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 22:48:32.929 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.661 seconds (JVM running for 3.389)
+2018 九月 22 22:53:25.492 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 14696 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Http_Do_WebService_Demo)
+2018 九月 22 22:53:25.494 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 22:53:25.496 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 22:53:26.147 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 0.941 seconds (JVM running for 1.66)
+2018 九月 22 23:27:16.906 [main] INFO  com.AbcAxis2DemoApplicationTests:50- Starting AbcAxis2DemoApplicationTests on JustryDeng with PID 11648 (started by JustryDeng in E:\Java\aspire\intermediateNumber\Abc_Http_Do_WebService_Demo)
+2018 九月 22 23:27:16.908 [main] DEBUG com.AbcAxis2DemoApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2018 九月 22 23:27:16.911 [main] INFO  com.AbcAxis2DemoApplicationTests:680- No active profile set, falling back to default profiles: default
+2018 九月 22 23:27:19.135 [main] INFO  com.AbcAxis2DemoApplicationTests:59- Started AbcAxis2DemoApplicationTests in 2.614 seconds (JVM running for 3.344)
