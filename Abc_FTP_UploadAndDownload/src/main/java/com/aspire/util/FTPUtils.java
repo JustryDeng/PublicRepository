@@ -39,7 +39,9 @@ public class FTPUtils {
     
     /**
      * 命令 语句 编码(控制发出去的命令的编码) 
-     * 如:在删除时,发出去的指令由于此处的编码不对应的原因,乱码了;导致删除失败
+     * 如:在删除时,发出去的指令由于此处的编码不对应的原因,乱码了;(找不到目标文件)导致删除失败
+     * 如:在下载时,发出去的指令由于此处的编码不对应的原因,乱码了;(找不到目标文件)导致下载失败
+     * 如:在上传时,发出去的指令由于此处的编码不对应的原因,乱码了;导致上传到FTP的文件的文件名乱码
      *                
      * 注:根据不同的(Server/Client)情况,这里灵活设置
      */
@@ -117,6 +119,21 @@ public class FTPUtils {
 		    this.transportFileType = transportFileType;
 		}
 	}
+	
+	/** 
+	 * FTP的上传、下载、删除,底层还是 发送得命令语句; 这里就设置发送的命令语句的编码
+	 * 如:在删除时,发出去的指令由于此处的编码不对应的原因,乱码了;(找不到目标文件)导致删除失败
+	 * 如:在下载时,发出去的指令由于此处的编码不对应的原因,乱码了;(找不到目标文件)导致下载失败
+	 * 如:在上传时,发出去的指令由于此处的编码不对应的原因,乱码了;导致上传到FTP的文件的文件名乱码
+	 * 
+	 *  Saves the character encoding to be used by the FTP control connection.
+	 *  Some FTP servers require that commands be issued in a non-ASCII
+	 *  encoding like UTF-8 so that filenames with multi-byte character
+	 *  representations (e.g, Big 8) can be specified.
+	 */
+	public void setSendCommandStringEncoding(String sendCommandStringEncoding) {
+		this.sendCommandStringEncoding = sendCommandStringEncoding;
+	}
 
 	/**
      * @param hostname
@@ -129,19 +146,6 @@ public class FTPUtils {
     public static FTPUtils getFTPUtilsInstance(String hostname, Integer port) {
     	return getFTPUtilsInstance(hostname, port, null, null);
     }
-    
-
-   /** 
-    * FTP的上传、下载、删除,底层还是 发送得命令语句; 这里就设置发送的命令语句的编码
-    * 
-    *  Saves the character encoding to be used by the FTP control connection.
-    *  Some FTP servers require that commands be issued in a non-ASCII
-    *  encoding like UTF-8 so that filenames with multi-byte character
-    *  representations (e.g, Big 8) can be specified.
-    */
-	public void setSendCommandStringEncoding(String sendCommandStringEncoding) {
-		this.sendCommandStringEncoding = sendCommandStringEncoding;
-	}
 
 	/**
      * @param hostname
@@ -234,6 +238,9 @@ public class FTPUtils {
     /**
      * 从FTP下载文件
      * 注:如果remoteDirOrRemoteFile不存在,再不会下载下来任何东西
+     * 注:如果remoteDirOrRemoteFile不存在,localDir也不存在;再不会下载下来任何东西,
+     *    也不会在本地创建localDir目录
+     * 提示:此处代码由于把无后缀名文件也考虑在内了,所以代码略显冗余;后期有时间我会进行优化
      *
      * @param remoteDirOrRemoteFile
      *            FTP中的某一个目录(此时下载该目录下的所有文件,该目录下的文件夹不会被下载); 
@@ -248,21 +255,57 @@ public class FTPUtils {
      * @DATE 2018年9月26日 下午7:24:11
      */
     public int downloadFile(String remoteDirOrRemoteFile, String localDir) throws IOException{ 
-    	//如果文件夹不存在则创建    
-    	File localfile = new File(localDir);
-    	if (!localfile.exists()) {
-    		System.out.println(" " + localDir + "is not exist, create this Dir!");
-			localfile.mkdir();
-    	}
         int successSum = 0; 
         int failSum = 0; 
         OutputStream os=null;
+        // 这里先根据本地目录创建一个File实例,下面再根据是否有下载的文件,来判断(如果此目录不存在的话则创建此目录)
+        File localFileDir = new File(localDir);
         try { 
             initFtpClient();
             // 根据remoteDirOrRemoteFile是文件还是目录,来切换changeWorkingDirectory
             if(remoteDirOrRemoteFile.lastIndexOf(".") < 0) {
 	            // 切换至要下载的文件所在的目录,否者下载下来的文件大小为0
-	            ftpClient.changeWorkingDirectory(remoteDirOrRemoteFile);
+	            boolean flag = ftpClient.changeWorkingDirectory(remoteDirOrRemoteFile);
+            	// 不排除那些 没有后缀名的文件 存在的可能;
+            	// 如果切换至该目录失败,那么其可能是没有后缀名的文件,那么尝试着下载该文件
+            	if (!flag) {
+            		String tempWorkingDirectory = "";
+            		String tempTargetFileName = "";
+            		int index = remoteDirOrRemoteFile.lastIndexOf("/");
+            		tempTargetFileName = remoteDirOrRemoteFile.substring(index + 1);
+            		if(tempTargetFileName.length() > 0) {
+	            		if (index > 0) {
+	                		tempWorkingDirectory = remoteDirOrRemoteFile.substring(0, index);
+	                	}else {
+	                		tempWorkingDirectory = "/";
+	                	}
+	            		ftpClient.changeWorkingDirectory(tempWorkingDirectory);
+	            		// 获取tempWorkingDirectory目录下所有 文件以及文件夹   或  获取指定的文件
+	                    FTPFile[] ftpFiles = ftpClient.listFiles(tempWorkingDirectory);
+	                    for(FTPFile file : ftpFiles){ 
+	                    	// 如果是文件夹,那么不下载 (因为:直接下载文件夹的话,是无效文件)
+	                    	if(!tempTargetFileName.equals(file.getName())) {
+	                    		continue;
+	                    	}
+	                    	String name = new String(file.getName().getBytes(this.downfileNameEncodingParam1), 
+	                    			                 this.downfileNameDecodingParam2);
+	                    	//如果文件夹不存在则创建    
+	                    	if (!localFileDir.exists()) {
+	                    		System.out.println(" " + localFileDir + " is not exist, create this Dir!");
+	                    		localFileDir.mkdir();
+	                    	}
+	                        File localFile = new File(localDir + "/" + name); 
+	                        os = new FileOutputStream(localFile); 
+	                        boolean result = ftpClient.retrieveFile(file.getName(), os); 
+	                        if (result) {
+	                            successSum++;
+	                        } else {
+	                        	failSum++;
+	                        }
+	                        System.out.println(" already success download item count ---> " + successSum);
+	                    } 
+            		}
+            	}
             }else {
             	String tempWorkingDirectory = "";
             	int index = remoteDirOrRemoteFile.lastIndexOf("/");
@@ -283,6 +326,12 @@ public class FTPUtils {
             	}
             	String name = new String(file.getName().getBytes(this.downfileNameEncodingParam1), 
             			                 this.downfileNameDecodingParam2);
+            	System.out.println( " ---> " + name);
+            	//如果文件夹不存在则创建    
+            	if (!localFileDir.exists()) {
+            		System.out.println(" " + localFileDir + " is not exist, create this Dir!");
+            		localFileDir.mkdir();
+            	}
                 File localFile = new File(localDir + "/" + name); 
                 os = new FileOutputStream(localFile); 
                 boolean result = ftpClient.retrieveFile(file.getName(), os); 
@@ -371,7 +420,7 @@ public class FTPUtils {
             if(deletedBlankDirOrFile.lastIndexOf(".") < 0) {
 	            // 出于保护机制:如果当前文件夹中是空的,那么才能删除成功
             	flag = ftpClient.removeDirectory(deletedBlankDirOrFile);
-            	// 不排除哪些 没有后缀名的文件 存在的可能;
+            	// 不排除那些 没有后缀名的文件 存在的可能;
             	// 如果删除空文件夹失败,那么其可能是没有后缀名的文件,那么尝试着删除文件
             	if (!flag) {
             		flag = ftpClient.deleteFile(deletedBlankDirOrFile);
