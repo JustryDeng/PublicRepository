@@ -326,7 +326,6 @@ public class FTPUtils {
             	}
             	String name = new String(file.getName().getBytes(this.downfileNameEncodingParam1), 
             			                 this.downfileNameDecodingParam2);
-            	System.out.println( " ---> " + name);
             	//如果文件夹不存在则创建    
             	if (!localFileDir.exists()) {
             		System.out.println(" " + localFileDir + " is not exist, create this Dir!");
