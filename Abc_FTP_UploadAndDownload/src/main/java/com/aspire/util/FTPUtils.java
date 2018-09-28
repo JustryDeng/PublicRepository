@@ -177,20 +177,31 @@ public class FTPUtils {
         System.out.println(" FTPUtils -> connecting FTPServer -> " + this.hostname + ":" + this.port); 
         // 连接ftp服务器
         ftpClient.connect(hostname, port);
-        if(username != null && password != null) {
-        	//登录ftp服务器
-            ftpClient.login(username, password); 
-        }
-        // 设置文件传输形式
-        ftpClient.setFileType(transportFileType);
         // Returns the integer value of the reply code of the last FTP reply.
         int replyCode = ftpClient.getReplyCode(); 
-        // Determine if a reply code is a positive completion response.
         if(FTPReply.isPositiveCompletion(replyCode)){
-        	System.out.println(" FTPUtils -> connect FTPServer success!"); 
+        	System.out.println(" FTPUtils -> Connection is opened --- success !"); 
         } else {
-        	System.err.println(" FTPUtils -> connect FTPServer fail!"); 
+        	System.err.println(" FTPUtils -> Connection is not open --- fail !"); 
         }
+        
+        // ip,端口没问题,连接成功后;如果连接FTP需要账号密码的话,还需要进行登录
+        if(username != null && password != null) {
+        	//登录ftp服务器
+            boolean isLogined = ftpClient.login(username, password); 
+            if (isLogined) {
+            	System.out.println(" FTPUtils -> " + username + " login success !");
+            } else {
+            	System.err.println(" FTPUtils -> " + username + " login fail ! "
+            			               + "Please check your Account and Password");
+            }
+        } else {
+        	System.out.println(" FTPUtils -> login Success if "
+        			                + "FTPServer settings doesn't need Account Password!");
+        }
+        
+        // 设置文件传输形式
+        ftpClient.setFileType(transportFileType);
     }
 
     /**
