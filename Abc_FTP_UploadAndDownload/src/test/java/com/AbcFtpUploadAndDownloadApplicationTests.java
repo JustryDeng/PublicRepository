@@ -15,7 +15,7 @@ public class AbcFtpUploadAndDownloadApplicationTests {
 //	 */
 //	public static void main(String[] args) throws IOException {
 //		/// 基本配置
-//		FTPUtils ftpUtils = FTPUtils.getFTPUtilsInstance("10.2.6.16", 22, "miduser", "mid*2018");
+//		FTPUtils ftpUtils = FTPUtils.getFTPUtilsInstance("10.2.6.16", 22, "用户名", "密码");
 //		// 注:根据不同的(Server/Client)情况,这里灵活设置
 //		//    编码不对可能导致文件删除失败
 //		ftpUtils.setSendCommandStringEncoding("GBK");
@@ -32,7 +32,7 @@ public class AbcFtpUploadAndDownloadApplicationTests {
 //	 */
 //	public static void main(String[] args) throws IOException {
 //		/// 基本配置
-//		FTPUtils ftpUtils = FTPUtils.getFTPUtilsInstance("10.2.6.16", 22, "miduser", "mid*2018");
+//		FTPUtils ftpUtils = FTPUtils.getFTPUtilsInstance("10.2.6.16", 22, "用户名", "密码");
 //		// 注:根据不同的(Server/Client)情况,这里灵活设置
 //		//    编码不对可能导致文件删除失败
 //		ftpUtils.setSendCommandStringEncoding("GBK");
@@ -49,7 +49,7 @@ public class AbcFtpUploadAndDownloadApplicationTests {
 //	 */
 //	public static void main(String[] args) throws IOException {
 //		/// 基本配置
-//		FTPUtils ftpUtils = FTPUtils.getFTPUtilsInstance("10.2.6.16", 22, "miduser", "mid*2018");
+//		FTPUtils ftpUtils = FTPUtils.getFTPUtilsInstance("10.2.6.16", 22, "用户名", "密码");
 //		// 注:根据不同的(Server/Client)情况,这里灵活设置;
 //		ftpUtils.setSendCommandStringEncoding("ISO-8859-1");
 //		// 注:根据不同的(Server/Client)情况,这里灵活设置
@@ -69,7 +69,7 @@ public class AbcFtpUploadAndDownloadApplicationTests {
 //	 */
 //	public static void main(String[] args) throws IOException {
 //		/// 基本配置
-//		FTPUtils ftpUtils = FTPUtils.getFTPUtilsInstance("10.2.6.16", 22, "miduser", "mid*2018");
+//		FTPUtils ftpUtils = FTPUtils.getFTPUtilsInstance("10.2.6.16", 22, "用户名", "密码");
 //		// 注:根据不同的(Server/Client)情况,这里灵活设置
 //		ftpUtils.setSendCommandStringEncoding("ISO-8859-1");
 //		// 注:根据不同的(Server/Client)情况,这里灵活设置
@@ -90,7 +90,7 @@ public class AbcFtpUploadAndDownloadApplicationTests {
 //	 */
 //	public static void main(String[] args) throws IOException {
 //		/// 基本配置
-//		FTPUtils ftpUtils = FTPUtils.getFTPUtilsInstance("10.2.6.16", 22, "miduser", "mid*2018");
+//		FTPUtils ftpUtils = FTPUtils.getFTPUtilsInstance("10.2.6.16", 22, "用户名", "密码");
 //		// 上传文件中有中文,这里设置为GBK
 //		// 注:根据不同的(Server/Client)情况,这里灵活设置
 //		ftpUtils.setSendCommandStringEncoding("GBK");

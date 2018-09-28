@@ -283,12 +283,13 @@ public class FTPUtils {
 	            		// 获取tempWorkingDirectory目录下所有 文件以及文件夹   或  获取指定的文件
 	                    FTPFile[] ftpFiles = ftpClient.listFiles(tempWorkingDirectory);
 	                    for(FTPFile file : ftpFiles){ 
-	                    	// 如果是文件夹,那么不下载 (因为:直接下载文件夹的话,是无效文件)
-	                    	if(!tempTargetFileName.equals(file.getName())) {
+	                    	String name = new String(file.getName().getBytes(this.downfileNameEncodingParam1), 
+	                    			this.downfileNameDecodingParam2);
+	                    	// 如果不是目标文件,那么不下载 
+	                    	if(!tempTargetFileName.equals(name)) {
+	                    		System.out.println(" FTPUtils -> a FTP File name is ---> " + name);
 	                    		continue;
 	                    	}
-	                    	String name = new String(file.getName().getBytes(this.downfileNameEncodingParam1), 
-	                    			                 this.downfileNameDecodingParam2);
 	                    	//如果文件夹不存在则创建    
 	                    	if (!localFileDir.exists()) {
 	                    		System.out.println(" " + localFileDir + " is not exist, create this Dir!");
@@ -305,6 +306,7 @@ public class FTPUtils {
 	                        System.out.println(" already success download item count ---> " + successSum);
 	                    } 
             		}
+            		return successSum;
             	}
             }else {
             	String tempWorkingDirectory = "";
@@ -324,13 +326,13 @@ public class FTPUtils {
             	if(file.isDirectory()) {
             		continue;
             	}
-            	String name = new String(file.getName().getBytes(this.downfileNameEncodingParam1), 
-            			                 this.downfileNameDecodingParam2);
             	//如果文件夹不存在则创建    
             	if (!localFileDir.exists()) {
             		System.out.println(" " + localFileDir + " is not exist, create this Dir!");
             		localFileDir.mkdir();
             	}
+            	String name = new String(file.getName().getBytes(this.downfileNameEncodingParam1), 
+            			this.downfileNameDecodingParam2);
                 File localFile = new File(localDir + "/" + name); 
                 os = new FileOutputStream(localFile); 
                 boolean result = ftpClient.retrieveFile(file.getName(), os); 
