@@ -42,20 +42,6 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- poi -->
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi</artifactId>
-			<version>3.17</version>
-		</dependency>
-
-		<!-- poi-ooxml -->
-		<dependency>
-			<groupId>org.apache.poi</groupId>
-			<artifactId>poi-ooxml</artifactId>
-			<version>3.17</version>
-		</dependency>
-
 		<!-- jxls-core -->
 		<dependency>
 			<groupId>net.sf.jxls</groupId>
