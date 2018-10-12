@@ -74,7 +74,7 @@ public class ExcelImportUtil {
                 System.out.println(" first row num is ---> " + sheet.getFirstRowNum());
                 System.out.println(" a total of ---> " + sheet.getPhysicalNumberOfRows());
                 int readRowCount;
-                // 要取的总列数设置
+                // 要读取的总行数设置
                 if (rowCount == null || rowCount > sheet.getPhysicalNumberOfRows()) {
                     // 总行数
                     readRowCount = sheet.getPhysicalNumberOfRows();
