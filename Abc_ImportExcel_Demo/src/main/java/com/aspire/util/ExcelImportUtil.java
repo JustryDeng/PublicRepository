@@ -1,6 +1,6 @@
 package com.aspire.util;
 
-import com.aspire.model.ExcelSheetVO;
+import org.apache.poi.hssf.usermodel.HSSFDateUtil;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -8,6 +8,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -25,6 +26,9 @@ public class ExcelImportUtil {
 
     /** EXCEL2007后缀名 */
     private final static String EXCEL_VERSION_2007_SUFFIX = "xlsx";
+
+    /** 日期格式 */
+    private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
     /**
      * excel读取
@@ -139,6 +143,12 @@ public class ExcelImportUtil {
             if (ct == CellType.STRING) {
                 value = cell.getStringCellValue();
             } else if (ct == CellType.NUMERIC) {
+                // 日期格式会被认为是数字(因为日期在导入时，会转化为1900年到该日期的天数)
+                // 这里我们先要判断是否为日期
+                if(HSSFDateUtil.isCellDateFormatted(cell)) {
+                    value = simpleDateFormat.format(cell.getDateCellValue());
+                    return value;
+                }
                 /*
                  * 如果是数字类型的;那么我们将其类型设置为String,再取值
                  *
