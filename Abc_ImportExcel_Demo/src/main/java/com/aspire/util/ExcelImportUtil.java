@@ -90,7 +90,7 @@ public class ExcelImportUtil {
                 int alreadyReadRowTotal = 0;
                 // 循环遍历sheet的每一行
                 // rowNum与index类似,从0开始(即: 0 对应第一行)
-                for (int j = sheet.getFirstRowNum(); alreadyReadRowTotal != readRowCount; j++) {
+                for (int j = sheet.getFirstRowNum(); alreadyReadRowTotal < readRowCount; j++) {
                     Row row = sheet.getRow(j);
                     if (row == null) {
                         System.out.println(" row = null ---> " + j);
@@ -114,7 +114,7 @@ public class ExcelImportUtil {
                         rowValue.add(getCellValue(cell));
                     }
                     dataList.add(rowValue);
-                    alreadyReadRowTotal = dataList.size();
+                    alreadyReadRowTotal++;
                 }
                 sheetList.add(excelSheetVO);
             }
