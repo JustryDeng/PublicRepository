@@ -107,7 +107,7 @@ public class ExcelImportUtil {
                     } else {
                         readColumnCount = columnCount;
                     }
-                    List<Object> rowValue = new LinkedList<>();
+                    List<Object> rowValue = new ArrayList<>();
                     // 解析sheet 的列
                     for (int k = 0; k < readColumnCount; k++) {
                         Cell cell = row.getCell(k);
