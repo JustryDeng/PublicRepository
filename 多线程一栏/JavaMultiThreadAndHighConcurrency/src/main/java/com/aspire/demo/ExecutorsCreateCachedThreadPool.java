@@ -11,7 +11,7 @@ import java.util.concurrent.Executors;
  */
 public class ExecutorsCreateCachedThreadPool {
     private static Integer count = 10000;
-    private static Object object = new Object();
+    private static final Object OBJ = new Object();
     public static void main(String[] args) throws InterruptedException {
 
         // -> 创建可缓存线程池
@@ -21,7 +21,7 @@ public class ExecutorsCreateCachedThreadPool {
             // 使用lambel表达式简单实现Runnable接口的run方法
             executorService.execute(() -> {
                 // 只有获得了object的锁的线程,才能操作
-                synchronized (object) {
+                synchronized (OBJ) {
                     count--;
                 }
             });
