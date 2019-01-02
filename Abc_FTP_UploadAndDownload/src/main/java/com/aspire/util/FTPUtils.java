@@ -304,7 +304,7 @@ public class FTPUtils {
 	                    	//如果文件夹不存在则创建    
 	                    	if (!localFileDir.exists()) {
 	                    		System.out.println(" " + localFileDir + " is not exist, create this Dir!");
-	                    		localFileDir.mkdir();
+	                    		localFileDir.mkdirs();
 	                    	}
 	                        File localFile = new File(localDir + "/" + name); 
 	                        os = new FileOutputStream(localFile); 
@@ -340,7 +340,7 @@ public class FTPUtils {
             	//如果文件夹不存在则创建    
             	if (!localFileDir.exists()) {
             		System.out.println(" " + localFileDir + " is not exist, create this Dir!");
-            		localFileDir.mkdir();
+            		localFileDir.mkdirs();
             	}
             	String name = new String(file.getName().getBytes(this.downfileNameEncodingParam1), 
             			this.downfileNameDecodingParam2);
@@ -791,4 +791,17 @@ public class FTPUtils {
 	    }
 	    return result;
 	}
+
+    /**
+     * 关闭资源
+     */
+    public void close() throws IOException {
+        if (ftpClient == null) {
+            return;
+        }
+        if (ftpClient.isConnected()) {
+            ftpClient.logout();
+            ftpClient.disconnect();
+        }
+    }
 }
