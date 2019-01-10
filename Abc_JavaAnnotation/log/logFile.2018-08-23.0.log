@@ -1,0 +1,161 @@
+00:08:36.505 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:50- Starting SpringBootForJavaAnnotationApplicationTests on dengshuai with PID 3784 (started by JustryDeng in E:\Java\demo\SpringBootForJavaAnnotation)
+00:08:36.511 [main] DEBUG c.a.SpringBootForJavaAnnotationApplicationTests:53- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+00:08:36.513 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:659- No active profile set, falling back to default profiles: default
+00:08:51.368 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:59- Started SpringBootForJavaAnnotationApplicationTests in 15.234 seconds (JVM running for 16.103)
+00:08:54.201 [main] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} inited
+00:08:55.620 [main] DEBUG c.a.m.J.dynamicInsertListParams:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values (?,?,?),(?,?,?),(?,?,?),(?,?,?) 
+00:08:57.268 [main] DEBUG c.a.m.J.dynamicInsertListParams:159- ==> Parameters: 1(String), 1(Integer), 女(String), 2(String), 2(Integer), 男(String), 3(String), 3(Integer), 女(String), 4(String), 4(Integer), 男(String)
+00:08:57.278 [main] DEBUG c.a.m.J.dynamicInsertListParams:159- <==    Updates: 4
+00:08:57.584 [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} closed
+00:10:19.132 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:50- Starting SpringBootForJavaAnnotationApplicationTests on dengshuai with PID 3444 (started by JustryDeng in E:\Java\demo\SpringBootForJavaAnnotation)
+00:10:19.133 [main] DEBUG c.a.SpringBootForJavaAnnotationApplicationTests:53- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+00:10:19.135 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:659- No active profile set, falling back to default profiles: default
+00:10:34.372 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:59- Started SpringBootForJavaAnnotationApplicationTests in 15.567 seconds (JVM running for 16.379)
+00:11:17.214 [main] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} inited
+00:11:18.693 [main] DEBUG c.a.m.J.dynamicInsertListParams:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values (?,?,?),(?,?,?),(?,?,?),(?,?,?) 
+00:11:20.323 [main] DEBUG c.a.m.J.dynamicInsertListParams:159- ==> Parameters: 1(String), 1(Integer), 女(String), 2(String), 2(Integer), 男(String), 3(String), 3(Integer), 女(String), 4(String), 4(Integer), 男(String)
+00:11:20.333 [main] DEBUG c.a.m.J.dynamicInsertListParams:159- <==    Updates: 4
+00:11:20.649 [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} closed
+00:15:45.475 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:50- Starting SpringBootForJavaAnnotationApplicationTests on dengshuai with PID 12128 (started by JustryDeng in E:\Java\demo\SpringBootForJavaAnnotation)
+00:15:45.476 [main] DEBUG c.a.SpringBootForJavaAnnotationApplicationTests:53- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+00:15:45.478 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:659- No active profile set, falling back to default profiles: default
+00:16:00.423 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:59- Started SpringBootForJavaAnnotationApplicationTests in 15.306 seconds (JVM running for 16.215)
+00:16:03.261 [main] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} inited
+00:16:04.691 [main] DEBUG c.a.m.J.singleInsertMultiParam:159- ==>  Preparing: INSERT INTO employee (e_name,e_age,e_gender) VALUES(?,?,?),(?,?,?) 
+00:16:06.307 [main] DEBUG c.a.m.J.singleInsertMultiParam:159- ==> Parameters: 瓜田(String), 51(Integer), 男(String), 李下(String), 15(Integer), 男(String)
+00:16:06.317 [main] DEBUG c.a.m.J.singleInsertMultiParam:159- <==    Updates: 2
+00:16:06.636 [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} closed
+10:04:32.421 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:50- Starting SpringBootForJavaAnnotationApplicationTests on dengshuai with PID 11148 (started by JustryDeng in E:\Java\demo\SpringBootForJavaAnnotation)
+10:04:32.431 [main] DEBUG c.a.SpringBootForJavaAnnotationApplicationTests:53- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+10:04:32.433 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:659- No active profile set, falling back to default profiles: default
+10:04:46.971 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:59- Started SpringBootForJavaAnnotationApplicationTests in 14.931 seconds (JVM running for 16.116)
+10:04:49.719 [main] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} inited
+10:04:51.045 [main] DEBUG c.a.m.J.dynamicSelectMultiParam:159- ==>  Preparing: select em.id, em.e_name, em.e_age, em.e_gender from employee em where 1 = 1 and em.e_name like CONCAT('%',?,'%') 
+10:04:52.413 [main] DEBUG c.a.m.J.dynamicSelectMultiParam:159- ==> Parameters: 张(String)
+10:04:53.328 [main] DEBUG c.a.m.J.dynamicSelectMultiParam:159- <==      Total: 0
+10:04:53.617 [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} closed
+10:05:19.676 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:50- Starting SpringBootForJavaAnnotationApplicationTests on dengshuai with PID 12232 (started by JustryDeng in E:\Java\demo\SpringBootForJavaAnnotation)
+10:05:19.677 [main] DEBUG c.a.SpringBootForJavaAnnotationApplicationTests:53- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+10:05:19.679 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:659- No active profile set, falling back to default profiles: default
+10:05:33.228 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:59- Started SpringBootForJavaAnnotationApplicationTests in 13.896 seconds (JVM running for 14.728)
+10:05:42.664 [main] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} inited
+10:05:44.240 [main] DEBUG c.a.m.J.insertMultiParamsMapAndString:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values (?,?, '女') 
+10:05:47.099 [main] DEBUG c.a.m.J.insertMultiParamsMapAndString:159- ==> Parameters: 121(Integer), 薰悟空(String)
+10:06:10.275 [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} closed
+10:08:04.842 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:50- Starting SpringBootForJavaAnnotationApplicationTests on dengshuai with PID 2356 (started by JustryDeng in E:\Java\demo\SpringBootForJavaAnnotation)
+10:08:04.843 [main] DEBUG c.a.SpringBootForJavaAnnotationApplicationTests:53- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+10:08:04.845 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:659- No active profile set, falling back to default profiles: default
+10:08:18.790 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:59- Started SpringBootForJavaAnnotationApplicationTests in 14.29 seconds (JVM running for 15.111)
+10:08:21.386 [main] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} inited
+10:08:22.707 [main] DEBUG c.a.m.J.dynamicInsertMultiParam:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values (?,?,?) 
+10:08:24.068 [main] DEBUG c.a.m.J.dynamicInsertMultiParam:159- ==> Parameters: 邓某(String), 8(Integer), 男(String)
+10:08:24.077 [main] DEBUG c.a.m.J.dynamicInsertMultiParam:159- <==    Updates: 1
+10:08:24.289 [main] DEBUG c.a.m.J.selectOneToOneXML:159- ==>  Preparing: select p.id pid,p.`name`,i.id iid,i.idcardnum from people p inner join idcard i on p.idCardId = i.id where p.id = ? 
+10:08:24.296 [main] DEBUG c.a.m.J.selectOneToOneXML:159- ==> Parameters: 1(Integer)
+10:08:26.024 [main] DEBUG c.a.m.J.dynamicSelect:159- ==>  Preparing: select em.id, em.e_name, em.e_age, em.e_gender from employee em where em.e_gender = '女' and em.e_age = 18 
+10:08:26.029 [main] DEBUG c.a.m.J.dynamicSelect:159- ==> Parameters: 
+10:08:26.941 [main] DEBUG c.a.m.J.dynamicSelect:159- <==      Total: 0
+10:08:27.106 [main] DEBUG c.a.m.J.singleSelectAcceptDataByString:159- ==>  Preparing: SELECT e.id FROM employee e WHERE e.e_name = ? 
+10:08:27.112 [main] DEBUG c.a.m.J.singleSelectAcceptDataByString:159- ==> Parameters: 亨得帅(String)
+10:08:27.119 [main] DEBUG c.a.m.J.singleSelectAcceptDataByString:159- <==      Total: 0
+10:08:27.287 [main] DEBUG c.a.m.J.singleInsertMultiParam:159- ==>  Preparing: INSERT INTO employee (e_name,e_age,e_gender) VALUES(?,?,?),(?,?,?) 
+10:08:27.444 [main] DEBUG c.a.m.J.singleInsertMultiParam:159- ==> Parameters: 瓜田(String), 51(Integer), 男(String), 李下(String), 15(Integer), 男(String)
+10:08:27.452 [main] DEBUG c.a.m.J.singleInsertMultiParam:159- <==    Updates: 2
+10:08:27.620 [main] DEBUG c.a.m.J.singleInsert:159- ==>  Preparing: INSERT INTO employee VALUES(null,?,?,?) 
+10:08:27.637 [main] DEBUG c.a.m.J.singleInsert:159- ==> Parameters: 王麻子(String), 24(Integer), 男(String)
+10:08:27.645 [main] DEBUG c.a.m.J.singleInsert:159- <==    Updates: 1
+10:08:27.832 [main] DEBUG c.a.m.J.dynamicSelectMultiParam:159- ==>  Preparing: select em.id, em.e_name, em.e_age, em.e_gender from employee em where 1 = 1 and em.e_name like CONCAT('%',?,'%') 
+10:08:27.839 [main] DEBUG c.a.m.J.dynamicSelectMultiParam:159- ==> Parameters: 张(String)
+10:08:27.847 [main] DEBUG c.a.m.J.dynamicSelectMultiParam:159- <==      Total: 0
+10:08:28.011 [main] DEBUG c.a.m.J.singleSelectAcceptDataByMap:159- ==>  Preparing: SELECT e.id,e.e_age FROM employee e WHERE e.e_name = ? 
+10:08:28.018 [main] DEBUG c.a.m.J.singleSelectAcceptDataByMap:159- ==> Parameters: 小丁(String)
+10:08:28.025 [main] DEBUG c.a.m.J.singleSelectAcceptDataByMap:159- <==      Total: 0
+10:08:28.200 [main] DEBUG c.a.m.J.dynamicUpdate:159- ==>  Preparing: update employee set e_name = ? where id = ? 
+10:08:28.209 [main] DEBUG c.a.m.J.dynamicUpdate:159- ==> Parameters: 小苗(String), 72(Integer)
+10:08:28.214 [main] DEBUG c.a.m.J.dynamicUpdate:159- <==    Updates: 0
+10:08:28.379 [main] DEBUG c.a.m.J.singleSelectAcceptDataByList:159- ==>  Preparing: SELECT e.id,e.e_age,e.e_name,e.e_gender FROM employee e WHERE e.id <= ? 
+10:08:28.397 [main] DEBUG c.a.m.J.singleSelectAcceptDataByList:159- ==> Parameters: 5(Integer)
+10:08:28.406 [main] TRACE c.a.m.J.singleSelectAcceptDataByList:165- <==    Columns: id, e_age, e_name, e_gender
+10:08:28.411 [main] TRACE c.a.m.J.singleSelectAcceptDataByList:165- <==        Row: 1, 121, 薰悟空, 女
+10:08:28.430 [main] TRACE c.a.m.J.singleSelectAcceptDataByList:165- <==        Row: 2, 121, 薰悟空, 女
+10:08:28.438 [main] TRACE c.a.m.J.singleSelectAcceptDataByList:165- <==        Row: 3, 1, 1, 女
+10:08:28.447 [main] TRACE c.a.m.J.singleSelectAcceptDataByList:165- <==        Row: 4, 2, 2, 男
+10:08:28.465 [main] TRACE c.a.m.J.singleSelectAcceptDataByList:165- <==        Row: 5, 3, 3, 女
+10:08:28.472 [main] DEBUG c.a.m.J.singleSelectAcceptDataByList:159- <==      Total: 5
+10:08:28.654 [main] DEBUG c.a.m.J.batchInsert:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values (?, ?, ?),(?, ?, ?),(?, ?, ?),(?, ?, ?),(?, ?, ?),(?, ?, ?) 
+10:08:28.720 [main] DEBUG c.a.m.J.batchInsert:159- ==> Parameters: 小(String), 1(Integer), 女(String), 丫(String), 2(Integer), 女(String), 头(String), 3(Integer), 女(String), 气(String), 4(Integer), 女(String), 死(String), 5(Integer), 女(String), 人(String), 6(Integer), 女(String)
+10:08:28.731 [main] DEBUG c.a.m.J.batchInsert:159- <==    Updates: 6
+10:08:28.926 [main] DEBUG c.a.m.J.dynamicInsertListParams:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values (?,?,?),(?,?,?),(?,?,?),(?,?,?) 
+10:08:28.978 [main] DEBUG c.a.m.J.dynamicInsertListParams:159- ==> Parameters: 1(String), 1(Integer), 女(String), 2(String), 2(Integer), 男(String), 3(String), 3(Integer), 女(String), 4(String), 4(Integer), 男(String)
+10:08:28.986 [main] DEBUG c.a.m.J.dynamicInsertListParams:159- <==    Updates: 4
+10:08:29.151 [main] DEBUG c.a.m.J.dynamicInsert:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values (?, ?, ?) 
+10:08:29.171 [main] DEBUG c.a.m.J.dynamicInsert:159- ==> Parameters: 邓某(String), 18(Integer), 男(String)
+10:08:29.179 [main] DEBUG c.a.m.J.dynamicInsert:159- <==    Updates: 1
+10:08:29.341 [main] DEBUG c.a.m.J.singleInsertAutoGetKey:159- ==>  Preparing: INSERT INTO employee (e_name,e_age,e_gender) VALUES(?,?,?) 
+10:08:29.362 [main] DEBUG c.a.m.J.singleInsertAutoGetKey:159- ==> Parameters: 瓜田(String), 51(Integer), 男(String)
+10:08:29.370 [main] DEBUG c.a.m.J.singleInsertAutoGetKey:159- <==    Updates: 1
+10:08:29.544 [main] DEBUG c.a.m.J.singleDelete:159- ==>  Preparing: DELETE FROM employee WHERE id = ? 
+10:08:29.552 [main] DEBUG c.a.m.J.singleDelete:159- ==> Parameters: 5(Integer)
+10:08:29.559 [main] DEBUG c.a.m.J.singleDelete:159- <==    Updates: 1
+10:08:29.751 [main] DEBUG c.a.m.J.singleSelectAcceptDataByObject:159- ==>  Preparing: SELECT e.id,e.e_age FROM employee e WHERE e.e_name = ? 
+10:08:29.781 [main] DEBUG c.a.m.J.singleSelectAcceptDataByObject:159- ==> Parameters: 小丁(String)
+10:08:29.799 [main] DEBUG c.a.m.J.singleSelectAcceptDataByObject:159- <==      Total: 0
+10:08:30.221 [main] DEBUG c.a.m.J.batchInsertByXML:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values ( ?, ?, ? ),( ?, ?, ? ),( ?, ?, ? ),( ?, ?, ? ) 
+10:08:30.283 [main] DEBUG c.a.m.J.batchInsertByXML:159- ==> Parameters: 1(String), 1(Integer), 女(String), 2(String), 2(Integer), 男(String), 3(String), 3(Integer), 女(String), 4(String), 4(Integer), 男(String)
+10:08:30.303 [main] DEBUG c.a.m.J.batchInsertByXML:159- <==    Updates: 4
+10:08:30.474 [main] DEBUG c.a.m.J.singleUpdate:159- ==>  Preparing: UPDATE employee SET e_name = ? WHERE id = ? 
+10:08:30.482 [main] DEBUG c.a.m.J.singleUpdate:159- ==> Parameters: 变(String), 2(Integer)
+10:08:30.490 [main] DEBUG c.a.m.J.singleUpdate:159- <==    Updates: 1
+10:08:37.462 [main] DEBUG c.a.m.J.insertMultiParamsMapAndString:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values (?,?,'女') 
+10:08:37.498 [main] DEBUG c.a.m.J.insertMultiParamsMapAndString:159- ==> Parameters: 薰悟空(String), 121(Integer)
+10:08:37.511 [main] DEBUG c.a.m.J.insertMultiParamsMapAndString:159- <==    Updates: 1
+10:08:52.682 [main] DEBUG c.a.m.J.dynamicDelete:159- ==>  Preparing: delete from employee where e_age = ? 
+10:08:52.722 [main] DEBUG c.a.m.J.dynamicDelete:159- ==> Parameters: 66(Integer)
+10:08:52.732 [main] DEBUG c.a.m.J.dynamicDelete:159- <==    Updates: 0
+10:08:53.374 [main] DEBUG c.a.m.J.dynamicInsertMeanwhileGetKey:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values (?, ?, ?) 
+10:08:53.411 [main] DEBUG c.a.m.J.dynamicInsertMeanwhileGetKey:159- ==> Parameters: 小小(String), 2(Integer), 女(String)
+10:08:53.454 [main] DEBUG c.a.m.J.dynamicInsertMeanwhileGetKey:159- <==    Updates: 1
+10:09:01.852 [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} closed
+10:09:39.327 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:50- Starting SpringBootForJavaAnnotationApplicationTests on dengshuai with PID 11240 (started by JustryDeng in E:\Java\demo\SpringBootForJavaAnnotation)
+10:09:39.328 [main] DEBUG c.a.SpringBootForJavaAnnotationApplicationTests:53- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+10:09:39.329 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:659- No active profile set, falling back to default profiles: default
+10:09:43.128 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:59- Started SpringBootForJavaAnnotationApplicationTests in 4.126 seconds (JVM running for 4.909)
+10:10:04.745 [main] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} inited
+10:10:04.934 [main] DEBUG c.a.m.J.insertMultiParamsMapAndString:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values (?,?,'女') 
+10:10:04.953 [main] DEBUG c.a.m.J.insertMultiParamsMapAndString:159- ==> Parameters: 薰悟空(String), 121(Integer)
+10:10:04.956 [main] DEBUG c.a.m.J.insertMultiParamsMapAndString:159- <==    Updates: 1
+10:10:04.966 [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} closed
+10:10:17.719 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:50- Starting SpringBootForJavaAnnotationApplicationTests on dengshuai with PID 10236 (started by JustryDeng in E:\Java\demo\SpringBootForJavaAnnotation)
+10:10:17.720 [main] DEBUG c.a.SpringBootForJavaAnnotationApplicationTests:53- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+10:10:17.721 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:659- No active profile set, falling back to default profiles: default
+10:10:21.268 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:59- Started SpringBootForJavaAnnotationApplicationTests in 3.881 seconds (JVM running for 4.686)
+10:10:52.912 [main] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} inited
+10:10:53.093 [main] DEBUG c.a.m.J.insertMultiParamsMapAndString:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values (?,?,'女') 
+10:10:53.400 [main] DEBUG c.a.m.J.insertMultiParamsMapAndString:159- ==> Parameters: 薰悟空(String), 121(Integer)
+10:10:53.402 [main] DEBUG c.a.m.J.insertMultiParamsMapAndString:159- <==    Updates: 1
+10:10:53.429 [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} closed
+10:15:08.649 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:50- Starting SpringBootForJavaAnnotationApplicationTests on dengshuai with PID 2036 (started by JustryDeng in E:\Java\demo\SpringBootForJavaAnnotation)
+10:15:08.650 [main] DEBUG c.a.SpringBootForJavaAnnotationApplicationTests:53- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+10:15:08.652 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:659- No active profile set, falling back to default profiles: default
+10:15:12.016 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:59- Started SpringBootForJavaAnnotationApplicationTests in 3.694 seconds (JVM running for 4.494)
+10:15:58.200 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:50- Starting SpringBootForJavaAnnotationApplicationTests on dengshuai with PID 13128 (started by JustryDeng in E:\Java\demo\SpringBootForJavaAnnotation)
+10:15:58.201 [main] DEBUG c.a.SpringBootForJavaAnnotationApplicationTests:53- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+10:15:58.202 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:659- No active profile set, falling back to default profiles: default
+10:16:01.738 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:59- Started SpringBootForJavaAnnotationApplicationTests in 3.871 seconds (JVM running for 4.653)
+10:16:30.785 [main] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} inited
+10:16:30.975 [main] DEBUG c.a.m.J.insertMultiParamsMapAndString:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values (?,?,'女') 
+10:16:31.008 [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} closed
+10:22:09.937 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:50- Starting SpringBootForJavaAnnotationApplicationTests on dengshuai with PID 13080 (started by JustryDeng in E:\Java\demo\SpringBootForJavaAnnotation)
+10:22:09.938 [main] DEBUG c.a.SpringBootForJavaAnnotationApplicationTests:53- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+10:22:09.940 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:659- No active profile set, falling back to default profiles: default
+10:22:13.400 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:59- Started SpringBootForJavaAnnotationApplicationTests in 3.789 seconds (JVM running for 4.591)
+10:22:28.303 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:50- Starting SpringBootForJavaAnnotationApplicationTests on dengshuai with PID 2260 (started by JustryDeng in E:\Java\demo\SpringBootForJavaAnnotation)
+10:22:28.306 [main] DEBUG c.a.SpringBootForJavaAnnotationApplicationTests:53- Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+10:22:28.308 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:659- No active profile set, falling back to default profiles: default
+10:22:31.370 [main] INFO  c.a.SpringBootForJavaAnnotationApplicationTests:59- Started SpringBootForJavaAnnotationApplicationTests in 3.356 seconds (JVM running for 3.974)
+10:22:31.524 [main] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} inited
+10:22:31.699 [main] DEBUG c.a.m.J.insertMultiParamsMapAndString:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values (?,?,'女') 
+10:22:31.728 [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} closed
+10:22:38.629 [main] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} inited
+10:22:38.814 [main] DEBUG c.a.m.J.insertMultiParamsMapAndString:159- ==>  Preparing: insert into employee (e_name,e_age,e_gender) values (?,?,'女') 
+10:22:38.844 [Thread-2] INFO  c.alibaba.druid.pool.DruidDataSource:106- {dataSource-1} closed
