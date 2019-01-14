@@ -227,7 +227,7 @@ public class FTPUtils {
             inputStream = new FileInputStream(file);
             // 初始化
             initFtpClient();
-            CreateDirecroty(remoteDir);
+            createDirecroty(remoteDir);
             ftpClient.makeDirectory(remoteDir);
             ftpClient.changeWorkingDirectory(remoteDir);
             result = ftpClient.storeFile(remoteFileName, inputStream);
@@ -682,7 +682,7 @@ public class FTPUtils {
      * @throws IOException
      * @DATE 2018年9月26日 下午2:19:37
      */
-    private boolean CreateDirecroty(String remoteDir) throws IOException {
+    private boolean createDirecroty(String remoteDir) throws IOException {
         boolean success = true;
         String directory = null;
         if(remoteDir == null || remoteDir.trim().equals("")) {
