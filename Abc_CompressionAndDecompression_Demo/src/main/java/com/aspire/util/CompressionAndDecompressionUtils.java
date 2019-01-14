@@ -112,7 +112,7 @@ public class CompressionAndDecompressionUtils {
 					fos = new FileOutputStream(dirFile);
 					bos = new BufferedOutputStream(fos);
 					int count;
-					byte data[] = new byte[1024];
+					byte[] data = new byte[1024];
 					while ((count = tais.read(data, 0, 1024)) != -1) {
 						bos.write(data, 0, count);
 					}
