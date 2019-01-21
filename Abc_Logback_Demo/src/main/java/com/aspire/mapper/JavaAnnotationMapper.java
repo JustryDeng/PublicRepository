@@ -1,11 +1,10 @@
 package com.aspire.mapper;
 
+import com.aspire.model.Employee;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
 import org.apache.ibatis.annotations.Param;
-
-import com.aspire.model.Employee;
 
 /**
  * 数据访问层

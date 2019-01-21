@@ -65,19 +65,23 @@
 	</appender>
 
 	<!-- >>>>>>>>>>>>>>>>>>>>>>>>>>>>>使用appender>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-	<!-- 指定[哪个包]下使用[哪个appender],并[设定日志级别] -->
-	<!-- 日志级别: trace|debug|info|warn|error|fatal -->
-	<logger name="com" level="trace">
+	<!--
+	    指定[哪个包]下使用[哪个appender],并设置 记录到日志文件中的日志的最下
+	    级别(低于次级别的日志信息不回输出记录到日志文件中)
+	    注:日志级别有: trace|debug|info|warn|error|fatal
+	    注:当有多处指定了要记录的日志的最下日志级别时，走优先级最高的，优先级:
+	       logback-spring.xml中 > 启动jar包时 > xxx.properties/xxx.yml中
+	-->
+	<!--<logger name="com" level="trace">-->
+	<logger name="com">
 		<!-- 指定使用哪个appender -->
 		<appender-ref ref="fileAppender" />
 	</logger>
-
-	<!-- root:logger的根节点,appender-ref:确定使用哪个appender,将日志信息显示在console -->
-	<!-- 
-		注:如果不指定appender或则指定的是输出到文件的appender的话,    
-		   那么SpringBoot启动后,将不会在console打印任何信息 
+	<!--
+	    root:logger的根节点,appender-ref:确定使用哪个appender,将日志信息显示在console
+		注:如果不指定配置此项的话,那么SpringBoot启动后,将不会在console打印任何信息
 	-->
-	<root level="info">
+	<root>
 		<appender-ref ref="consoleAppender" />
 	</root>
 </configuration>

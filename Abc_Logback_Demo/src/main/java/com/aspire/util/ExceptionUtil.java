@@ -20,28 +20,13 @@ public class ExceptionUtil {
 	 * @return 该异常的错误堆栈信息
 	 * @date 2018年7月27日 上午1:35:27
 	 */
-	public static String getStackTraceMessage(Exception e) {
-		StringWriter sw = null;
-		PrintWriter pw = null;
-		try {
-			sw = new StringWriter();
-			pw = new PrintWriter(sw);
+	public static String getStackTraceMessage(Exception e) throws IOException {
+		try (StringWriter sw = new StringWriter(); PrintWriter pw = new PrintWriter(sw)) {
 			// 将异常的的堆栈信息输出到printWriter中
 			e.printStackTrace(pw);
 			pw.flush();
 			sw.flush();
-		} finally {
-			if (sw != null) {
-				try {
-					sw.close();
-				} catch (IOException e1) {
-					e1.printStackTrace();
-				}
-			}
-			if (pw != null) {
-				pw.close();
-			}
+			return sw.toString();
 		}
-		return sw.toString();
 	}
 }

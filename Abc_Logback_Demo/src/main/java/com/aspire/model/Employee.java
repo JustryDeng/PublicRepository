@@ -1,7 +1,5 @@
 package com.aspire.model;
 
-import com.alibaba.fastjson.JSON;
-
 /**
  * Employee员工实体类模型
  * 
@@ -26,7 +24,6 @@ public class Employee {
 	 * 员工性别
 	 */
 	private String gender;
-	
 
 	/**
 	 * 无参构造
@@ -103,12 +100,10 @@ public class Employee {
 	public void setGender(String gender) {
 		this.gender = gender;
 	}
-	
-	/* (non-Javadoc)
-	 * @see java.lang.Object#toString()
-	 */
+
 	@Override
 	public String toString() {
-		return JSON.toJSONString(this);
+		return "Employee{id=" + id + ", name='" + name + "', age="
+				+ age + ", gender='" + gender + "'}";
 	}
 }
