@@ -1,0 +1,1375 @@
+2019 二月 01 01:16:10.751 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 13044 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:16:10.754 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:16:10.756 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:16:12.562 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 2.473 seconds (JVM running for 4.81)
+2019 二月 01 01:16:51.640 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 9280 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:16:51.643 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:16:51.644 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:16:52.996 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.962 seconds (JVM running for 2.874)
+2019 二月 01 01:17:52.722 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 9172 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:17:52.726 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:17:52.729 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:17:54.023 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.896 seconds (JVM running for 2.9)
+2019 二月 01 01:20:15.308 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1296 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:20:15.313 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:20:15.314 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:20:16.492 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.791 seconds (JVM running for 2.688)
+2019 二月 01 01:21:41.609 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 6984 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:21:41.609 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:21:41.609 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:21:42.674 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.386 seconds (JVM running for 3.701)
+2019 二月 01 01:27:43.370 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 15760 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:27:43.374 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:27:43.374 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:27:44.522 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.698 seconds (JVM running for 2.943)
+2019 二月 01 01:30:07.820 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 15872 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:30:07.823 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:30:07.825 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:30:09.095 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.898 seconds (JVM running for 2.81)
+2019 二月 01 01:31:09.781 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1916 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:31:09.785 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:31:09.787 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:31:11.151 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.988 seconds (JVM running for 3.189)
+2019 二月 01 01:38:21.595 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 2056 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:38:21.601 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:38:21.603 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:38:22.909 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.887 seconds (JVM running for 2.822)
+2019 二月 01 01:40:09.809 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 10844 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:40:09.812 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:40:09.813 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:40:11.015 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.752 seconds (JVM running for 2.663)
+2019 二月 01 01:47:25.883 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 13708 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:47:25.887 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:47:25.888 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:47:27.209 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.929 seconds (JVM running for 2.923)
+2019 二月 01 01:48:57.273 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 11652 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:48:57.276 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:48:57.278 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:48:58.548 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.864 seconds (JVM running for 2.746)
+2019 二月 01 01:50:26.415 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 4692 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:50:26.419 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:50:26.420 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:50:27.822 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 2.074 seconds (JVM running for 3.297)
+2019 二月 01 01:55:27.946 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1932 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:55:27.950 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:55:27.954 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:55:29.048 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.594 seconds (JVM running for 2.466)
+2019 二月 01 01:56:02.472 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 10820 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:56:02.472 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:56:02.476 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:56:03.668 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.707 seconds (JVM running for 2.703)
+2019 二月 01 01:57:10.979 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 10044 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:57:10.981 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:57:10.986 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:57:12.242 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.806 seconds (JVM running for 2.704)
+2019 二月 01 01:59:40.425 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 13768 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 01:59:40.433 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 01:59:40.434 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 01:59:41.894 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 2.02 seconds (JVM running for 2.886)
+2019 二月 01 02:02:13.593 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 7456 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 02:02:13.597 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 02:02:13.598 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 02:02:15.062 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 2.037 seconds (JVM running for 2.929)
+2019 二月 01 02:02:50.339 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 9424 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 02:02:50.342 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 02:02:50.344 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 02:02:51.621 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.863 seconds (JVM running for 2.784)
+2019 二月 01 02:05:45.447 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 3144 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 02:05:45.451 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 02:05:45.453 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 02:05:46.716 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.893 seconds (JVM running for 2.83)
+2019 二月 01 02:06:21.772 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 10756 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 02:06:21.775 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 02:06:21.776 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 02:06:22.995 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.818 seconds (JVM running for 2.728)
+2019 二月 01 02:07:16.989 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 16332 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 02:07:16.993 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 02:07:16.995 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 02:07:18.259 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.862 seconds (JVM running for 2.783)
+2019 二月 01 02:07:55.221 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 13264 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 02:07:55.225 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 02:07:55.227 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 02:07:56.469 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.795 seconds (JVM running for 2.799)
+2019 二月 01 15:03:51.948 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 3052 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:03:51.948 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:03:51.952 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:03:52.795 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.222 seconds (JVM running for 2.276)
+2019 二月 01 15:03:53.002 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.102 : 21
+2019 二月 01 15:04:00.993 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 11912 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:04:00.995 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:04:00.996 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:04:01.990 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.41 seconds (JVM running for 2.323)
+2019 二月 01 15:04:02.094 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:04:22.520 [main] INFO  com.aspire.util.FtpUtil:588-  FtpUtil -> makeDirectory -> create Dir [/ull] success!
+2019 二月 01 15:04:22.520 [main] INFO  com.aspire.util.FtpUtil:623-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 15:04:22.521 [main] INFO  com.aspire.util.FtpUtil:588-  FtpUtil -> makeDirectory -> create Dir [/ull/upload] success!
+2019 二月 01 15:04:22.522 [main] INFO  com.aspire.util.FtpUtil:623-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 15:04:22.551 [main] INFO  com.aspire.util.FtpUtil:227-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 15:05:17.641 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 5364 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:05:17.645 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:05:17.647 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:05:18.848 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.715 seconds (JVM running for 2.642)
+2019 二月 01 15:05:19.002 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:05:39.043 [main] INFO  com.aspire.util.FtpUtil:588-  FtpUtil -> makeDirectory -> create Dir [/ull] success!
+2019 二月 01 15:05:39.044 [main] INFO  com.aspire.util.FtpUtil:623-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 15:05:39.045 [main] INFO  com.aspire.util.FtpUtil:588-  FtpUtil -> makeDirectory -> create Dir [/ull/upload] success!
+2019 二月 01 15:05:39.045 [main] INFO  com.aspire.util.FtpUtil:623-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 15:05:39.049 [main] INFO  com.aspire.util.FtpUtil:227-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 15:06:39.093 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8348 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:06:39.094 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:06:39.095 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:06:40.237 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.455 seconds (JVM running for 3.1)
+2019 二月 01 15:08:17.473 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 6752 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:08:17.473 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:08:17.477 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:08:18.349 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.247 seconds (JVM running for 2.056)
+2019 二月 01 15:08:18.431 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:08:38.467 [main] INFO  com.aspire.util.FtpUtil:588-  FtpUtil -> makeDirectory -> create Dir [/upload] success!
+2019 二月 01 15:08:38.467 [main] INFO  com.aspire.util.FtpUtil:623-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 15:08:38.471 [main] INFO  com.aspire.util.FtpUtil:227-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 15:09:05.454 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1748 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:09:05.458 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:09:05.460 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:09:06.496 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.516 seconds (JVM running for 2.468)
+2019 二月 01 15:09:06.596 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:09:26.648 [main] INFO  com.aspire.util.FtpUtil:227-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 15:09:52.378 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 2652 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:09:52.380 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:09:52.381 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:09:53.365 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.352 seconds (JVM running for 2.291)
+2019 二月 01 15:09:53.465 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:10:13.504 [main] INFO  com.aspire.util.FtpUtil:227-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 15:10:47.481 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 9724 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:10:47.487 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:10:47.489 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:10:48.521 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.553 seconds (JVM running for 2.433)
+2019 二月 01 15:10:48.597 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:11:08.771 [main] INFO  com.aspire.util.FtpUtil:227-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 15:13:27.261 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8172 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:13:27.272 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:13:27.276 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:13:28.186 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.358 seconds (JVM running for 3.347)
+2019 二月 01 15:13:28.260 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:13:48.315 [main] INFO  com.aspire.util.FtpUtil:227-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 15:15:47.444 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 12388 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:15:47.450 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:15:47.451 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:15:48.504 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.434 seconds (JVM running for 3.25)
+2019 二月 01 15:15:48.578 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:16:08.632 [main] INFO  com.aspire.util.FtpUtil:227-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 15:19:49.522 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 12400 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:19:49.524 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:19:49.525 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:19:50.443 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.327 seconds (JVM running for 2.162)
+2019 二月 01 15:19:50.521 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:20:10.556 [main] INFO  com.aspire.util.FtpUtil:228-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 15:20:29.657 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1780 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:20:29.660 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:20:29.660 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:20:30.654 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.388 seconds (JVM running for 2.211)
+2019 二月 01 15:20:30.747 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:20:50.785 [main] INFO  com.aspire.util.FtpUtil:228-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 15:21:18.236 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 4436 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:21:18.238 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:21:18.238 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:21:19.221 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.4 seconds (JVM running for 2.305)
+2019 二月 01 15:22:42.261 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 6508 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:22:42.263 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:22:42.264 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:22:43.207 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.405 seconds (JVM running for 2.289)
+2019 二月 01 15:25:22.278 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 12568 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:25:22.280 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:25:22.281 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:25:23.193 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.431 seconds (JVM running for 2.325)
+2019 二月 01 15:25:23.267 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:25:43.308 [main] INFO  com.aspire.util.FtpUtil:228-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 15:26:24.418 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 12608 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:26:24.420 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:26:24.421 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:26:25.568 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.588 seconds (JVM running for 2.589)
+2019 二月 01 15:26:25.653 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:26:45.683 [main] INFO  com.aspire.util.FtpUtil:589-  FtpUtil -> makeDirectory -> create Dir [/abc] success!
+2019 二月 01 15:26:45.683 [main] INFO  com.aspire.util.FtpUtil:624-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 15:26:51.025 [main] INFO  com.aspire.util.FtpUtil:228-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 15:26:57.810 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8128 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:26:57.813 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:26:57.813 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:26:58.845 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.432 seconds (JVM running for 2.43)
+2019 二月 01 15:26:58.941 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:27:18.978 [main] INFO  com.aspire.util.FtpUtil:589-  FtpUtil -> makeDirectory -> create Dir [/abc/d] success!
+2019 二月 01 15:27:18.979 [main] INFO  com.aspire.util.FtpUtil:624-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 15:27:25.188 [main] INFO  com.aspire.util.FtpUtil:228-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 15:28:12.233 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8228 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:28:12.235 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:28:12.236 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:28:13.177 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.437 seconds (JVM running for 2.345)
+2019 二月 01 15:28:13.278 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:28:33.417 [main] INFO  com.aspire.util.FtpUtil:307-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 15:28:33.417 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 15:29:21.485 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 9492 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:29:21.487 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:29:21.488 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:29:22.612 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.568 seconds (JVM running for 2.78)
+2019 二月 01 15:29:32.892 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:31:30.959 [main] INFO  com.aspire.util.FtpUtil:307-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 15:31:30.959 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 15:40:36.345 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 836 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:40:36.345 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:40:36.349 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:40:37.165 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.199 seconds (JVM running for 2.036)
+2019 二月 01 15:40:37.236 [main] INFO  com.aspire.util.FtpUtil:180-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:44:37.158 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 7112 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:44:37.162 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:44:37.162 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:44:38.069 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.36 seconds (JVM running for 2.224)
+2019 二月 01 15:44:38.159 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:47:37.266 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 4208 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:47:37.269 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:47:37.269 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:47:38.247 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.341 seconds (JVM running for 2.402)
+2019 二月 01 15:47:53.540 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:49:10.444 [main] INFO  com.aspire.util.FtpUtil:306-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 15:49:10.444 [main] INFO  com.aspire.util.FtpUtil:307-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 15:49:37.696 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8756 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:49:37.698 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:49:37.700 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:49:38.666 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.414 seconds (JVM running for 2.316)
+2019 二月 01 15:49:38.747 [main] INFO  com.aspire.util.FtpUtil:180-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:49:58.830 [main] INFO  com.aspire.util.FtpUtil:307-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 15:49:58.830 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 15:50:47.638 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 10156 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:50:47.640 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:50:47.641 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:50:48.608 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.397 seconds (JVM running for 2.316)
+2019 二月 01 15:50:48.697 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:51:08.781 [main] INFO  com.aspire.util.FtpUtil:307-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 15:51:08.781 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 15:51:39.750 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 7596 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:51:39.752 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:51:39.753 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:51:40.706 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.372 seconds (JVM running for 2.3)
+2019 二月 01 15:51:40.797 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:52:00.871 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 15:52:00.871 [main] INFO  com.aspire.util.FtpUtil:309-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 15:54:07.308 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 11540 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:54:07.310 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:54:07.311 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:54:08.363 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.489 seconds (JVM running for 2.695)
+2019 二月 01 15:54:22.702 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:57:39.397 [main] INFO  com.aspire.util.FtpUtil:307-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 15:57:39.397 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 15:57:48.937 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8468 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 15:57:48.939 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 15:57:48.940 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 15:57:49.988 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.453 seconds (JVM running for 2.697)
+2019 二月 01 15:58:23.267 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 15:59:09.065 [main] INFO  com.aspire.util.FtpUtil:307-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 15:59:09.065 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 16:06:13.871 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 332 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:06:13.873 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:06:13.874 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:06:14.913 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.504 seconds (JVM running for 2.394)
+2019 二月 01 16:07:26.078 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 2212 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:07:26.081 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:07:26.082 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:07:27.080 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.454 seconds (JVM running for 2.315)
+2019 二月 01 16:07:27.173 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:07:47.210 [main] INFO  com.aspire.util.FtpUtil:226-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 16:08:39.441 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1464 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:08:39.443 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:08:39.444 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:08:40.386 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.387 seconds (JVM running for 2.27)
+2019 二月 01 16:09:47.633 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 10392 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:09:47.635 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:09:47.636 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:09:48.579 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.382 seconds (JVM running for 2.265)
+2019 二月 01 16:09:48.657 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:10:08.742 [main] INFO  com.aspire.util.FtpUtil:307-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 16:10:08.743 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 16:10:26.625 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 7524 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:10:26.627 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:10:26.627 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:10:27.731 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.495 seconds (JVM running for 2.647)
+2019 二月 01 16:10:36.417 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:23:29.575 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 9880 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:23:29.577 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:23:29.579 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:23:30.517 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.378 seconds (JVM running for 2.261)
+2019 二月 01 16:23:30.592 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:23:50.679 [main] INFO  com.aspire.util.FtpUtil:246-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 16:29:34.743 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1636 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:29:34.747 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:29:34.749 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:29:35.713 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.415 seconds (JVM running for 2.338)
+2019 二月 01 16:29:35.799 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:31:20.490 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8332 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:31:20.492 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:31:20.493 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:31:21.417 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.35 seconds (JVM running for 2.265)
+2019 二月 01 16:31:21.494 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:32:57.094 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 5104 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:32:57.096 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:32:57.097 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:32:58.092 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.433 seconds (JVM running for 2.341)
+2019 二月 01 16:32:58.195 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:33:18.270 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:33:38.310 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:33:58.347 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:34:18.380 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:34:38.417 [main] INFO  com.aspire.util.FtpUtil:304-  C:\Users\JustryDeng\Desktop\download is not exist, create this Dir! create result -> true!
+2019 二月 01 16:34:38.751 [main] INFO  com.aspire.util.FtpUtil:317-  already download normal file -> 深入理解Java虚拟机（第二版）.pdf
+2019 二月 01 16:34:38.753 [main] INFO  com.aspire.util.FtpUtil:326-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 16:34:38.753 [main] INFO  com.aspire.util.FtpUtil:327-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 16:43:41.758 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 2924 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:43:41.759 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:43:41.760 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:43:42.728 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.395 seconds (JVM running for 2.359)
+2019 二月 01 16:44:31.357 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 3760 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:44:31.359 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:44:31.360 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:44:32.371 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.456 seconds (JVM running for 2.363)
+2019 二月 01 16:45:41.849 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1724 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:45:41.851 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:45:41.852 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:45:42.847 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.46 seconds (JVM running for 2.345)
+2019 二月 01 16:46:02.970 [main] INFO  com.aspire.util.FtpUtil:187-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:47:38.234 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8164 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:47:38.236 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:47:38.237 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:47:39.193 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.404 seconds (JVM running for 2.317)
+2019 二月 01 16:47:39.276 [main] INFO  com.aspire.util.FtpUtil:187-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:50:01.330 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1272 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:50:01.333 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:50:01.333 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:50:02.257 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.381 seconds (JVM running for 2.383)
+2019 二月 01 16:50:02.334 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:50:22.369 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 16:50:22.418 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 16:50:22.419 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 16:50:22.419 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 16:53:13.620 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 10900 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:53:13.622 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:53:13.623 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:53:14.575 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.405 seconds (JVM running for 2.321)
+2019 二月 01 16:53:14.653 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:53:34.681 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 16:53:34.683 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 16:53:34.734 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 16:53:34.735 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 16:53:34.735 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 16:56:27.886 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 10668 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:56:27.890 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:56:27.890 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:56:28.847 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.335 seconds (JVM running for 2.416)
+2019 二月 01 16:56:33.089 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:56:53.138 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 16:57:03.955 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 16:57:36.081 [main] INFO  com.aspire.util.FtpUtil:327-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 16:57:36.081 [main] INFO  com.aspire.util.FtpUtil:328-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 16:57:42.619 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 2040 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:57:42.623 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:57:42.623 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:57:43.520 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.315 seconds (JVM running for 2.134)
+2019 二月 01 16:57:43.609 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:58:03.642 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 16:58:03.646 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 16:58:03.689 [main] INFO  com.aspire.util.FtpUtil:327-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 16:58:03.690 [main] INFO  com.aspire.util.FtpUtil:328-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 16:59:09.807 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1696 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 16:59:09.807 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 16:59:09.807 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 16:59:10.770 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.334 seconds (JVM running for 2.419)
+2019 二月 01 16:59:10.930 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 16:59:30.964 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 16:59:30.967 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:00:29.277 [main] INFO  com.aspire.util.FtpUtil:328-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 17:00:29.278 [main] INFO  com.aspire.util.FtpUtil:329-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 17:11:28.540 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1096 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:11:28.540 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:11:28.540 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:11:29.454 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.292 seconds (JVM running for 2.122)
+2019 二月 01 17:11:29.528 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:11:49.556 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:11:49.559 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:11:49.602 [main] INFO  com.aspire.util.FtpUtil:327-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 17:11:49.602 [main] INFO  com.aspire.util.FtpUtil:328-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 17:18:55.007 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 12580 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:18:55.008 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:18:55.009 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:18:55.902 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.354 seconds (JVM running for 2.189)
+2019 二月 01 17:18:55.981 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:19:16.013 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:19:16.015 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:19:16.064 [main] INFO  com.aspire.util.FtpUtil:305-  C:\Users\JustryDeng\Desktop\download is not exist, create this Dir! create result -> true!
+2019 二月 01 17:19:16.069 [main] INFO  com.aspire.util.FtpUtil:318-  already download normal file -> demo.txt
+2019 二月 01 17:19:16.070 [main] INFO  com.aspire.util.FtpUtil:327-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 17:19:16.071 [main] INFO  com.aspire.util.FtpUtil:328-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 17:19:55.143 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 5588 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:19:55.145 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:19:55.146 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:19:56.095 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.378 seconds (JVM running for 2.277)
+2019 二月 01 17:19:56.180 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:20:16.207 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:20:16.210 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:20:16.257 [main] INFO  com.aspire.util.FtpUtil:327-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 17:20:16.257 [main] INFO  com.aspire.util.FtpUtil:328-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 17:20:53.119 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 10900 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:20:53.121 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:20:53.123 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:20:54.058 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.382 seconds (JVM running for 2.27)
+2019 二月 01 17:20:54.148 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:21:14.221 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:21:14.224 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:21:14.234 [main] INFO  com.aspire.util.FtpUtil:327-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 17:21:14.234 [main] INFO  com.aspire.util.FtpUtil:328-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 17:28:54.867 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 4400 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:28:54.869 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:28:54.870 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:28:55.778 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.36 seconds (JVM running for 2.358)
+2019 二月 01 17:28:55.866 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:29:15.894 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:29:15.950 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:29:15.954 [main] INFO  com.aspire.util.FtpUtil:333-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 17:29:15.955 [main] INFO  com.aspire.util.FtpUtil:334-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 17:36:10.107 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1792 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:36:10.110 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:36:10.111 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:36:11.037 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.368 seconds (JVM running for 2.294)
+2019 二月 01 17:36:11.115 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:36:31.145 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:36:31.147 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:36:31.197 [main] INFO  com.aspire.util.FtpUtil:286-  C:\Users\JustryDeng\Desktop\download is not exist, create this Dir! create result -> true!
+2019 二月 01 17:37:19.857 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1652 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:37:19.861 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:37:19.861 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:37:20.780 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.278 seconds (JVM running for 2.319)
+2019 二月 01 17:37:20.936 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:37:40.973 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:37:40.976 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:39:26.242 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8188 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:39:26.244 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:39:26.245 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:39:27.147 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.332 seconds (JVM running for 2.28)
+2019 二月 01 17:39:27.218 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:39:47.251 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:39:47.253 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:40:45.918 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 4500 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:40:45.922 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:40:45.923 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:40:46.897 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.423 seconds (JVM running for 2.328)
+2019 二月 01 17:40:46.973 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:41:07.004 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:41:07.007 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:41:07.402 [main] INFO  com.aspire.util.FtpUtil:299-  already download normal file -> 深入理解Java虚拟机（第二版）.pdf
+2019 二月 01 17:41:07.404 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 17:41:07.404 [main] INFO  com.aspire.util.FtpUtil:309-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 17:41:55.141 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 7032 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:41:55.143 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:41:55.144 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:41:56.089 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.373 seconds (JVM running for 2.281)
+2019 二月 01 17:41:56.166 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:42:16.197 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:42:16.199 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:42:16.252 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:43:04.737 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 7504 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:43:04.741 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:43:04.741 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:43:05.616 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.289 seconds (JVM running for 2.13)
+2019 二月 01 17:43:05.705 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:43:25.748 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:43:25.756 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:43:25.815 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:43:56.225 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 10948 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:43:56.229 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:43:56.229 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:43:57.177 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.329 seconds (JVM running for 2.436)
+2019 二月 01 17:43:57.317 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:44:17.358 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:44:17.362 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:44:38.942 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 11256 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:44:38.942 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:44:38.946 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:44:39.902 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.538 seconds (JVM running for 2.52)
+2019 二月 01 17:44:40.054 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:45:33.231 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 888 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:45:33.235 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:45:33.235 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:45:34.167 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.296 seconds (JVM running for 2.402)
+2019 二月 01 17:45:38.109 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:45:58.156 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:47:43.616 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:48:28.923 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1392 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:48:28.927 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:48:28.927 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:48:30.015 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.517 seconds (JVM running for 2.352)
+2019 二月 01 17:48:30.106 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:48:50.156 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:48:50.164 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:48:50.215 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:49:03.869 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 10648 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:49:03.869 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:49:03.873 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:49:04.809 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.315 seconds (JVM running for 2.439)
+2019 二月 01 17:49:14.590 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:49:34.645 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:52:31.149 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:53:00.525 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:53:31.200 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 4288 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:53:31.204 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:53:31.204 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:53:32.172 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.38 seconds (JVM running for 2.313)
+2019 二月 01 17:53:32.254 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:53:52.295 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:53:52.303 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:53:52.346 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:54:25.811 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1528 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:54:25.811 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:54:25.811 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:54:26.775 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.355 seconds (JVM running for 2.41)
+2019 二月 01 17:54:38.726 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:54:58.762 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:54:58.766 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:54:58.883 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:56:11.156 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 6540 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 17:56:11.158 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 17:56:11.158 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 17:56:12.204 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.469 seconds (JVM running for 2.578)
+2019 二月 01 17:56:12.357 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 17:56:32.387 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 17:56:32.391 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 17:57:27.669 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:01:09.340 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 12452 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:01:09.340 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:01:09.340 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:01:10.226 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.295 seconds (JVM running for 2.13)
+2019 二月 01 18:01:10.311 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:01:30.349 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:01:30.349 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:01:30.396 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:01:47.707 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 10200 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:01:47.711 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:01:47.711 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:01:48.643 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.267 seconds (JVM running for 2.593)
+2019 二月 01 18:01:48.787 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:02:08.834 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:02:08.834 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:03:02.753 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:04:06.478 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 128 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:04:06.482 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:04:06.482 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:04:07.337 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.244 seconds (JVM running for 2.087)
+2019 二月 01 18:04:07.419 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:04:27.467 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:04:27.529 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:04:27.529 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:04:27.537 [main] INFO  com.aspire.util.FtpUtil:286-  C:\Users\JustryDeng\Desktop\download is not exist, create this Dir! create result -> true!
+2019 二月 01 18:04:27.541 [main] INFO  com.aspire.util.FtpUtil:299-  already download normal file -> demo.txt
+2019 二月 01 18:04:27.552 [main] INFO  com.aspire.util.FtpUtil:299-  already download normal file -> 深入理解Java虚拟机（第二版）.pdf
+2019 二月 01 18:04:27.552 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile success download file total -> 2
+2019 二月 01 18:04:27.552 [main] INFO  com.aspire.util.FtpUtil:309-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 18:04:27.552 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:04:27.552 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:05:34.534 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 11348 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:05:34.538 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:05:34.538 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:05:35.399 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.274 seconds (JVM running for 2.236)
+2019 二月 01 18:05:35.485 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:05:55.535 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:05:55.609 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:05:55.609 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:05:55.617 [main] INFO  com.aspire.util.FtpUtil:299-  already download normal file -> demo.txt
+2019 二月 01 18:05:55.621 [main] INFO  com.aspire.util.FtpUtil:299-  already download normal file -> 深入理解Java虚拟机（第二版）.pdf
+2019 二月 01 18:05:55.625 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile success download file total -> 2
+2019 二月 01 18:05:55.625 [main] INFO  com.aspire.util.FtpUtil:309-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 18:05:55.625 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:05:55.625 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:06:24.002 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 12616 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:06:24.006 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:06:24.006 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:06:24.884 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.292 seconds (JVM running for 2.151)
+2019 二月 01 18:06:24.974 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:06:45.006 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:06:45.009 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:06:45.397 [main] INFO  com.aspire.util.FtpUtil:299-  already download normal file -> 深入理解Java虚拟机（第二版）.pdf
+2019 二月 01 18:06:45.401 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 18:06:45.401 [main] INFO  com.aspire.util.FtpUtil:309-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 18:16:06.690 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 10692 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:16:06.690 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:16:06.690 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:16:07.615 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.308 seconds (JVM running for 2.101)
+2019 二月 01 18:16:07.697 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:16:27.736 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:16:27.795 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:16:27.795 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:16:27.799 [main] INFO  com.aspire.util.FtpUtil:286-  C:\Users\JustryDeng\Desktop\download is not exist, create this Dir! create result -> true!
+2019 二月 01 18:16:27.803 [main] INFO  com.aspire.util.FtpUtil:299-  already download normal file -> demo.txt
+2019 二月 01 18:16:27.811 [main] INFO  com.aspire.util.FtpUtil:299-  already download normal file -> 深入理解Java虚拟机（第二版）.pdf
+2019 二月 01 18:16:27.815 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile success download file total -> 2
+2019 二月 01 18:16:27.815 [main] INFO  com.aspire.util.FtpUtil:309-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 18:16:27.815 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:16:47.847 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:16:47.850 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:16:47.854 [main] INFO  com.aspire.util.FtpUtil:286-  C:\Users\JustryDeng\Desktop\download\abc is not exist, create this Dir! create result -> true!
+2019 二月 01 18:16:48.199 [main] INFO  com.aspire.util.FtpUtil:299-  already download normal file -> 深入理解Java虚拟机（第二版）.pdf
+2019 二月 01 18:16:48.203 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 18:16:48.203 [main] INFO  com.aspire.util.FtpUtil:309-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 18:16:48.203 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:17:08.245 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:17:08.248 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:17:08.252 [main] INFO  com.aspire.util.FtpUtil:286-  C:\Users\JustryDeng\Desktop\download\upload is not exist, create this Dir! create result -> true!
+2019 二月 01 18:17:08.256 [main] INFO  com.aspire.util.FtpUtil:299-  already download normal file -> 备忘录sdfgh
+2019 二月 01 18:17:08.260 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 18:17:08.260 [main] INFO  com.aspire.util.FtpUtil:309-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 18:17:08.260 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:17:28.285 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:17:28.288 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:17:28.296 [main] INFO  com.aspire.util.FtpUtil:286-  C:\Users\JustryDeng\Desktop\download\abc\d is not exist, create this Dir! create result -> true!
+2019 二月 01 18:17:28.626 [main] INFO  com.aspire.util.FtpUtil:299-  already download normal file -> 深入理解Java虚拟机（第二版）.pdf
+2019 二月 01 18:17:28.630 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 18:17:28.630 [main] INFO  com.aspire.util.FtpUtil:309-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 18:17:51.217 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 6960 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:17:51.221 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:17:51.221 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:17:52.088 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.282 seconds (JVM running for 2.117)
+2019 二月 01 18:17:52.167 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:18:12.189 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:18:12.193 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:18:12.642 [main] INFO  com.aspire.util.FtpUtil:299-  already download normal file -> 深入理解Java虚拟机（第二版）.pdf
+2019 二月 01 18:18:12.642 [main] INFO  com.aspire.util.FtpUtil:308-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 18:18:12.642 [main] INFO  com.aspire.util.FtpUtil:309-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 18:18:33.455 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8384 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:18:33.457 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:18:33.458 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:18:34.398 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.362 seconds (JVM running for 2.276)
+2019 二月 01 18:18:34.492 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:18:54.524 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:18:54.527 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:18:54.533 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 18:27:29.790 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1800 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:27:29.792 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:27:29.794 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:27:30.753 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.377 seconds (JVM running for 2.257)
+2019 二月 01 18:27:30.828 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:27:50.867 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:27:50.869 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:27:50.870 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:27:50.870 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:27:50.870 [main] INFO  com.aspire.util.FtpUtil:387-  FtpUtil -> deleteBlankDirOrFile [/demo2.txt] boolean result is -> true
+2019 二月 01 18:27:50.871 [main] INFO  com.aspire.util.FtpUtil:452-  FtpUtil -> recursiveDeleteBlankDirOrFile true boolean result is -> {}
+2019 二月 01 18:28:58.747 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 7648 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:28:58.750 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:28:58.750 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:28:59.742 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.454 seconds (JVM running for 2.352)
+2019 二月 01 18:28:59.834 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:29:19.869 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:29:19.871 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:29:19.874 [main] INFO  com.aspire.util.FtpUtil:387-  FtpUtil -> deleteBlankDirOrFile [/upload/备忘录sdfgh] boolean result is -> true
+2019 二月 01 18:29:35.291 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 9924 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:29:35.294 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:29:35.294 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:29:36.202 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.337 seconds (JVM running for 2.256)
+2019 二月 01 18:29:36.280 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:29:56.306 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:29:56.310 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:29:56.310 [main] INFO  com.aspire.util.FtpUtil:387-  FtpUtil -> deleteBlankDirOrFile [/upload] boolean result is -> true
+2019 二月 01 18:33:04.223 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 4160 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:33:04.225 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:33:04.227 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:33:05.174 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.397 seconds (JVM running for 2.295)
+2019 二月 01 18:33:05.251 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:33:25.294 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:33:25.307 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:33:25.308 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:33:25.310 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:34:46.456 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1500 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:34:46.458 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:34:46.459 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:34:47.397 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.465 seconds (JVM running for 2.384)
+2019 二月 01 18:34:57.319 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 1688 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:34:57.321 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:34:57.322 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:34:58.244 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.379 seconds (JVM running for 2.258)
+2019 二月 01 18:34:58.329 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:35:18.362 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:35:18.364 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:35:18.365 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:35:18.365 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:36:08.318 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 11000 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:36:08.318 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:36:08.322 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:36:09.234 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.269 seconds (JVM running for 2.313)
+2019 二月 01 18:36:09.394 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:39:20.202 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 6540 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:39:20.210 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:39:20.210 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:39:21.132 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.337 seconds (JVM running for 2.15)
+2019 二月 01 18:39:21.221 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:39:41.263 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:39:41.267 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:39:41.267 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:39:41.267 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:50:27.712 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 9888 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:50:27.712 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:50:27.716 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:50:28.654 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.308 seconds (JVM running for 2.343)
+2019 二月 01 18:50:28.795 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:50:48.838 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:50:48.842 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:50:48.842 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:50:48.842 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:51:15.119 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 13584 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:51:15.123 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:51:15.123 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:51:16.033 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.263 seconds (JVM running for 2.265)
+2019 二月 01 18:51:16.189 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:51:36.228 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:51:36.232 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:51:36.232 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:51:36.232 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:53:02.860 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 7512 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:53:02.862 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:53:02.863 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:53:03.763 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.333 seconds (JVM running for 2.212)
+2019 二月 01 18:53:03.840 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:53:23.875 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:53:23.877 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:53:23.877 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:53:23.878 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:53:23.879 [main] INFO  com.aspire.util.FtpUtil:176-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 18:55:09.536 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8980 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 18:55:09.538 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 18:55:09.539 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 18:55:10.479 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.37 seconds (JVM running for 2.275)
+2019 二月 01 18:55:10.581 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:55:30.604 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:55:30.606 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:55:50.721 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:55:50.723 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:56:10.754 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:56:10.756 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:56:30.879 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:56:30.881 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:56:50.913 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:56:50.964 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:57:10.994 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:57:10.999 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:57:31.040 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:57:31.044 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:57:51.078 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:57:51.079 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:58:11.219 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:58:11.224 [main] INFO  com.aspire.util.FtpUtil:391-  FtpUtil -> deleteBlankDirOrFile [/abc/深入理解Java虚拟机（第二版）.pdf] boolean result is -> true
+2019 二月 01 18:58:11.224 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:58:31.257 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:58:31.258 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:58:51.385 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:58:51.394 [main] INFO  com.aspire.util.FtpUtil:391-  FtpUtil -> deleteBlankDirOrFile [/abc/d/深入理解Java虚拟机（第二版）.pdf] boolean result is -> true
+2019 二月 01 18:58:51.395 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:59:11.430 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:59:11.432 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:59:31.649 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:59:31.656 [main] INFO  com.aspire.util.FtpUtil:391-  FtpUtil -> deleteBlankDirOrFile [/abc/d] boolean result is -> true
+2019 二月 01 18:59:31.657 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 18:59:51.695 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 18:59:51.696 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:00:11.729 [main] INFO  com.aspire.util.FtpUtil:184-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:00:11.732 [main] INFO  com.aspire.util.FtpUtil:391-  FtpUtil -> deleteBlankDirOrFile [/abc] boolean result is -> true
+2019 二月 01 19:00:11.733 [main] INFO  com.aspire.util.FtpUtil:461-  FtpUtil -> recursiveDeleteBlankDirOrFile true boolean result is -> {}
+2019 二月 01 19:01:34.726 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8512 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:01:34.729 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:01:34.730 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:01:35.690 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.421 seconds (JVM running for 2.387)
+2019 二月 01 19:01:35.779 [main] INFO  com.aspire.util.FtpUtil:180-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:01:55.809 [main] INFO  com.aspire.util.FtpUtil:185-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:01:55.811 [main] INFO  com.aspire.util.FtpUtil:177-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:01:55.813 [main] INFO  com.aspire.util.FtpUtil:585-  FtpUtil -> makeDirectory -> create Dir [/abc] success!
+2019 二月 01 19:01:55.813 [main] INFO  com.aspire.util.FtpUtil:620-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 19:01:55.820 [main] INFO  com.aspire.util.FtpUtil:228-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 19:02:11.640 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 12728 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:02:11.641 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:02:11.642 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:02:12.570 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.352 seconds (JVM running for 2.241)
+2019 二月 01 19:02:12.646 [main] INFO  com.aspire.util.FtpUtil:180-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:02:32.784 [main] INFO  com.aspire.util.FtpUtil:185-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:02:32.787 [main] INFO  com.aspire.util.FtpUtil:177-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:02:32.789 [main] INFO  com.aspire.util.FtpUtil:585-  FtpUtil -> makeDirectory -> create Dir [/abc/d] success!
+2019 二月 01 19:02:32.789 [main] INFO  com.aspire.util.FtpUtil:620-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 19:02:32.794 [main] INFO  com.aspire.util.FtpUtil:228-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 19:03:10.799 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 12136 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:03:10.801 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:03:10.802 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:03:11.715 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.348 seconds (JVM running for 2.222)
+2019 二月 01 19:03:11.795 [main] INFO  com.aspire.util.FtpUtil:180-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:03:31.828 [main] INFO  com.aspire.util.FtpUtil:185-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:03:31.830 [main] INFO  com.aspire.util.FtpUtil:177-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:03:31.830 [main] INFO  com.aspire.util.FtpUtil:177-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:03:31.831 [main] INFO  com.aspire.util.FtpUtil:177-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:03:31.832 [main] INFO  com.aspire.util.FtpUtil:177-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:08:23.898 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 14268 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:08:23.900 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:08:23.901 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:08:24.842 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.382 seconds (JVM running for 2.284)
+2019 二月 01 19:08:24.920 [main] INFO  com.aspire.util.FtpUtil:182-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:08:44.952 [main] INFO  com.aspire.util.FtpUtil:187-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:08:44.954 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:08:44.955 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:08:44.955 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:08:44.956 [main] INFO  com.aspire.util.FtpUtil:182-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:09:04.992 [main] INFO  com.aspire.util.FtpUtil:187-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:09:05.042 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:09:05.047 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:09:05.047 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:09:05.047 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:09:05.048 [main] INFO  com.aspire.util.FtpUtil:394-  FtpUtil -> deleteBlankDirOrFile [/abc/demo2.txt] boolean result is -> true
+2019 二月 01 19:09:05.049 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:09:05.049 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:09:05.050 [main] INFO  com.aspire.util.FtpUtil:394-  FtpUtil -> deleteBlankDirOrFile [/abc/d/demo2.jar] boolean result is -> true
+2019 二月 01 19:09:05.050 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:09:05.050 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:09:05.050 [main] INFO  com.aspire.util.FtpUtil:394-  FtpUtil -> deleteBlankDirOrFile [/abc/d] boolean result is -> true
+2019 二月 01 19:09:05.051 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:09:05.051 [main] INFO  com.aspire.util.FtpUtil:179-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:09:05.051 [main] INFO  com.aspire.util.FtpUtil:394-  FtpUtil -> deleteBlankDirOrFile [/abc] boolean result is -> true
+2019 二月 01 19:09:05.051 [main] INFO  com.aspire.util.FtpUtil:464-  FtpUtil -> recursiveDeleteBlankDirOrFile true boolean result is -> {}
+2019 二月 01 19:14:38.575 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 4188 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:14:38.577 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:14:38.578 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:14:39.549 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.385 seconds (JVM running for 2.292)
+2019 二月 01 19:14:39.627 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:14:59.663 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:14:59.666 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:14:59.667 [main] INFO  com.aspire.util.FtpUtil:586-  FtpUtil -> makeDirectory -> create Dir [/var/ftpusers/justry_deng_root/abc] success!
+2019 二月 01 19:14:59.668 [main] INFO  com.aspire.util.FtpUtil:621-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 19:14:59.669 [main] INFO  com.aspire.util.FtpUtil:586-  FtpUtil -> makeDirectory -> create Dir [/var/ftpusers/justry_deng_root/abc/d] success!
+2019 二月 01 19:14:59.669 [main] INFO  com.aspire.util.FtpUtil:621-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 19:14:59.674 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 19:15:32.391 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 13924 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:15:32.395 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:15:32.396 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:15:33.383 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.426 seconds (JVM running for 2.315)
+2019 二月 01 19:15:33.464 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:15:53.495 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:15:53.497 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:15:53.502 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 19:16:24.997 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 9720 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:16:25.000 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:16:25.000 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:16:25.971 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.327 seconds (JVM running for 2.176)
+2019 二月 01 19:16:26.050 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:16:46.097 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:16:46.104 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:16:46.161 [main] INFO  com.aspire.util.FtpUtil:285-  C:\Users\JustryDeng\Desktop\download is not exist, create this Dir! create result -> true!
+2019 二月 01 19:16:46.171 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> 深入理解Java虚拟机（第二版）.pdf
+2019 二月 01 19:16:46.172 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 19:16:46.172 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 19:17:01.790 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 14216 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:17:01.792 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:17:01.794 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:17:02.727 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.332 seconds (JVM running for 2.251)
+2019 二月 01 19:17:02.812 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:17:22.847 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:17:22.852 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:17:22.906 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> ds.html
+2019 二月 01 19:17:22.908 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 19:17:22.908 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 19:17:45.974 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 6756 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:17:45.978 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:17:45.979 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:17:46.918 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.375 seconds (JVM running for 2.301)
+2019 二月 01 19:17:47.004 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:18:07.125 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:18:07.128 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:18:07.132 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 19:18:20.338 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8480 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:18:20.341 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:18:20.343 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:18:21.275 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.449 seconds (JVM running for 2.456)
+2019 二月 01 19:18:21.352 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:18:41.387 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:18:41.390 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:18:41.443 [main] INFO  com.aspire.util.FtpUtil:747-  already download nonsuffixname file -> oo
+2019 二月 01 19:18:41.444 [main] INFO  com.aspire.util.FtpUtil:752-  FtpUtil -> downloadFile success download item count -> 1
+2019 二月 01 19:18:41.445 [main] INFO  com.aspire.util.FtpUtil:753-  FtpUtil -> downloadFile fail download item count -> 0
+2019 二月 01 19:18:59.501 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8180 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:18:59.505 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:18:59.506 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:19:00.403 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.44 seconds (JVM running for 2.429)
+2019 二月 01 19:19:00.483 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:19:20.516 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:19:20.571 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:19:20.571 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:19:20.572 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:19:40.598 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:19:40.599 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:19:40.604 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:19:40.604 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:20:25.255 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 4208 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:20:25.258 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:20:25.259 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:20:26.228 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.417 seconds (JVM running for 2.307)
+2019 二月 01 19:20:26.305 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:20:46.338 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:20:46.394 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:20:46.394 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:20:46.395 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:21:06.425 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:21:06.427 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:21:06.431 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:21:06.432 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:21:19.015 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 2404 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:21:19.019 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:21:19.019 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:21:19.960 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.309 seconds (JVM running for 2.385)
+2019 二月 01 19:21:23.727 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:21:43.771 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:23:47.522 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:23:47.522 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:24:25.675 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:24:45.784 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:24:57.487 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:24:57.490 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:24:57.490 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:35:10.913 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 13800 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:35:10.914 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:35:10.915 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:35:12.024 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.569 seconds (JVM running for 2.472)
+2019 二月 01 19:35:12.104 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:35:32.233 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:35:32.299 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:35:32.299 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:35:32.306 [main] INFO  com.aspire.util.FtpUtil:285-  C:\Users\JustryDeng\Desktop\download is not exist, create this Dir! create result -> true!
+2019 二月 01 19:35:32.312 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> demo.txt
+2019 二月 01 19:35:32.318 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> ds.exe
+2019 二月 01 19:35:32.324 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> oo
+2019 二月 01 19:35:32.331 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> 深入理解Java虚拟机（第二版）.pdf
+2019 二月 01 19:35:32.332 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 4
+2019 二月 01 19:35:32.332 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 19:35:32.333 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:35:32.333 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:35:32.338 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 19:35:32.338 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 19:35:32.338 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:35:32.338 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:35:32.346 [main] INFO  com.aspire.util.FtpUtil:285-  C:\Users\JustryDeng\Desktop\download\abc\d is not exist, create this Dir! create result -> true!
+2019 二月 01 19:35:32.360 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> ds.html
+2019 二月 01 19:35:32.361 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 19:35:32.362 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 19:36:10.649 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 13632 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:36:10.649 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:36:10.653 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:36:11.598 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.32 seconds (JVM running for 2.448)
+2019 二月 01 19:36:29.073 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:36:49.122 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:37:23.861 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:37:23.861 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:37:23.869 [main] INFO  com.aspire.util.FtpUtil:285-  C:\Users\JustryDeng\Desktop\download is not exist, create this Dir! create result -> true!
+2019 二月 01 19:37:42.388 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 14276 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:37:42.390 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:37:42.391 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:37:43.436 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.489 seconds (JVM running for 2.426)
+2019 二月 01 19:37:43.515 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:38:03.543 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:38:03.547 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:38:03.549 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/oo] boolean result is -> true
+2019 二月 01 19:38:39.683 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 13832 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:38:39.685 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:38:39.686 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:38:40.615 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.382 seconds (JVM running for 2.309)
+2019 二月 01 19:38:40.694 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:39:00.729 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:39:00.732 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:39:00.737 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 19:39:38.989 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8064 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:39:38.992 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:39:38.993 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:39:40.040 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.488 seconds (JVM running for 2.522)
+2019 二月 01 19:39:40.136 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:40:00.172 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:40:00.174 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:40:00.175 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/深入理解Java虚拟机（第二版）.pdf] boolean result is -> true
+2019 二月 01 19:40:08.020 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 9324 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:40:08.022 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:40:08.023 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:40:09.269 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.736 seconds (JVM running for 2.682)
+2019 二月 01 19:40:09.347 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:40:29.377 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:40:29.379 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:40:29.380 [main] INFO  com.aspire.util.FtpUtil:592-  FtpUtil -> makeDirectory -> create Dir [/var/ftpusers/justry_deng_root/c] success!
+2019 二月 01 19:40:29.380 [main] INFO  com.aspire.util.FtpUtil:627-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 19:40:29.384 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 19:40:51.654 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 13736 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:40:51.657 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:40:51.658 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:40:52.632 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.418 seconds (JVM running for 2.306)
+2019 二月 01 19:40:52.731 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:41:12.766 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:41:12.768 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:41:12.769 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:41:12.770 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:41:12.771 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:41:32.802 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:41:32.851 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:41:32.858 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:41:32.858 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:41:32.858 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:41:32.859 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/var/ftpusers/justry_deng_root/abc/oo.abv] boolean result is -> false
+2019 二月 01 19:41:32.859 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:41:52.889 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:41:52.891 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:41:52.891 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/var/ftpusers/justry_deng_root/abc/d/ds.html] boolean result is -> false
+2019 二月 01 19:41:52.892 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:42:12.931 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:42:12.934 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:42:12.936 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/var/ftpusers/justry_deng_root/abc/d] boolean result is -> false
+2019 二月 01 19:42:12.937 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:42:33.050 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:42:33.052 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:42:33.053 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/var/ftpusers/justry_deng_root/abc] boolean result is -> false
+2019 二月 01 19:42:33.053 [main] INFO  com.aspire.util.FtpUtil:469-  FtpUtil -> recursiveDeleteBlankDirOrFile false boolean result is -> {}
+2019 二月 01 19:45:15.149 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 2380 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:45:15.151 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:45:15.152 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:45:16.127 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.478 seconds (JVM running for 2.435)
+2019 二月 01 19:45:16.212 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:45:36.244 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:45:36.282 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:45:36.283 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/c] boolean result is -> true
+2019 二月 01 19:46:24.513 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 13752 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:46:24.516 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:46:24.517 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:46:25.440 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.359 seconds (JVM running for 2.276)
+2019 二月 01 19:46:25.519 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:46:45.549 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:46:45.552 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:46:45.552 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:46:45.553 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:46:45.554 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:47:05.584 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:47:05.634 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:47:05.637 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:47:05.638 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:47:05.638 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:47:05.641 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/var/ftpusers/justry_deng_root/abc/oo.abv] boolean result is -> false
+2019 二月 01 19:47:05.641 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:47:25.665 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:47:25.667 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:47:25.667 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/var/ftpusers/justry_deng_root/abc/d/ds.html] boolean result is -> false
+2019 二月 01 19:47:25.668 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:47:45.696 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:47:45.697 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:47:45.698 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/abc/d] boolean result is -> false
+2019 二月 01 19:47:45.699 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:48:05.730 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:48:05.732 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:48:05.734 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/abc] boolean result is -> false
+2019 二月 01 19:48:05.734 [main] INFO  com.aspire.util.FtpUtil:476-  FtpUtil -> recursiveDeleteBlankDirOrFile false boolean result is -> {}
+2019 二月 01 19:52:54.211 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 6308 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 19:52:54.215 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 19:52:54.215 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 19:52:55.098 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.295 seconds (JVM running for 2.109)
+2019 二月 01 19:52:55.169 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:53:15.205 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:53:15.207 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:53:15.207 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:53:15.208 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:53:15.208 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:53:35.238 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:53:35.284 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:53:35.288 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:53:35.288 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:53:35.288 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:53:35.288 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/var/ftpusers/justry_deng_root/abc/oo.abv] boolean result is -> false
+2019 二月 01 19:53:35.288 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:53:55.319 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:53:55.322 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:53:55.322 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/var/ftpusers/justry_deng_root/abc/d/ds.html] boolean result is -> false
+2019 二月 01 19:53:55.322 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:54:15.369 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:54:15.373 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:54:15.377 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/abc/d] boolean result is -> false
+2019 二月 01 19:54:15.377 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 19:54:35.421 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 19:54:35.425 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 19:54:35.429 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/abc] boolean result is -> false
+2019 二月 01 19:54:35.429 [main] INFO  com.aspire.util.FtpUtil:476-  FtpUtil -> recursiveDeleteBlankDirOrFile false boolean result is -> {}
+2019 二月 01 20:04:41.361 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 13884 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:04:41.365 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:04:41.365 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:04:42.370 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.436 seconds (JVM running for 2.293)
+2019 二月 01 20:04:42.452 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:05:02.497 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:05:02.505 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:05:02.505 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:05:29.582 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 4840 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:05:29.582 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:05:29.582 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:05:30.580 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.365 seconds (JVM running for 2.418)
+2019 二月 01 20:05:30.736 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:05:50.773 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:05:50.777 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:05:50.777 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:06:50.299 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 5712 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:06:50.300 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:06:50.301 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:06:51.260 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.349 seconds (JVM running for 2.382)
+2019 二月 01 20:06:51.420 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:07:11.469 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:07:11.476 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:07:11.476 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:08:43.562 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 13240 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:08:43.564 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:08:43.565 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:08:44.589 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.421 seconds (JVM running for 2.567)
+2019 二月 01 20:08:44.766 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:09:04.804 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:09:04.807 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:09:04.808 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:09:04.809 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:09:24.837 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:09:39.961 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:09:39.965 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:09:39.965 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:09:39.967 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/abc/oo.abv] boolean result is -> true
+2019 二月 01 20:09:39.968 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:09:39.968 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:09:39.969 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/abc/d/ds.html] boolean result is -> true
+2019 二月 01 20:09:39.970 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:09:39.970 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:09:39.970 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/abc/d] boolean result is -> true
+2019 二月 01 20:09:39.971 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:09:39.971 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:09:39.971 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/abc] boolean result is -> true
+2019 二月 01 20:09:39.971 [main] INFO  com.aspire.util.FtpUtil:473-  FtpUtil -> recursiveDeleteBlankDirOrFile /var/ftpusers/justry_deng_root/abc boolean result is -> true
+2019 二月 01 20:09:42.826 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 14248 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:09:42.829 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:09:42.831 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:09:43.806 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.525 seconds (JVM running for 2.461)
+2019 二月 01 20:09:43.893 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:10:03.923 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:10:03.926 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:10:03.926 [main] INFO  com.aspire.util.FtpUtil:424-  /var/ftpusers/justry_deng_root/abc maybe is a  non-suffix file!, try delete!
+2019 二月 01 20:10:03.927 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:10:23.955 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:10:23.956 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:10:23.956 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/var/ftpusers/justry_deng_root/abc] boolean result is -> false
+2019 二月 01 20:10:23.957 [main] INFO  com.aspire.util.FtpUtil:430-  FtpUtil -> recursiveDeleteBlankDirOrFile /var/ftpusers/justry_deng_root/abc-> target file is not exist!
+2019 二月 01 20:29:55.598 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 6528 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:29:55.602 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:29:55.603 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:29:56.670 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.595 seconds (JVM running for 2.581)
+2019 二月 01 20:29:56.786 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:30:16.826 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:30:16.829 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:30:16.830 [main] INFO  com.aspire.util.FtpUtil:597-  FtpUtil -> makeDirectory -> create Dir [/abc] success!
+2019 二月 01 20:30:16.831 [main] INFO  com.aspire.util.FtpUtil:632-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 20:30:16.836 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 20:36:05.963 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 11908 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:36:05.965 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:36:05.966 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:36:07.057 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.527 seconds (JVM running for 2.444)
+2019 二月 01 20:36:07.141 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:36:27.175 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:36:27.178 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:36:27.180 [main] INFO  com.aspire.util.FtpUtil:597-  FtpUtil -> makeDirectory -> create Dir [/b] success!
+2019 二月 01 20:36:27.180 [main] INFO  com.aspire.util.FtpUtil:632-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 20:36:27.185 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 20:36:31.515 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8812 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:36:31.517 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:36:31.518 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:36:32.464 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.422 seconds (JVM running for 2.319)
+2019 二月 01 20:36:32.555 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:36:52.587 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:36:52.590 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:36:52.591 [main] INFO  com.aspire.util.FtpUtil:597-  FtpUtil -> makeDirectory -> create Dir [/c] success!
+2019 二月 01 20:36:52.592 [main] INFO  com.aspire.util.FtpUtil:632-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 20:36:52.598 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 20:37:08.315 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 2528 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:37:08.317 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:37:08.319 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:37:09.306 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.413 seconds (JVM running for 2.326)
+2019 二月 01 20:37:09.399 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:37:29.518 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:37:29.520 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:37:29.524 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 20:38:16.028 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 3220 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:38:16.029 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:38:16.030 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:38:17.027 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.431 seconds (JVM running for 2.317)
+2019 二月 01 20:38:17.119 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:38:37.158 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:38:37.162 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:38:37.164 [main] INFO  com.aspire.util.FtpUtil:597-  FtpUtil -> makeDirectory -> create Dir [/abc/a] success!
+2019 二月 01 20:38:37.165 [main] INFO  com.aspire.util.FtpUtil:632-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 20:38:37.170 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 20:39:56.634 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 8140 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:39:56.637 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:39:56.638 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:39:57.573 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.324 seconds (JVM running for 2.25)
+2019 二月 01 20:39:57.655 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:40:17.687 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:40:17.689 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:40:17.691 [main] INFO  com.aspire.util.FtpUtil:597-  FtpUtil -> makeDirectory -> create Dir [/abc/b] success!
+2019 二月 01 20:40:17.691 [main] INFO  com.aspire.util.FtpUtil:632-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 20:40:17.696 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 20:40:17.697 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:40:17.697 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:40:17.698 [main] INFO  com.aspire.util.FtpUtil:597-  FtpUtil -> makeDirectory -> create Dir [/abc/c] success!
+2019 二月 01 20:40:17.698 [main] INFO  com.aspire.util.FtpUtil:632-  FtpUtil -> createDirecroty -> invoke makeDirectory got retrun -> true!
+2019 二月 01 20:40:17.703 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 20:40:17.703 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:40:17.704 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:40:17.706 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 20:40:17.707 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:40:17.707 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:40:17.710 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 20:40:17.711 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:40:17.711 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:40:17.714 [main] INFO  com.aspire.util.FtpUtil:229-  FtpUtil -> uploadFile boolean result is -> true
+2019 二月 01 20:44:00.962 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 6052 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:44:00.965 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:44:00.966 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:44:01.935 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.411 seconds (JVM running for 2.34)
+2019 二月 01 20:44:02.030 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:44:22.072 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:44:22.076 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:44:22.119 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 0
+2019 二月 01 20:44:22.119 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 20:45:16.549 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 10960 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:45:16.553 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:45:16.555 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:45:17.618 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.496 seconds (JVM running for 2.429)
+2019 二月 01 20:45:17.697 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:45:37.728 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:45:37.730 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:45:37.779 [main] INFO  com.aspire.util.FtpUtil:285-  C:\Users\JustryDeng\Desktop\download is not exist, create this Dir! create result -> true!
+2019 二月 01 20:45:37.785 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> My备忘录.xml
+2019 二月 01 20:45:37.786 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 20:45:37.786 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 20:46:51.535 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 5388 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:46:51.536 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:46:51.537 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:46:52.448 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.329 seconds (JVM running for 2.182)
+2019 二月 01 20:46:52.523 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:47:12.553 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:47:12.555 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:47:12.556 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:47:12.610 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> My备忘录.xml
+2019 二月 01 20:47:12.611 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 20:47:12.612 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 20:47:30.375 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 2584 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:47:30.376 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:47:30.377 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:47:31.458 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.551 seconds (JVM running for 2.45)
+2019 二月 01 20:47:31.554 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:47:51.589 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:47:51.592 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:47:51.646 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> JustryDeng.html
+2019 二月 01 20:47:51.652 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> My备忘录.xml
+2019 二月 01 20:47:51.658 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> nonsuffixFile
+2019 二月 01 20:47:51.659 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 3
+2019 二月 01 20:47:51.660 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 20:48:48.877 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 2740 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:48:48.880 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:48:48.880 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:48:49.849 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.435 seconds (JVM running for 2.378)
+2019 二月 01 20:48:49.935 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:49:09.972 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:49:10.031 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:49:10.032 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:49:10.036 [main] INFO  com.aspire.util.FtpUtil:285-  C:\Users\JustryDeng\Desktop\download is not exist, create this Dir! create result -> true!
+2019 二月 01 20:49:10.040 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> JustryDeng.html
+2019 二月 01 20:49:10.044 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> My备忘录.xml
+2019 二月 01 20:49:10.049 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> nonsuffixFile
+2019 二月 01 20:49:10.050 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 3
+2019 二月 01 20:49:10.051 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 20:49:10.051 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:49:10.051 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:49:10.056 [main] INFO  com.aspire.util.FtpUtil:285-  C:\Users\JustryDeng\Desktop\download\a is not exist, create this Dir! create result -> true!
+2019 二月 01 20:49:10.063 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> a.html
+2019 二月 01 20:49:10.064 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 20:49:10.064 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 20:49:10.064 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:49:10.064 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:49:10.070 [main] INFO  com.aspire.util.FtpUtil:285-  C:\Users\JustryDeng\Desktop\download\b is not exist, create this Dir! create result -> true!
+2019 二月 01 20:49:10.074 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> b.html
+2019 二月 01 20:49:10.075 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 20:49:10.075 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 20:49:10.075 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:49:10.075 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:49:10.079 [main] INFO  com.aspire.util.FtpUtil:285-  C:\Users\JustryDeng\Desktop\download\c is not exist, create this Dir! create result -> true!
+2019 二月 01 20:49:10.084 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> c.html
+2019 二月 01 20:49:10.085 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 20:49:10.085 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 20:52:09.125 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 7156 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:52:09.127 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:52:09.129 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:52:10.056 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.462 seconds (JVM running for 2.462)
+2019 二月 01 20:52:10.139 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:52:30.174 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:52:30.178 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:52:30.179 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/abc/JustryDeng.html] boolean result is -> true
+2019 二月 01 20:55:31.581 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 4264 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:55:31.583 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:55:31.583 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:55:32.779 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.682 seconds (JVM running for 2.585)
+2019 二月 01 20:55:32.875 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:55:52.921 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:55:52.989 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:55:52.989 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:55:52.998 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> My备忘录.xml
+2019 二月 01 20:55:53.004 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> nonsuffixFile
+2019 二月 01 20:55:53.005 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 2
+2019 二月 01 20:55:53.006 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 20:55:53.006 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:55:53.006 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:55:53.012 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> a.html
+2019 二月 01 20:55:53.013 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 20:55:53.013 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 20:55:53.013 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:55:53.013 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:55:53.020 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> b.html
+2019 二月 01 20:55:53.021 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 20:55:53.021 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 20:55:53.021 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:55:53.021 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:55:53.028 [main] INFO  com.aspire.util.FtpUtil:298-  already download normal file -> c.html
+2019 二月 01 20:55:53.029 [main] INFO  com.aspire.util.FtpUtil:304-  FtpUtil -> downloadFile success download file total -> 1
+2019 二月 01 20:55:53.029 [main] INFO  com.aspire.util.FtpUtil:305-  FtpUtil -> downloadFile fail download file total -> 0
+2019 二月 01 20:57:52.849 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:50- Starting AbcFtpUploadAndDownloadApplicationTests on JustryDeng with PID 956 (started by JustryDeng in D:\资料整理\demo模板\FTP上传、下载、删除\Abc_FTP_UploadAndDownload)
+2019 二月 01 20:57:52.851 [main] DEBUG c.AbcFtpUploadAndDownloadApplicationTests:53- Running with Spring Boot v2.0.5.RELEASE, Spring v5.0.9.RELEASE
+2019 二月 01 20:57:52.852 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:680- No active profile set, falling back to default profiles: default
+2019 二月 01 20:57:53.803 [main] INFO  c.AbcFtpUploadAndDownloadApplicationTests:59- Started AbcFtpUploadAndDownloadApplicationTests in 1.389 seconds (JVM running for 2.267)
+2019 二月 01 20:57:53.889 [main] INFO  com.aspire.util.FtpUtil:181-  FtpUtil -> connecting FTPServer -> 192.168.2.103 : 21
+2019 二月 01 20:58:13.920 [main] INFO  com.aspire.util.FtpUtil:186-  FtpUtil -> connect FTPServer success!
+2019 二月 01 20:58:13.922 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:13.923 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:13.924 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:13.986 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:13.994 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:13.995 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:13.996 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/abc/My备忘录.xml] boolean result is -> true
+2019 二月 01 20:58:13.996 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:13.996 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:13.996 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/abc/nonsuffixFile] boolean result is -> true
+2019 二月 01 20:58:13.997 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:13.997 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:13.997 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/abc/a/a.html] boolean result is -> true
+2019 二月 01 20:58:13.997 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:13.998 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:13.998 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/abc/b/b.html] boolean result is -> true
+2019 二月 01 20:58:13.998 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:13.998 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:14.011 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/abc/c/c.html] boolean result is -> true
+2019 二月 01 20:58:14.013 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:14.013 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:14.013 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/abc/a] boolean result is -> true
+2019 二月 01 20:58:14.014 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:14.014 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:14.014 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/abc/b] boolean result is -> true
+2019 二月 01 20:58:14.015 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:14.015 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:14.015 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/abc/c] boolean result is -> true
+2019 二月 01 20:58:14.015 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:14.015 [main] INFO  com.aspire.util.FtpUtil:178-  FtpUtil -> alreadly connected FTPServer !
+2019 二月 01 20:58:14.016 [main] INFO  com.aspire.util.FtpUtil:399-  FtpUtil -> deleteBlankDirOrFile [/abc] boolean result is -> true
+2019 二月 01 20:58:14.016 [main] INFO  com.aspire.util.FtpUtil:473-  FtpUtil -> recursiveDeleteBlankDirOrFile /abc boolean result is -> true
