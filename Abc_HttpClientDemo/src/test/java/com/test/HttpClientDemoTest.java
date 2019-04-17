@@ -35,28 +35,28 @@ import com.aspire.model.User;
 @RunWith(SpringRunner.class)
 public class HttpClientDemoTest {
 	/**
-	 * GET---ÎŞ²Î²âÊÔ
+	 * GET---æ— å‚æµ‹è¯•
 	 *
-	 * @date 2018Äê7ÔÂ13ÈÕ ÏÂÎç4:18:50
+	 * @date 2018å¹´7æœˆ13æ—¥ ä¸‹åˆ4:18:50
 	 */
 	@Test
 	public void doGetTestOne() {
-		// »ñµÃHttp¿Í»§¶Ë(¿ÉÒÔÀí½âÎª:ÄãµÃÏÈÓĞÒ»¸öä¯ÀÀÆ÷;×¢Òâ:Êµ¼ÊÉÏHttpClientÓëä¯ÀÀÆ÷ÊÇ²»Ò»ÑùµÄ)
+		// è·å¾—Httpå®¢æˆ·ç«¯(å¯ä»¥ç†è§£ä¸º:ä½ å¾—å…ˆæœ‰ä¸€ä¸ªæµè§ˆå™¨;æ³¨æ„:å®é™…ä¸ŠHttpClientä¸æµè§ˆå™¨æ˜¯ä¸ä¸€æ ·çš„)
 		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
-		// ´´½¨GetÇëÇó
+		// åˆ›å»ºGetè¯·æ±‚
 		HttpGet httpGet = new HttpGet("http://localhost:12345/doGetControllerOne");
 
-		// ÏìÓ¦Ä£ĞÍ
+		// å“åº”æ¨¡å‹
 		CloseableHttpResponse response = null;
 		try {
-			// ÓÉ¿Í»§¶ËÖ´ĞĞ(·¢ËÍ)GetÇëÇó
+			// ç”±å®¢æˆ·ç«¯æ‰§è¡Œ(å‘é€)Getè¯·æ±‚
 			response = httpClient.execute(httpGet);
-			// ´ÓÏìÓ¦Ä£ĞÍÖĞ»ñÈ¡ÏìÓ¦ÊµÌå
+			// ä»å“åº”æ¨¡å‹ä¸­è·å–å“åº”å®ä½“
 			HttpEntity responseEntity = response.getEntity();
-			System.out.println("ÏìÓ¦×´Ì¬Îª:" + response.getStatusLine());
+			System.out.println("å“åº”çŠ¶æ€ä¸º:" + response.getStatusLine());
 			if (responseEntity != null) {
-				System.out.println("ÏìÓ¦ÄÚÈİ³¤¶ÈÎª:" + responseEntity.getContentLength());
-				System.out.println("ÏìÓ¦ÄÚÈİÎª:" + EntityUtils.toString(responseEntity));
+				System.out.println("å“åº”å†…å®¹é•¿åº¦ä¸º:" + responseEntity.getContentLength());
+				System.out.println("å“åº”å†…å®¹ä¸º:" + EntityUtils.toString(responseEntity));
 			}
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
@@ -66,7 +66,7 @@ public class HttpClientDemoTest {
 			e.printStackTrace();
 		} finally {
 			try {
-				// ÊÍ·Å×ÊÔ´
+				// é‡Šæ”¾èµ„æº
 				if (httpClient != null) {
 					httpClient.close();
 				}
@@ -80,19 +80,19 @@ public class HttpClientDemoTest {
 	}
 
 	/**
-	 * GET---ÓĞ²Î²âÊÔ (·½Ê½Ò»:ÊÖ¶¯ÔÚurlºóÃæ¼ÓÉÏ²ÎÊı)
+	 * GET---æœ‰å‚æµ‹è¯• (æ–¹å¼ä¸€:æ‰‹åŠ¨åœ¨urlåé¢åŠ ä¸Šå‚æ•°)
 	 *
-	 * @date 2018Äê7ÔÂ13ÈÕ ÏÂÎç4:19:23
+	 * @date 2018å¹´7æœˆ13æ—¥ ä¸‹åˆ4:19:23
 	 */
 	@Test
 	public void doGetTestWayOne() {
-		// »ñµÃHttp¿Í»§¶Ë(¿ÉÒÔÀí½âÎª:ÄãµÃÏÈÓĞÒ»¸öä¯ÀÀÆ÷;×¢Òâ:Êµ¼ÊÉÏHttpClientÓëä¯ÀÀÆ÷ÊÇ²»Ò»ÑùµÄ)
+		// è·å¾—Httpå®¢æˆ·ç«¯(å¯ä»¥ç†è§£ä¸º:ä½ å¾—å…ˆæœ‰ä¸€ä¸ªæµè§ˆå™¨;æ³¨æ„:å®é™…ä¸ŠHttpClientä¸æµè§ˆå™¨æ˜¯ä¸ä¸€æ ·çš„)
 		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 
-		// ²ÎÊı
+		// å‚æ•°
 		StringBuffer params = new StringBuffer();
 		try {
-			// ×Ö·ûÊı¾İ×îºÃencodingÒÔÏÂ;ÕâÑùÒ»À´£¬Ä³Ğ©ÌØÊâ×Ö·û²ÅÄÜ´«¹ıÈ¥(Èç:Ä³ÈËµÄÃû×Ö¾ÍÊÇ¡°&¡±,²»encodingµÄ»°,´«²»¹ıÈ¥)
+			// å­—ç¬¦æ•°æ®æœ€å¥½encodingä»¥ä¸‹;è¿™æ ·ä¸€æ¥ï¼ŒæŸäº›ç‰¹æ®Šå­—ç¬¦æ‰èƒ½ä¼ è¿‡å»(å¦‚:æŸäººçš„åå­—å°±æ˜¯â€œ&â€,ä¸encodingçš„è¯,ä¼ ä¸è¿‡å»)
 			params.append("name=" + URLEncoder.encode("&", "utf-8"));
 			params.append("&");
 			params.append("age=24");
@@ -100,34 +100,33 @@ public class HttpClientDemoTest {
 			e1.printStackTrace();
 		}
 
-		// ´´½¨GetÇëÇó
+		// åˆ›å»ºGetè¯·æ±‚
 		HttpGet httpGet = new HttpGet("http://localhost:12345/doGetControllerTwo" + "?" + params);
-		// ÏìÓ¦Ä£ĞÍ
+		// å“åº”æ¨¡å‹
 		CloseableHttpResponse response = null;
 		try {
-			// ÓÉ¿Í»§¶ËÖ´ĞĞ(·¢ËÍ)GetÇëÇó
-			response = httpClient.execute(httpGet);
-
-			// ÅäÖÃĞÅÏ¢
+			// é…ç½®ä¿¡æ¯
 			RequestConfig requestConfig = RequestConfig.custom()
-					// ÉèÖÃÁ¬½Ó³¬Ê±Ê±¼ä(µ¥Î»ºÁÃë)
+					// è®¾ç½®è¿æ¥è¶…æ—¶æ—¶é—´(å•ä½æ¯«ç§’)
 					.setConnectTimeout(5000)
-					// ÉèÖÃÇëÇó³¬Ê±Ê±¼ä(µ¥Î»ºÁÃë)
+					// è®¾ç½®è¯·æ±‚è¶…æ—¶æ—¶é—´(å•ä½æ¯«ç§’)
 					.setConnectionRequestTimeout(5000)
-					// socket¶ÁĞ´³¬Ê±Ê±¼ä(µ¥Î»ºÁÃë)
+					// socketè¯»å†™è¶…æ—¶æ—¶é—´(å•ä½æ¯«ç§’)
 					.setSocketTimeout(5000)
-					// ÉèÖÃÊÇ·ñÔÊĞíÖØ¶¨Ïò(Ä¬ÈÏÎªtrue)
+					// è®¾ç½®æ˜¯å¦å…è®¸é‡å®šå‘(é»˜è®¤ä¸ºtrue)
 					.setRedirectsEnabled(true).build();
 
-			// ½«ÉÏÃæµÄÅäÖÃĞÅÏ¢ ÔËÓÃµ½Õâ¸öGetÇëÇóÀï
+			// å°†ä¸Šé¢çš„é…ç½®ä¿¡æ¯ è¿ç”¨åˆ°è¿™ä¸ªGetè¯·æ±‚é‡Œ
 			httpGet.setConfig(requestConfig);
 
-			// ´ÓÏìÓ¦Ä£ĞÍÖĞ»ñÈ¡ÏìÓ¦ÊµÌå
+			// ç”±å®¢æˆ·ç«¯æ‰§è¡Œ(å‘é€)Getè¯·æ±‚
+			response = httpClient.execute(httpGet);
+			// ä»å“åº”æ¨¡å‹ä¸­è·å–å“åº”å®ä½“
 			HttpEntity responseEntity = response.getEntity();
-			System.out.println("ÏìÓ¦×´Ì¬Îª:" + response.getStatusLine());
+			System.out.println("å“åº”çŠ¶æ€ä¸º:" + response.getStatusLine());
 			if (responseEntity != null) {
-				System.out.println("ÏìÓ¦ÄÚÈİ³¤¶ÈÎª:" + responseEntity.getContentLength());
-				System.out.println("ÏìÓ¦ÄÚÈİÎª:" + EntityUtils.toString(responseEntity));
+				System.out.println("å“åº”å†…å®¹é•¿åº¦ä¸º:" + responseEntity.getContentLength());
+				System.out.println("å“åº”å†…å®¹ä¸º:" + EntityUtils.toString(responseEntity));
 			}
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
@@ -137,7 +136,7 @@ public class HttpClientDemoTest {
 			e.printStackTrace();
 		} finally {
 			try {
-				// ÊÍ·Å×ÊÔ´
+				// é‡Šæ”¾èµ„æº
 				if (httpClient != null) {
 					httpClient.close();
 				}
@@ -151,59 +150,58 @@ public class HttpClientDemoTest {
 	}
 
 	/**
-	 * GET---ÓĞ²Î²âÊÔ (·½Ê½¶ş:½«²ÎÊı·ÅÈë¼üÖµ¶ÔÀàÖĞ,ÔÙ·ÅÈëURIÖĞ,´Ó¶øÍ¨¹ıURIµÃµ½HttpGetÊµÀı)
+	 * GET---æœ‰å‚æµ‹è¯• (æ–¹å¼äºŒ:å°†å‚æ•°æ”¾å…¥é”®å€¼å¯¹ç±»ä¸­,å†æ”¾å…¥URIä¸­,ä»è€Œé€šè¿‡URIå¾—åˆ°HttpGetå®ä¾‹)
 	 *
-	 * @date 2018Äê7ÔÂ13ÈÕ ÏÂÎç4:19:23
+	 * @date 2018å¹´7æœˆ13æ—¥ ä¸‹åˆ4:19:23
 	 */
 	@Test
 	public void doGetTestWayTwo() {
-		// »ñµÃHttp¿Í»§¶Ë(¿ÉÒÔÀí½âÎª:ÄãµÃÏÈÓĞÒ»¸öä¯ÀÀÆ÷;×¢Òâ:Êµ¼ÊÉÏHttpClientÓëä¯ÀÀÆ÷ÊÇ²»Ò»ÑùµÄ)
+		// è·å¾—Httpå®¢æˆ·ç«¯(å¯ä»¥ç†è§£ä¸º:ä½ å¾—å…ˆæœ‰ä¸€ä¸ªæµè§ˆå™¨;æ³¨æ„:å®é™…ä¸ŠHttpClientä¸æµè§ˆå™¨æ˜¯ä¸ä¸€æ ·çš„)
 		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 
-		// ²ÎÊı
+		// å‚æ•°
 		URI uri = null;
 		try {
-			// ½«²ÎÊı·ÅÈë¼üÖµ¶ÔÀàNameValuePairÖĞ,ÔÙ·ÅÈë¼¯ºÏÖĞ
+			// å°†å‚æ•°æ”¾å…¥é”®å€¼å¯¹ç±»NameValuePairä¸­,å†æ”¾å…¥é›†åˆä¸­
 			List<NameValuePair> params = new ArrayList<>();
 			params.add(new BasicNameValuePair("name", "&"));
 			params.add(new BasicNameValuePair("age", "18"));
-			// ÉèÖÃuriĞÅÏ¢,²¢½«²ÎÊı¼¯ºÏ·ÅÈëuri;
-			// ×¢:ÕâÀïÒ²Ö§³ÖÒ»¸ö¼üÖµ¶ÔÒ»¸ö¼üÖµ¶ÔµØÍùÀïÃæ·ÅsetParameter(String key, String value)
+			// è®¾ç½®uriä¿¡æ¯,å¹¶å°†å‚æ•°é›†åˆæ”¾å…¥uri;
+			// æ³¨:è¿™é‡Œä¹Ÿæ”¯æŒä¸€ä¸ªé”®å€¼å¯¹ä¸€ä¸ªé”®å€¼å¯¹åœ°å¾€é‡Œé¢æ”¾setParameter(String key, String value)
 			uri = new URIBuilder().setScheme("http").setHost("localhost")
 					              .setPort(12345).setPath("/doGetControllerTwo")
 					              .setParameters(params).build();
 		} catch (URISyntaxException e1) {
 			e1.printStackTrace();
 		}
-		// ´´½¨GetÇëÇó
+		// åˆ›å»ºGetè¯·æ±‚
 		HttpGet httpGet = new HttpGet(uri);
 
-		// ÏìÓ¦Ä£ĞÍ
+		// å“åº”æ¨¡å‹
 		CloseableHttpResponse response = null;
 		try {
-			// ÓÉ¿Í»§¶ËÖ´ĞĞ(·¢ËÍ)GetÇëÇó
-			response = httpClient.execute(httpGet);
-
-			// ÅäÖÃĞÅÏ¢
+			// é…ç½®ä¿¡æ¯
 			RequestConfig requestConfig = RequestConfig.custom()
-					// ÉèÖÃÁ¬½Ó³¬Ê±Ê±¼ä(µ¥Î»ºÁÃë)
+					// è®¾ç½®è¿æ¥è¶…æ—¶æ—¶é—´(å•ä½æ¯«ç§’)
 					.setConnectTimeout(5000)
-					// ÉèÖÃÇëÇó³¬Ê±Ê±¼ä(µ¥Î»ºÁÃë)
+					// è®¾ç½®è¯·æ±‚è¶…æ—¶æ—¶é—´(å•ä½æ¯«ç§’)
 					.setConnectionRequestTimeout(5000)
-					// socket¶ÁĞ´³¬Ê±Ê±¼ä(µ¥Î»ºÁÃë)
+					// socketè¯»å†™è¶…æ—¶æ—¶é—´(å•ä½æ¯«ç§’)
 					.setSocketTimeout(5000)
-					// ÉèÖÃÊÇ·ñÔÊĞíÖØ¶¨Ïò(Ä¬ÈÏÎªtrue)
+					// è®¾ç½®æ˜¯å¦å…è®¸é‡å®šå‘(é»˜è®¤ä¸ºtrue)
 					.setRedirectsEnabled(true).build();
 
-			// ½«ÉÏÃæµÄÅäÖÃĞÅÏ¢ ÔËÓÃµ½Õâ¸öGetÇëÇóÀï
+			// å°†ä¸Šé¢çš„é…ç½®ä¿¡æ¯ è¿ç”¨åˆ°è¿™ä¸ªGetè¯·æ±‚é‡Œ
 			httpGet.setConfig(requestConfig);
 
-			// ´ÓÏìÓ¦Ä£ĞÍÖĞ»ñÈ¡ÏìÓ¦ÊµÌå
+			// ç”±å®¢æˆ·ç«¯æ‰§è¡Œ(å‘é€)Getè¯·æ±‚
+			response = httpClient.execute(httpGet);
+			// ä»å“åº”æ¨¡å‹ä¸­è·å–å“åº”å®ä½“
 			HttpEntity responseEntity = response.getEntity();
-			System.out.println("ÏìÓ¦×´Ì¬Îª:" + response.getStatusLine());
+			System.out.println("å“åº”çŠ¶æ€ä¸º:" + response.getStatusLine());
 			if (responseEntity != null) {
-				System.out.println("ÏìÓ¦ÄÚÈİ³¤¶ÈÎª:" + responseEntity.getContentLength());
-				System.out.println("ÏìÓ¦ÄÚÈİÎª:" + EntityUtils.toString(responseEntity));
+				System.out.println("å“åº”å†…å®¹é•¿åº¦ä¸º:" + responseEntity.getContentLength());
+				System.out.println("å“åº”å†…å®¹ä¸º:" + EntityUtils.toString(responseEntity));
 			}
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
@@ -213,7 +211,7 @@ public class HttpClientDemoTest {
 			e.printStackTrace();
 		} finally {
 			try {
-				// ÊÍ·Å×ÊÔ´
+				// é‡Šæ”¾èµ„æº
 				if (httpClient != null) {
 					httpClient.close();
 				}
@@ -227,30 +225,30 @@ public class HttpClientDemoTest {
 	}
 
 	/**
-	 * POST---ÎŞ²Î²âÊÔ
+	 * POST---æ— å‚æµ‹è¯•
 	 *
-	 * @date 2018Äê7ÔÂ13ÈÕ ÏÂÎç4:18:50
+	 * @date 2018å¹´7æœˆ13æ—¥ ä¸‹åˆ4:18:50
 	 */
 	@Test
 	public void doPostTestOne() {
 
-		// »ñµÃHttp¿Í»§¶Ë(¿ÉÒÔÀí½âÎª:ÄãµÃÏÈÓĞÒ»¸öä¯ÀÀÆ÷;×¢Òâ:Êµ¼ÊÉÏHttpClientÓëä¯ÀÀÆ÷ÊÇ²»Ò»ÑùµÄ)
+		// è·å¾—Httpå®¢æˆ·ç«¯(å¯ä»¥ç†è§£ä¸º:ä½ å¾—å…ˆæœ‰ä¸€ä¸ªæµè§ˆå™¨;æ³¨æ„:å®é™…ä¸ŠHttpClientä¸æµè§ˆå™¨æ˜¯ä¸ä¸€æ ·çš„)
 		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 
-		// ´´½¨PostÇëÇó
+		// åˆ›å»ºPostè¯·æ±‚
 		HttpPost httpPost = new HttpPost("http://localhost:12345/doPostControllerOne");
-		// ÏìÓ¦Ä£ĞÍ
+		// å“åº”æ¨¡å‹
 		CloseableHttpResponse response = null;
 		try {
-			// ÓÉ¿Í»§¶ËÖ´ĞĞ(·¢ËÍ)PostÇëÇó
+			// ç”±å®¢æˆ·ç«¯æ‰§è¡Œ(å‘é€)Postè¯·æ±‚
 			response = httpClient.execute(httpPost);
-			// ´ÓÏìÓ¦Ä£ĞÍÖĞ»ñÈ¡ÏìÓ¦ÊµÌå
+			// ä»å“åº”æ¨¡å‹ä¸­è·å–å“åº”å®ä½“
 			HttpEntity responseEntity = response.getEntity();
 
-			System.out.println("ÏìÓ¦×´Ì¬Îª:" + response.getStatusLine());
+			System.out.println("å“åº”çŠ¶æ€ä¸º:" + response.getStatusLine());
 			if (responseEntity != null) {
-				System.out.println("ÏìÓ¦ÄÚÈİ³¤¶ÈÎª:" + responseEntity.getContentLength());
-				System.out.println("ÏìÓ¦ÄÚÈİÎª:" + EntityUtils.toString(responseEntity));
+				System.out.println("å“åº”å†…å®¹é•¿åº¦ä¸º:" + responseEntity.getContentLength());
+				System.out.println("å“åº”å†…å®¹ä¸º:" + EntityUtils.toString(responseEntity));
 			}
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
@@ -260,7 +258,7 @@ public class HttpClientDemoTest {
 			e.printStackTrace();
 		} finally {
 			try {
-				// ÊÍ·Å×ÊÔ´
+				// é‡Šæ”¾èµ„æº
 				if (httpClient != null) {
 					httpClient.close();
 				}
@@ -274,46 +272,46 @@ public class HttpClientDemoTest {
 	}
 
 	/**
-	 * POST---ÓĞ²Î²âÊÔ(¶ÔÏó²ÎÊı)
+	 * POST---æœ‰å‚æµ‹è¯•(å¯¹è±¡å‚æ•°)
 	 *
-	 * @date 2018Äê7ÔÂ13ÈÕ ÏÂÎç4:18:50
+	 * @date 2018å¹´7æœˆ13æ—¥ ä¸‹åˆ4:18:50
 	 */
 	@Test
 	public void doPostTestTwo() {
 
-		// »ñµÃHttp¿Í»§¶Ë(¿ÉÒÔÀí½âÎª:ÄãµÃÏÈÓĞÒ»¸öä¯ÀÀÆ÷;×¢Òâ:Êµ¼ÊÉÏHttpClientÓëä¯ÀÀÆ÷ÊÇ²»Ò»ÑùµÄ)
+		// è·å¾—Httpå®¢æˆ·ç«¯(å¯ä»¥ç†è§£ä¸º:ä½ å¾—å…ˆæœ‰ä¸€ä¸ªæµè§ˆå™¨;æ³¨æ„:å®é™…ä¸ŠHttpClientä¸æµè§ˆå™¨æ˜¯ä¸ä¸€æ ·çš„)
 		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 
-		// ´´½¨PostÇëÇó
+		// åˆ›å»ºPostè¯·æ±‚
 		HttpPost httpPost = new HttpPost("http://localhost:12345/doPostControllerTwo");
 		User user = new User();
-		user.setName("ÅËÏşæÃ");
+		user.setName("æ½˜æ™“å©·");
 		user.setAge(18);
-		user.setGender("Å®");
-		user.setMotto("×ËÊÆÒªÓÅÑÅ~");
-		// ÎÒÕâÀïÀûÓÃ°¢ÀïµÄfastjson£¬½«Object×ª»»Îªjson×Ö·û´®;
-		// (ĞèÒªµ¼Èëcom.alibaba.fastjson.JSON°ü)
+		user.setGender("å¥³");
+		user.setMotto("å§¿åŠ¿è¦ä¼˜é›…~");
+		// æˆ‘è¿™é‡Œåˆ©ç”¨é˜¿é‡Œçš„fastjsonï¼Œå°†Objectè½¬æ¢ä¸ºjsonå­—ç¬¦ä¸²;
+		// (éœ€è¦å¯¼å…¥com.alibaba.fastjson.JSONåŒ…)
 		String jsonString = JSON.toJSONString(user);
 
 		StringEntity entity = new StringEntity(jsonString, "UTF-8");
 
-		// postÇëÇóÊÇ½«²ÎÊı·ÅÔÚÇëÇóÌåÀïÃæ´«¹ıÈ¥µÄ;ÕâÀï½«entity·ÅÈëpostÇëÇóÌåÖĞ
+		// postè¯·æ±‚æ˜¯å°†å‚æ•°æ”¾åœ¨è¯·æ±‚ä½“é‡Œé¢ä¼ è¿‡å»çš„;è¿™é‡Œå°†entityæ”¾å…¥postè¯·æ±‚ä½“ä¸­
 		httpPost.setEntity(entity);
 
 		httpPost.setHeader("Content-Type", "application/json;charset=utf8");
 
-		// ÏìÓ¦Ä£ĞÍ
+		// å“åº”æ¨¡å‹
 		CloseableHttpResponse response = null;
 		try {
-			// ÓÉ¿Í»§¶ËÖ´ĞĞ(·¢ËÍ)PostÇëÇó
+			// ç”±å®¢æˆ·ç«¯æ‰§è¡Œ(å‘é€)Postè¯·æ±‚
 			response = httpClient.execute(httpPost);
-			// ´ÓÏìÓ¦Ä£ĞÍÖĞ»ñÈ¡ÏìÓ¦ÊµÌå
+			// ä»å“åº”æ¨¡å‹ä¸­è·å–å“åº”å®ä½“
 			HttpEntity responseEntity = response.getEntity();
 
-			System.out.println("ÏìÓ¦×´Ì¬Îª:" + response.getStatusLine());
+			System.out.println("å“åº”çŠ¶æ€ä¸º:" + response.getStatusLine());
 			if (responseEntity != null) {
-				System.out.println("ÏìÓ¦ÄÚÈİ³¤¶ÈÎª:" + responseEntity.getContentLength());
-				System.out.println("ÏìÓ¦ÄÚÈİÎª:" + EntityUtils.toString(responseEntity));
+				System.out.println("å“åº”å†…å®¹é•¿åº¦ä¸º:" + responseEntity.getContentLength());
+				System.out.println("å“åº”å†…å®¹ä¸º:" + EntityUtils.toString(responseEntity));
 			}
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
@@ -323,7 +321,7 @@ public class HttpClientDemoTest {
 			e.printStackTrace();
 		} finally {
 			try {
-				// ÊÍ·Å×ÊÔ´
+				// é‡Šæ”¾èµ„æº
 				if (httpClient != null) {
 					httpClient.close();
 				}
@@ -337,26 +335,26 @@ public class HttpClientDemoTest {
 	}
 
 	/**
-	 * POST---ÓĞ²Î²âÊÔ(»ù±¾²ÎÊı + ¶ÔÏó²ÎÊı)
+	 * POST---æœ‰å‚æµ‹è¯•(åŸºæœ¬å‚æ•° + å¯¹è±¡å‚æ•°)
 	 *
-	 * @date 2018Äê7ÔÂ13ÈÕ ÏÂÎç4:18:50
+	 * @date 2018å¹´7æœˆ13æ—¥ ä¸‹åˆ4:18:50
 	 */
 	@Test
 	public void doPostTestThree() {
 
-		// »ñµÃHttp¿Í»§¶Ë(¿ÉÒÔÀí½âÎª:ÄãµÃÏÈÓĞÒ»¸öä¯ÀÀÆ÷;×¢Òâ:Êµ¼ÊÉÏHttpClientÓëä¯ÀÀÆ÷ÊÇ²»Ò»ÑùµÄ)
+		// è·å¾—Httpå®¢æˆ·ç«¯(å¯ä»¥ç†è§£ä¸º:ä½ å¾—å…ˆæœ‰ä¸€ä¸ªæµè§ˆå™¨;æ³¨æ„:å®é™…ä¸ŠHttpClientä¸æµè§ˆå™¨æ˜¯ä¸ä¸€æ ·çš„)
 		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 
-		// ´´½¨PostÇëÇó
-		// ²ÎÊı
+		// åˆ›å»ºPostè¯·æ±‚
+		// å‚æ•°
 		URI uri = null;
 		try {
-			// ½«²ÎÊı·ÅÈë¼üÖµ¶ÔÀàNameValuePairÖĞ,ÔÙ·ÅÈë¼¯ºÏÖĞ
+			// å°†å‚æ•°æ”¾å…¥é”®å€¼å¯¹ç±»NameValuePairä¸­,å†æ”¾å…¥é›†åˆä¸­
 			List<NameValuePair> params = new ArrayList<>();
 			params.add(new BasicNameValuePair("flag", "4"));
-			params.add(new BasicNameValuePair("meaning", "ÕâÊÇÊ²Ã´¹í£¿"));
-			// ÉèÖÃuriĞÅÏ¢,²¢½«²ÎÊı¼¯ºÏ·ÅÈëuri;
-			// ×¢:ÕâÀïÒ²Ö§³ÖÒ»¸ö¼üÖµ¶ÔÒ»¸ö¼üÖµ¶ÔµØÍùÀïÃæ·ÅsetParameter(String key, String value)
+			params.add(new BasicNameValuePair("meaning", "è¿™æ˜¯ä»€ä¹ˆé¬¼ï¼Ÿ"));
+			// è®¾ç½®uriä¿¡æ¯,å¹¶å°†å‚æ•°é›†åˆæ”¾å…¥uri;
+			// æ³¨:è¿™é‡Œä¹Ÿæ”¯æŒä¸€ä¸ªé”®å€¼å¯¹ä¸€ä¸ªé”®å€¼å¯¹åœ°å¾€é‡Œé¢æ”¾setParameter(String key, String value)
 			uri = new URIBuilder().setScheme("http").setHost("localhost").setPort(12345)
 					.setPath("/doPostControllerThree").setParameters(params).build();
 		} catch (URISyntaxException e1) {
@@ -367,33 +365,33 @@ public class HttpClientDemoTest {
 		// HttpPost httpPost = new
 		// HttpPost("http://localhost:12345/doPostControllerThree1");
 
-		// ´´½¨user²ÎÊı
+		// åˆ›å»ºuserå‚æ•°
 		User user = new User();
-		user.setName("ÅËÏşæÃ");
+		user.setName("æ½˜æ™“å©·");
 		user.setAge(18);
-		user.setGender("Å®");
-		user.setMotto("×ËÊÆÒªÓÅÑÅ~");
+		user.setGender("å¥³");
+		user.setMotto("å§¿åŠ¿è¦ä¼˜é›…~");
 
-		// ½«user¶ÔÏó×ª»»Îªjson×Ö·û´®£¬²¢·ÅÈëentityÖĞ
+		// å°†userå¯¹è±¡è½¬æ¢ä¸ºjsonå­—ç¬¦ä¸²ï¼Œå¹¶æ”¾å…¥entityä¸­
 		StringEntity entity = new StringEntity(JSON.toJSONString(user), "UTF-8");
 
-		// postÇëÇóÊÇ½«²ÎÊı·ÅÔÚÇëÇóÌåÀïÃæ´«¹ıÈ¥µÄ;ÕâÀï½«entity·ÅÈëpostÇëÇóÌåÖĞ
+		// postè¯·æ±‚æ˜¯å°†å‚æ•°æ”¾åœ¨è¯·æ±‚ä½“é‡Œé¢ä¼ è¿‡å»çš„;è¿™é‡Œå°†entityæ”¾å…¥postè¯·æ±‚ä½“ä¸­
 		httpPost.setEntity(entity);
 
 		httpPost.setHeader("Content-Type", "application/json;charset=utf8");
 
-		// ÏìÓ¦Ä£ĞÍ
+		// å“åº”æ¨¡å‹
 		CloseableHttpResponse response = null;
 		try {
-			// ÓÉ¿Í»§¶ËÖ´ĞĞ(·¢ËÍ)PostÇëÇó
+			// ç”±å®¢æˆ·ç«¯æ‰§è¡Œ(å‘é€)Postè¯·æ±‚
 			response = httpClient.execute(httpPost);
-			// ´ÓÏìÓ¦Ä£ĞÍÖĞ»ñÈ¡ÏìÓ¦ÊµÌå
+			// ä»å“åº”æ¨¡å‹ä¸­è·å–å“åº”å®ä½“
 			HttpEntity responseEntity = response.getEntity();
 
-			System.out.println("ÏìÓ¦×´Ì¬Îª:" + response.getStatusLine());
+			System.out.println("å“åº”çŠ¶æ€ä¸º:" + response.getStatusLine());
 			if (responseEntity != null) {
-				System.out.println("ÏìÓ¦ÄÚÈİ³¤¶ÈÎª:" + responseEntity.getContentLength());
-				System.out.println("ÏìÓ¦ÄÚÈİÎª:" + EntityUtils.toString(responseEntity));
+				System.out.println("å“åº”å†…å®¹é•¿åº¦ä¸º:" + responseEntity.getContentLength());
+				System.out.println("å“åº”å†…å®¹ä¸º:" + EntityUtils.toString(responseEntity));
 			}
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
@@ -403,7 +401,7 @@ public class HttpClientDemoTest {
 			e.printStackTrace();
 		} finally {
 			try {
-				// ÊÍ·Å×ÊÔ´
+				// é‡Šæ”¾èµ„æº
 				if (httpClient != null) {
 					httpClient.close();
 				}
@@ -417,20 +415,20 @@ public class HttpClientDemoTest {
 	}
 
 	/**
-	 * POST---ÓĞ²Î²âÊÔ(»ù±¾²ÎÊı)
+	 * POST---æœ‰å‚æµ‹è¯•(åŸºæœ¬å‚æ•°)
 	 *
-	 * @date 2018Äê7ÔÂ13ÈÕ ÏÂÎç4:18:50
+	 * @date 2018å¹´7æœˆ13æ—¥ ä¸‹åˆ4:18:50
 	 */
 	@Test
 	public void doPostTestFour() {
 
-		// »ñµÃHttp¿Í»§¶Ë(¿ÉÒÔÀí½âÎª:ÄãµÃÏÈÓĞÒ»¸öä¯ÀÀÆ÷;×¢Òâ:Êµ¼ÊÉÏHttpClientÓëä¯ÀÀÆ÷ÊÇ²»Ò»ÑùµÄ)
+		// è·å¾—Httpå®¢æˆ·ç«¯(å¯ä»¥ç†è§£ä¸º:ä½ å¾—å…ˆæœ‰ä¸€ä¸ªæµè§ˆå™¨;æ³¨æ„:å®é™…ä¸ŠHttpClientä¸æµè§ˆå™¨æ˜¯ä¸ä¸€æ ·çš„)
 		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 
-		// ²ÎÊı
+		// å‚æ•°
 		StringBuffer params = new StringBuffer();
 		try {
-			// ×Ö·ûÊı¾İ×îºÃencodingÒÔÏÂ;ÕâÑùÒ»À´£¬Ä³Ğ©ÌØÊâ×Ö·û²ÅÄÜ´«¹ıÈ¥(Èç:Ä³ÈËµÄÃû×Ö¾ÍÊÇ¡°&¡±,²»encodingµÄ»°,´«²»¹ıÈ¥)
+			// å­—ç¬¦æ•°æ®æœ€å¥½encodingä»¥ä¸‹;è¿™æ ·ä¸€æ¥ï¼ŒæŸäº›ç‰¹æ®Šå­—ç¬¦æ‰èƒ½ä¼ è¿‡å»(å¦‚:æŸäººçš„åå­—å°±æ˜¯â€œ&â€,ä¸encodingçš„è¯,ä¼ ä¸è¿‡å»)
 			params.append("name=" + URLEncoder.encode("&", "utf-8"));
 			params.append("&");
 			params.append("age=24");
@@ -438,24 +436,24 @@ public class HttpClientDemoTest {
 			e1.printStackTrace();
 		}
 
-		// ´´½¨PostÇëÇó
+		// åˆ›å»ºPostè¯·æ±‚
 		HttpPost httpPost = new HttpPost("http://localhost:12345/doPostControllerFour" + "?" + params);
 
-		// ÉèÖÃContentType(×¢:Èç¹ûÖ»ÊÇ´«ÆÕÍ¨²ÎÊıµÄ»°,ContentType²»Ò»¶¨·ÇÒªÓÃapplication/json)
+		// è®¾ç½®ContentType(æ³¨:å¦‚æœåªæ˜¯ä¼ æ™®é€šå‚æ•°çš„è¯,ContentTypeä¸ä¸€å®šéè¦ç”¨application/json)
 		httpPost.setHeader("Content-Type", "application/json;charset=utf8");
 
-		// ÏìÓ¦Ä£ĞÍ
+		// å“åº”æ¨¡å‹
 		CloseableHttpResponse response = null;
 		try {
-			// ÓÉ¿Í»§¶ËÖ´ĞĞ(·¢ËÍ)PostÇëÇó
+			// ç”±å®¢æˆ·ç«¯æ‰§è¡Œ(å‘é€)Postè¯·æ±‚
 			response = httpClient.execute(httpPost);
-			// ´ÓÏìÓ¦Ä£ĞÍÖĞ»ñÈ¡ÏìÓ¦ÊµÌå
+			// ä»å“åº”æ¨¡å‹ä¸­è·å–å“åº”å®ä½“
 			HttpEntity responseEntity = response.getEntity();
 
-			System.out.println("ÏìÓ¦×´Ì¬Îª:" + response.getStatusLine());
+			System.out.println("å“åº”çŠ¶æ€ä¸º:" + response.getStatusLine());
 			if (responseEntity != null) {
-				System.out.println("ÏìÓ¦ÄÚÈİ³¤¶ÈÎª:" + responseEntity.getContentLength());
-				System.out.println("ÏìÓ¦ÄÚÈİÎª:" + EntityUtils.toString(responseEntity));
+				System.out.println("å“åº”å†…å®¹é•¿åº¦ä¸º:" + responseEntity.getContentLength());
+				System.out.println("å“åº”å†…å®¹ä¸º:" + EntityUtils.toString(responseEntity));
 			}
 		} catch (ClientProtocolException e) {
 			e.printStackTrace();
@@ -465,7 +463,7 @@ public class HttpClientDemoTest {
 			e.printStackTrace();
 		} finally {
 			try {
-				// ÊÍ·Å×ÊÔ´
+				// é‡Šæ”¾èµ„æº
 				if (httpClient != null) {
 					httpClient.close();
 				}

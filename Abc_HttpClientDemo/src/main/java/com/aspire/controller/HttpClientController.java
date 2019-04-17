@@ -8,19 +8,19 @@ import org.springframework.web.bind.annotation.RestController;
 import com.aspire.model.User;
 
 /**
- * HttpClient²âÊÔ
+ * HttpClientæµ‹è¯•
  *
  * @author JustryDeng
- * @date 2018Äê7ÔÂ13ÈÕ ÏÂÎç4:05:57
+ * @date 2018å¹´7æœˆ13æ—¥ ä¸‹åˆ4:05:57
  */
 @RestController
 public class HttpClientController {
 
 	/**
-	 * GETÎŞ²Î
+	 * GETæ— å‚
 	 *
-	 * @return ²âÊÔÊı¾İ
-	 * @date 2018Äê7ÔÂ13ÈÕ ÏÂÎç5:29:44
+	 * @return æµ‹è¯•æ•°æ®
+	 * @date 2018å¹´7æœˆ13æ—¥ ä¸‹åˆ5:29:44
 	 */
 	@RequestMapping("/doGetControllerOne")
 	public String doGetControllerOne() {
@@ -28,36 +28,36 @@ public class HttpClientController {
 	}
 
 	/**
-	 * GETÓĞ²Î
+	 * GETæœ‰å‚
 	 *
 	 * @param name
-	 *            ĞÕÃû
+	 *            å§“å
 	 * @param age
-	 *            ÄêÁä
-	 * @return ²âÊÔÊı¾İ
-	 * @date 2018Äê7ÔÂ13ÈÕ ÏÂÎç5:29:47
+	 *            å¹´é¾„
+	 * @return æµ‹è¯•æ•°æ®
+	 * @date 2018å¹´7æœˆ13æ—¥ ä¸‹åˆ5:29:47
 	 */
 	@RequestMapping("/doGetControllerTwo")
 	public String doGetControllerTwo(String name, Integer age) {
-		return "Ã»Ïëµ½[" + name + "]¶¼" + age + "ËêÁË!";
+		return "æ²¡æƒ³åˆ°[" + name + "]éƒ½" + age + "å²äº†!";
 	}
 
 	/**
-	 * POSTÎŞ²Î
+	 * POSTæ— å‚
 	 *
-	 * @return ²âÊÔÊı¾İ
-	 * @date 2018Äê7ÔÂ13ÈÕ ÏÂÎç5:29:49
+	 * @return æµ‹è¯•æ•°æ®
+	 * @date 2018å¹´7æœˆ13æ—¥ ä¸‹åˆ5:29:49
 	 */
 	@RequestMapping(value = "/doPostControllerOne", method = RequestMethod.POST)
 	public String doPostControllerOne() {
-		return "Õâ¸öpostÇëÇóÃ»ÓĞÈÎºÎ²ÎÊı!";
+		return "è¿™ä¸ªpostè¯·æ±‚æ²¡æœ‰ä»»ä½•å‚æ•°!";
 	}
 
 	/**
-	 * POSTÓĞ²Î(¶ÔÏó²ÎÊı)
+	 * POSTæœ‰å‚(å¯¹è±¡å‚æ•°)
 	 *
-	 * @return ²âÊÔÊı¾İ
-	 * @date 2018Äê7ÔÂ13ÈÕ ÏÂÎç5:29:52
+	 * @return æµ‹è¯•æ•°æ®
+	 * @date 2018å¹´7æœˆ13æ—¥ ä¸‹åˆ5:29:52
 	 */
 	@RequestMapping(value = "/doPostControllerTwo", method = RequestMethod.POST)
 	public String doPostControllerTwo(@RequestBody User user) {
@@ -65,10 +65,10 @@ public class HttpClientController {
 	}
 
 	/**
-	 * POSTÓĞ²Î(ÆÕÍ¨²ÎÊı + ¶ÔÏó²ÎÊı)
+	 * POSTæœ‰å‚(æ™®é€šå‚æ•° + å¯¹è±¡å‚æ•°)
 	 *
-	 * @return ²âÊÔÊı¾İ
-	 * @date 2018Äê7ÔÂ13ÈÕ ÏÂÎç5:29:52
+	 * @return æµ‹è¯•æ•°æ®
+	 * @date 2018å¹´7æœˆ13æ—¥ ä¸‹åˆ5:29:52
 	 */
 	@RequestMapping(value = "/doPostControllerThree", method = RequestMethod.POST)
 	public String doPostControllerThree(@RequestBody User user,Integer flag, String meaning) {
@@ -76,14 +76,14 @@ public class HttpClientController {
 	}
 	
 	/**
-	 * POSTÓĞ²Î(ÆÕÍ¨²ÎÊı)
+	 * POSTæœ‰å‚(æ™®é€šå‚æ•°)
 	 *
-	 * @return ²âÊÔÊı¾İ
-	 * @date 2018Äê7ÔÂ14ÈÕ ÉÏÎç10:54:29
+	 * @return æµ‹è¯•æ•°æ®
+	 * @date 2018å¹´7æœˆ14æ—¥ ä¸Šåˆ10:54:29
 	 */
 	@RequestMapping(value = "/doPostControllerFour", method = RequestMethod.POST)
 	public String doPostControllerThree1(String name, Integer age) {
-		return "[" + name + "]¾ÓÈ»²Å[" + age + "]Ëê!!!";
+		return "[" + name + "]å±…ç„¶æ‰[" + age + "]å²!!!";
 	}
 
 }
