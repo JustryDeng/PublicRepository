@@ -196,6 +196,11 @@ public class FtpUtil {
         ftpClient.setFileType(transportFileType);
         // 设置FTP客户端(即本地)模式为被动模式
         ftpClient.enterLocalPassiveMode();
+
+        /* TODO 此配置主要解决： 操作Linux下的FTP，.listFiles(xxx)方法不能获取到指定文件夹下 的 文件(夹)问题
+         *      引入此配置后，反而可能导致  操作Windows下的FTP时，.listFiles(xxx)方法不能获取到指定文件夹下 的 文件(夹)，
+         *      所以，如果是操作Windows下的FTP,操作失败时，可考虑将 此配置注释掉
+         */
         // 由于apache不支持中文语言环境，通过定制类解析中文日期类型
         ftpClient.configure(new FTPClientConfig("com.aspire.util.UnixFTPEntryParser"));
     }

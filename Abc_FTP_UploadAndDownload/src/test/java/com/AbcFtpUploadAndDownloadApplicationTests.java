@@ -36,6 +36,10 @@ public class AbcFtpUploadAndDownloadApplicationTests {
 	/**
 	 * deleteBlankDirOrFile删除 --- 测试
 	 *
+	 * 注: 若删除失败， 可按照以下步骤进行排查:
+	 *     1、是否有删除的权限
+	 *     2、编码是否对应，可能指令过去后乱码了，导致删除失败
+	 *
 	 * @date 2018年9月27日 上午10:12:56
 	 */
 	@Test
@@ -57,6 +61,12 @@ public class AbcFtpUploadAndDownloadApplicationTests {
 
 	/**
 	 * recursiveDeleteBlankDirOrFile(即:deleteBlankDirOrFile升级版)删除 --- 测试
+	 *
+	 * 注: 若删除失败， 可按照以下步骤进行排查:
+	 * 	   1、是否有删除的权限
+	 * 	   2、编码是否对应，可能指令过去后乱码了，导致删除失败
+	 * 	   3、此工具类主要针对Linux下的FTP进行编写的， 如果是操作Windows下的FTP， 若此操作失败了，
+	 * 	      可去FtpUtil工具类中，将人标注有TODO说明的对应代码注释掉后，在进行测试
 	 *
 	 * @date 2018年9月26日 下午4:51:51
 	 */
