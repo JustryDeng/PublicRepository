@@ -26,7 +26,7 @@ public class ApplicationTests {
         String symbolValue = URLEncoder.encode("&",  "UTF-8");
         String url = "http://127.0.0.1:8080/get?name=lisi&age=18&symbol=" + symbolValue;
         HttpRequest httpRequest = HttpRequest.get(url);
-        // 执行请求,并返回请求体数据
+        // 执行请求,并返回响应数据
         String responseBody = httpRequest.body();
         System.out.println(responseBody);
     }
