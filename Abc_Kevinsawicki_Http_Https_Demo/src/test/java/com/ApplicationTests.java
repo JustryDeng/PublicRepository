@@ -62,7 +62,7 @@ public class ApplicationTests {
     }
 
     /**
-     * 请求头于测试
+     * 请求头域测试
      * 注:头域里面的key,是不区分大小写的;
      *    值还是会区分大小写的
      *
