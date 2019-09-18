@@ -31,8 +31,8 @@ import com.AbcHttpClientDemoApplication;
 import com.alibaba.fastjson.JSON;
 import com.aspire.model.User;
 
-@SpringBootTest(classes = { AbcHttpClientDemoApplication.class })
 @RunWith(SpringRunner.class)
+@SpringBootTest(classes = { AbcHttpClientDemoApplication.class })
 public class HttpClientDemoTest {
 	/**
 	 * GET---无参测试

@@ -1,3 +1,12 @@
-# 指定端口号
-server: 
+# 关于如何生成、配置证书，可参考本人的这篇博客:https://blog.csdn.net/justry_deng/article/details/91569132
+http:
   port: 12345
+server:
+  port: 8484
+  ssl:
+    key-store: classpath:server/dsstore.p12
+    key-store-password: dengshuai@123*Ds
+    keyAlias: dengshuai_ca
+    keyStoreType: PKCS12
+
+
