@@ -1,11 +1,13 @@
 package com.aspire.controller;
 
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
-
 import com.aspire.model.User;
+import org.springframework.web.bind.annotation.*;
+import org.springframework.web.multipart.MultipartFile;
+
+import java.io.*;
+import java.net.URLDecoder;
+import java.nio.charset.StandardCharsets;
+import java.util.List;
 
 /**
  * HttpClient测试
@@ -86,4 +88,75 @@ public class HttpClientController {
 		return "[" + name + "]居然才[" + age + "]岁!!!";
 	}
 
+	/**
+	 * application/x-www-form-urlencoded 请求测试
+	 *
+	 * @date 2019/9/19 9:59
+	 */
+	@PostMapping(value = "/form/data")
+	public String formDataControllerTest(@RequestParam("name") String name,
+									  @RequestParam("age") Integer age) {
+		return "application/x-www-form-urlencoded请求成功，name值为【" + name + "】，age值为【" + age + "】";
+	}
+
+	/**
+	 * httpclient传文件测试
+	 *
+	 * 注: 即multipart/form-data测试。
+	 * 注:多文件的话，可以使用数组MultipartFile[]或集合List<MultipartFile>来接收
+	 * 注:单文件的话，可以直接使用MultipartFile来接收
+	 *
+	 * @date 2019/9/19 9:59
+	 */
+	@PostMapping(value = "/file")
+	public String fileControllerTest(
+			                         @RequestParam("name") String name,
+									 @RequestParam("age") Integer age,
+									 @RequestParam("files") List<MultipartFile> multipartFiles)
+			                          throws UnsupportedEncodingException {
+
+		StringBuilder sb = new StringBuilder(64);
+		// 防止中文乱码
+		sb.append("\n");
+		sb.append("name=").append(name)
+		  .append("\tage=").append(age);
+		String fileName;
+		for (MultipartFile file : multipartFiles) {
+			sb.append("\n文件信息:\n");
+			fileName = file.getOriginalFilename();
+			if (fileName == null) {
+				continue;
+			}
+			// 防止中文乱码
+			// 在传文件时，将文件名URLEncode，然后在这里获取文件名时，URLDecode。就能避免乱码问题。
+			fileName = URLDecoder.decode(fileName, "utf-8");
+			sb.append("\t文件名: ").append(fileName);
+			sb.append("\t文件大小: ").append(file.getSize() * 1.0 / 1024).append("KB");
+			sb.append("\tContentType: ").append(file.getContentType());
+			sb.append("\n");
+		}
+		return  sb.toString();
+	}
+
+	/**
+	 * httpclient传文件测试
+	 *
+	 * 注: 即multipart/form-data测试。
+	 * 注:多文件的话，可以使用数组MultipartFile[]或集合List<MultipartFile>来接收
+	 * 注:单文件的话，可以直接使用MultipartFile来接收
+	 *
+	 * @date 2019/9/19 9:59
+	 */
+	@PostMapping(value = "/is")
+	public String fileControllerTest(@RequestParam("name") String name, InputStream is) throws IOException {
+		StringBuilder sb = new StringBuilder(64);
+		sb.append("\nname值为: ").append(name);
+		sb.append("\n输入流数据内容为: ");
+		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(is, StandardCharsets.UTF_8));
+		String line;
+		while ((line = bufferedReader.readLine()) != null) {
+			sb.append(line);
+		}
+		return  sb.toString();
+	}
 }

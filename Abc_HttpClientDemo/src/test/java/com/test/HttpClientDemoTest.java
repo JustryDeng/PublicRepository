@@ -1,17 +1,11 @@
 package com.test;
 
-import java.io.IOException;
-import java.io.UnsupportedEncodingException;
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.net.URLEncoder;
-import java.util.ArrayList;
-import java.util.List;
-
+import com.AbcHttpClientDemoApplication;
+import com.alibaba.fastjson.JSON;
+import com.aspire.model.User;
 import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;
 import org.apache.http.ParseException;
-import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
@@ -27,9 +21,13 @@ import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.AbcHttpClientDemoApplication;
-import com.alibaba.fastjson.JSON;
-import com.aspire.model.User;
+import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URLEncoder;
+import java.util.ArrayList;
+import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = { AbcHttpClientDemoApplication.class })
@@ -58,11 +56,7 @@ public class HttpClientDemoTest {
 				System.out.println("响应内容长度为:" + responseEntity.getContentLength());
 				System.out.println("响应内容为:" + EntityUtils.toString(responseEntity));
 			}
-		} catch (ClientProtocolException e) {
-			e.printStackTrace();
-		} catch (ParseException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
+		} catch (ParseException | IOException e) {
 			e.printStackTrace();
 		} finally {
 			try {
@@ -90,10 +84,10 @@ public class HttpClientDemoTest {
 		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 
 		// 参数
-		StringBuffer params = new StringBuffer();
+		StringBuilder params = new StringBuilder();
 		try {
 			// 字符数据最好encoding以下;这样一来，某些特殊字符才能传过去(如:某人的名字就是“&”,不encoding的话,传不过去)
-			params.append("name=" + URLEncoder.encode("&", "utf-8"));
+			params.append("name=").append(URLEncoder.encode("&", "utf-8"));
 			params.append("&");
 			params.append("age=24");
 		} catch (UnsupportedEncodingException e1) {
@@ -128,11 +122,7 @@ public class HttpClientDemoTest {
 				System.out.println("响应内容长度为:" + responseEntity.getContentLength());
 				System.out.println("响应内容为:" + EntityUtils.toString(responseEntity));
 			}
-		} catch (ClientProtocolException e) {
-			e.printStackTrace();
-		} catch (ParseException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
+		} catch (ParseException | IOException e) {
 			e.printStackTrace();
 		} finally {
 			try {
@@ -203,11 +193,7 @@ public class HttpClientDemoTest {
 				System.out.println("响应内容长度为:" + responseEntity.getContentLength());
 				System.out.println("响应内容为:" + EntityUtils.toString(responseEntity));
 			}
-		} catch (ClientProtocolException e) {
-			e.printStackTrace();
-		} catch (ParseException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
+		} catch (ParseException | IOException e) {
 			e.printStackTrace();
 		} finally {
 			try {
@@ -250,11 +236,7 @@ public class HttpClientDemoTest {
 				System.out.println("响应内容长度为:" + responseEntity.getContentLength());
 				System.out.println("响应内容为:" + EntityUtils.toString(responseEntity));
 			}
-		} catch (ClientProtocolException e) {
-			e.printStackTrace();
-		} catch (ParseException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
+		} catch (ParseException | IOException e) {
 			e.printStackTrace();
 		} finally {
 			try {
@@ -293,6 +275,7 @@ public class HttpClientDemoTest {
 		// (需要导入com.alibaba.fastjson.JSON包)
 		String jsonString = JSON.toJSONString(user);
 
+
 		StringEntity entity = new StringEntity(jsonString, "UTF-8");
 
 		// post请求是将参数放在请求体里面传过去的;这里将entity放入post请求体中
@@ -313,11 +296,7 @@ public class HttpClientDemoTest {
 				System.out.println("响应内容长度为:" + responseEntity.getContentLength());
 				System.out.println("响应内容为:" + EntityUtils.toString(responseEntity));
 			}
-		} catch (ClientProtocolException e) {
-			e.printStackTrace();
-		} catch (ParseException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
+		} catch (ParseException | IOException e) {
 			e.printStackTrace();
 		} finally {
 			try {
@@ -393,11 +372,7 @@ public class HttpClientDemoTest {
 				System.out.println("响应内容长度为:" + responseEntity.getContentLength());
 				System.out.println("响应内容为:" + EntityUtils.toString(responseEntity));
 			}
-		} catch (ClientProtocolException e) {
-			e.printStackTrace();
-		} catch (ParseException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
+		} catch (ParseException | IOException e) {
 			e.printStackTrace();
 		} finally {
 			try {
@@ -426,10 +401,10 @@ public class HttpClientDemoTest {
 		CloseableHttpClient httpClient = HttpClientBuilder.create().build();
 
 		// 参数
-		StringBuffer params = new StringBuffer();
+		StringBuilder params = new StringBuilder();
 		try {
 			// 字符数据最好encoding以下;这样一来，某些特殊字符才能传过去(如:某人的名字就是“&”,不encoding的话,传不过去)
-			params.append("name=" + URLEncoder.encode("&", "utf-8"));
+			params.append("name=").append(URLEncoder.encode("&", "utf-8"));
 			params.append("&");
 			params.append("age=24");
 		} catch (UnsupportedEncodingException e1) {
@@ -455,11 +430,7 @@ public class HttpClientDemoTest {
 				System.out.println("响应内容长度为:" + responseEntity.getContentLength());
 				System.out.println("响应内容为:" + EntityUtils.toString(responseEntity));
 			}
-		} catch (ClientProtocolException e) {
-			e.printStackTrace();
-		} catch (ParseException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
+		} catch (ParseException | IOException e) {
 			e.printStackTrace();
 		} finally {
 			try {
