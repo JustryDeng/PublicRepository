@@ -139,11 +139,7 @@ public class HttpClientController {
 	}
 
 	/**
-	 * httpclient传文件测试
-	 *
-	 * 注: 即multipart/form-data测试。
-	 * 注:多文件的话，可以使用数组MultipartFile[]或集合List<MultipartFile>来接收
-	 * 注:单文件的话，可以直接使用MultipartFile来接收
+	 * httpclient传流测试
 	 *
 	 * @date 2019/9/19 9:59
 	 */
