@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration scan="true">
+
+	<property name="logFilePositionDir"  value="log" />
+	<property name="logFileName"  value="log" />
+    <property name="pattern" value="%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread|%X{requestId}] %-5level %logger{36}:%L- %msg%n"/>
+
+	<appender name="consoleAppender"  class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>${pattern}</pattern>
+			<charset class="java.nio.charset.Charset">UTF-8</charset>
+		</encoder>
+	</appender>
+	<appender name="fileAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${logFilePositionDir}/${logFileName}.log</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<fileNamePattern>${logFilePositionDir}/${logFileName}.%d{yyyy-MM-dd}.%i.log
+			</fileNamePattern>
+			<MaxHistory>
+				30
+			</MaxHistory>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<maxFileSize>50MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+		</rollingPolicy>
+		<encoder>
+			<pattern>${pattern}</pattern>
+			<charset class="java.nio.charset.Charset">UTF-8</charset>
+		</encoder>
+	</appender>
+
+	<logger name="com" level="debug">
+		<appender-ref ref="fileAppender" />
+	</logger>
+
+	<root>
+		<appender-ref ref="consoleAppender" />
+	</root>
+</configuration>
