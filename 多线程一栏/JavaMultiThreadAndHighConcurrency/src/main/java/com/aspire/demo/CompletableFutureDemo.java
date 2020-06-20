@@ -1071,7 +1071,7 @@ public class CompletableFutureDemo {
      * public static CompletableFuture<Object> anyOf(CompletableFuture<?>... cfs):
      * 只要cfs中任何一个完成了, 那么this就完成。并且this的结果与最先完成的那一个cf的结果一样。
      *
-     * 注: allOf返回的future的完成状态与第一个完成的future的完成状态一致。
+     * 注: anyOf返回的future的完成状态与第一个完成的future的完成状态一致。
      * 注: 任何一个cfs正常执行完成 或者 有异常出现导致完成， 都属于完成。 追注: 取消也属于异常完成。
      *
      * 注: 因为this的结果与最先完成的那一个cf的结果一样。所以，如果最先那个是正常完成的还好，
@@ -1130,7 +1130,7 @@ public class CompletableFutureDemo {
     }
     
     /**
-     * 验证: allOf返回的future完成后的完成状态与第一个完成的future的完成状态一致。
+     * 验证: anyOf返回的future完成后的完成状态与第一个完成的future的完成状态一致。
      *
      * (打开A处)输出:
      * a的完成状态	java.util.concurrent.CompletableFuture@70f02c32[Completed exceptionally]
