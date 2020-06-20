@@ -28,8 +28,6 @@ public class JavaMultiThreadAndHighConcurrencyApplicationTests {
     private static Integer count = 0;
 
     //    private static AtomicInteger count = new AtomicInteger(0);
-//
-//
     public static void main(String[] args) throws Exception {
 
         ExecutorService executorService = Executors.newFixedThreadPool(threadNum);
