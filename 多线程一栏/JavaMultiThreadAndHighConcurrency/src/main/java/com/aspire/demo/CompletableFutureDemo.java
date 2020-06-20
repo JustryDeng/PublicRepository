@@ -971,7 +971,9 @@ public class CompletableFutureDemo {
      * public static CompletableFuture<Void> allOf(CompletableFuture<?>... cfs):
      * 所有的cfs都完成了, this才完成。
      *
-     * 注: 任何一个cfs正常执行 或者 有异常出现， 都属于完成。 追注: 取消也属于异常完成。
+     * 注:只要有一个future异常完成， 那么allOf返回的future完成后的完成状态就属于异常完成。
+     *    即: 只有所有的future全部都正常完成， allOf返回的future完成后的完成状态才是正常完成。
+     * 注: 任何一个cfs正常执行完成 或者 有异常出现导致完成， 都属于完成。 追注: 取消也属于异常完成。
      *
      * 输出:
      * ......
@@ -1016,11 +1018,61 @@ public class CompletableFutureDemo {
     }
     
     /**
+     * 验证: 只要有一个future异常完成， 那么allOf返回的future完成后的完成状态就属于异常完成。
+     *      即: 只有所有的future全部都正常完成， allOf返回的future完成后的完成状态才是正常完成。
+     *
+     *
+     * (注释A、B处)输出:
+     * ForkJoinPool.commonPool-worker-1	 b完成了
+     * a的完成状态	java.util.concurrent.CompletableFuture@70f02c32[Completed normally]
+     * b的完成状态	java.util.concurrent.CompletableFuture@62010f5c[Completed normally]
+     * c的完成状态	java.util.concurrent.CompletableFuture@51fadaff[Completed normally]
+     *
+     * (打开A处, 注释B处)输出:
+     * a的完成状态	java.util.concurrent.CompletableFuture@70f02c32[Completed exceptionally]
+     * b的完成状态	java.util.concurrent.CompletableFuture@62010f5c[Completed normally]
+     * c的完成状态	java.util.concurrent.CompletableFuture@51fadaff[Completed exceptionally]
+     *
+     * (打开B处, 注释A处)输出:
+     * a的完成状态	java.util.concurrent.CompletableFuture@70f02c32[Completed normally]
+     * b的完成状态	java.util.concurrent.CompletableFuture@62010f5c[Completed exceptionally]
+     * c的完成状态	java.util.concurrent.CompletableFuture@51fadaff[Completed exceptionally]
+     *
+     *
+     * (打开A、B处)输出:
+     * ForkJoinPool.commonPool-worker-1	 b完成了
+     * a的完成状态	java.util.concurrent.CompletableFuture@70f02c32[Completed exceptionally]
+     * b的完成状态	java.util.concurrent.CompletableFuture@62010f5c[Completed exceptionally]
+     * c的完成状态	java.util.concurrent.CompletableFuture@51fadaff[Completed exceptionally]
+     */
+    @Test
+    public void allOfTest2() throws Exception {
+        CompletableFuture<Void> a = CompletableFuture.runAsync(() -> {
+              int da = 1 /0; // A处
+        });
+        
+        CompletableFuture<Void> b = CompletableFuture.runAsync(() -> {
+             int da = 1 /0; // B处
+        });
+        CompletableFuture<Void> c = CompletableFuture.allOf(a, b);
+    
+        try {
+            c.join();
+        } catch (Exception e) {
+            // ignore
+        }
+    
+        System.err.println("a的完成状态\t" + a.toString());
+        System.err.println("b的完成状态\t" + b.toString());
+        System.err.println("c的完成状态\t" + c.toString());
+    }
+    
+    /**
      * public static CompletableFuture<Object> anyOf(CompletableFuture<?>... cfs):
      * 只要cfs中任何一个完成了, 那么this就完成。并且this的结果与最先完成的那一个cf的结果一样。
      *
-     *
-     * 注: 任何一个cfs正常执行 或者 有异常出现， 都属于完成。 追注: 取消也属于异常完成。
+     * 注: allOf返回的future的完成状态与第一个完成的future的完成状态一致。
+     * 注: 任何一个cfs正常执行完成 或者 有异常出现导致完成， 都属于完成。 追注: 取消也属于异常完成。
      *
      * 注: 因为this的结果与最先完成的那一个cf的结果一样。所以，如果最先那个是正常完成的还好，
      *     如果最先那个是以异常完成的，那么获取this的结果时，会抛出对应的异常。
@@ -1066,7 +1118,7 @@ public class CompletableFutureDemo {
             // int da = 1 /0;
             return 123;
         });
-        // 测试执行到anyOf时，cfs全部都已经完成了的场景;this的结果仍然与最先完成的那一个cf的结果一样。
+        // 测试原线程执行到anyOf时，cfs全部都已经完成了的场景;this的结果仍然与最先完成的那一个cf的结果一样。
         // TimeUnit.SECONDS.sleep(2);
         CompletableFuture<Object> c = CompletableFuture.anyOf(a, b);
         while (!c.isDone()) {
@@ -1075,6 +1127,46 @@ public class CompletableFutureDemo {
         }
         System.err.println("c完成了, c的结果是: " + c.get());
         TimeUnit.SECONDS.sleep(3);
+    }
+    
+    /**
+     * 验证: allOf返回的future完成后的完成状态与第一个完成的future的完成状态一致。
+     *
+     * (打开A处)输出:
+     * a的完成状态	java.util.concurrent.CompletableFuture@70f02c32[Completed exceptionally]
+     * b的完成状态	java.util.concurrent.CompletableFuture@62010f5c[Not completed]
+     * c的完成状态	java.util.concurrent.CompletableFuture@51fadaff[Completed exceptionally]
+     *
+     * (注释A处)输出:
+     * a的完成状态	java.util.concurrent.CompletableFuture@70f02c32[Completed normally]
+     * b的完成状态	java.util.concurrent.CompletableFuture@62010f5c[Not completed]
+     * c的完成状态	java.util.concurrent.CompletableFuture@51fadaff[Completed normally]
+     */
+    @Test
+    public void anyOfTest2() throws Exception {
+        CompletableFuture<Void> a = CompletableFuture.runAsync(() -> {
+//            int qwer = 1 / 0; // A处
+        });
+        
+        CompletableFuture<Void> b = CompletableFuture.runAsync(() -> {
+            try {
+                TimeUnit.SECONDS.sleep(2);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        });
+        
+        CompletableFuture<Object> c = CompletableFuture.anyOf(a, b);
+        
+        try {
+            c.join();
+        } catch (Exception e) {
+            // ignore
+        }
+        
+        System.err.println("a的完成状态\t" + a.toString());
+        System.err.println("b的完成状态\t" + b.toString());
+        System.err.println("c的完成状态\t" + c.toString());
     }
     
     /// ********************************************************************* cancel、isCancelled
