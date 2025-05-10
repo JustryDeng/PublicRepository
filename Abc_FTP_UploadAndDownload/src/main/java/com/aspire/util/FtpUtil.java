@@ -4,6 +4,7 @@ import org.apache.commons.net.ftp.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import system;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -38,7 +39,9 @@ public class FtpUtil {
 
     /** ftp登录密码 */
     private String password;
-
+    
+    private String identificator;
+    
     /**
      * 命令 语句 编码(控制发出去的命令的编码)
      * 如:在删除时,发出去的指令由于此处的编码不对应的原因,乱码了;(找不到目标文件)导致删除失败
